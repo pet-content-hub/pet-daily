@@ -184,38 +184,49 @@ class ArticleGenerator:
     def generate_article_idea(self) -> Dict:
         """生成文章创意"""
         template = random.choice(self.article_templates)
-        
+
         # 根据模板类型生成具体内容
         if template["category"] == "品种介绍":
             breed = random.choice(template["breeds"])
             title_pattern = random.choice(template["title_patterns"])
             title = title_pattern.format(breed=breed)
             topic_key = f"{template['category']}_{breed}"
-            
+
         elif template["category"] == "幼猫护理":
             age = random.choice(template["ages"])
             topic = random.choice(template["topics"])
             title_pattern = random.choice(template["title_patterns"])
             title = title_pattern.format(age=age, topic=topic)
             topic_key = f"{template['category']}_{age}_{topic}"
-            
+
         elif template["category"] == "用品测评":
             product = random.choice(template["products"])
             count = random.choice(template["counts"])
             title_pattern = random.choice(template["title_patterns"])
             title = title_pattern.format(product=product, count=count)
             topic_key = f"{template['category']}_{product}"
-            
-        elif template["category"] in ["健康护理", "行为训练"]:
-            condition = random.choice(template["conditions"] if template["category"] == "健康护理" else template["behaviors"])
+
+        elif template["category"] == "健康护理":
+            condition = random.choice(template["conditions"])
             title_pattern = random.choice(template["title_patterns"])
             title = title_pattern.format(condition=condition)
             topic_key = f"{template['category']}_{condition}"
-        
+
+        elif template["category"] == "行为训练":
+            behavior = random.choice(template["behaviors"])
+            title_pattern = random.choice(template["title_patterns"])
+            title = title_pattern.format(behavior=behavior)
+            topic_key = f"{template['category']}_{behavior}"
+
+        else:
+            # fallback
+            title = "猫咪博文"
+            topic_key = "unknown"
+
         # 检查是否已经使用过这个话题
         if topic_key in self.used_topics:
             return self.generate_article_idea()  # 递归重新生成
-        
+
         return {
             "title": title,
             "category": template["category"],
