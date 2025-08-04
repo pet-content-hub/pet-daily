@@ -10,7 +10,7 @@
   "articles_per_day": 1,
   "output_dir": "articles",
   "images_dir": "assets/images",
-  "base_url": "https://pet-content-hub.github.io/pet-daily",
+  "base_url": "https://www.mao.com.cn",
   "seo": {
     "site_name": "猫咪世界",
     "site_description": "专业的养猫知识分享平台",

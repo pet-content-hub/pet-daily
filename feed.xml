@@ -2,33 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>猫咪世界</title>
-    <link>https://pet-content-hub.github.io/pet-daily/</link>
+    <link>https://www.mao.com.cn/</link>
     <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Mon, 04 Aug 2025 15:32:10 +0800</lastBuildDate>
-    <pubDate>Mon, 04 Aug 2025 15:32:10 +0800</pubDate>
+    <lastBuildDate>Mon, 04 Aug 2025 16:17:02 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 16:17:02 +0800</pubDate>
     <ttl>1440</ttl>
-    <atom:link href="https://pet-content-hub.github.io/pet-daily/feed.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
       <title>猫咪世界</title>
-      <url>https://pet-content-hub.github.io/pet-daily/assets/images/logo.png</url>
-      <link>https://pet-content-hub.github.io/pet-daily/</link>
+      <url>https://www.mao.com.cn/assets/images/logo.png</url>
+      <link>https://www.mao.com.cn/</link>
       <width>144</width>
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
     <item>
-      <title>新手养猫指南：第一次养猫需要准备什么</title>
-      <link>https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html</link>
+      <title>新手养猫完全指南：从选择到日常护理</title>
+      <link>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</link>
       <description><![CDATA[<p><strong>分类：</strong>新手指南</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>想要成为一名合格的铲屎官？本文将为新手提供全面的养猫准备清单，包括基本用品、环境准备和健康管理等方面。</p>
-            <p><a href="https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 04 Jan 2025 10:00:00 +0800</pubDate>
-      <guid>https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html</guid>
+            <p><strong>阅读时间：</strong>8分钟</p>
+            <p>想要养猫但不知道从何开始？这篇文章将为你详细介绍养猫的方方面面，从猫咪品种选择到日常护理技巧。</p>
+            <p><a href="https://www.mao.com.cn/articles/beginner-cat-care-guide.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</guid>
       <category>新手指南</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>英短、美短、布偶猫：热门品种特点对比</title>
+      <link>https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>详细对比三大热门猫咪品种的性格特点、护理需求和适合人群，帮你选择最适合的毛孩子。</p>
+            <p><a href="https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫喂养时间表：2-12个月营养指南</title>
+      <link>https://www.mao.com.cn/articles/kitten-feeding-schedule.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>科学的幼猫喂养计划，包括不同月龄的营养需求、喂食频率和注意事项。</p>
+            <p><a href="https://www.mao.com.cn/articles/kitten-feeding-schedule.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 13 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/kitten-feeding-schedule.html</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2024年猫粮测评：10款热门猫粮深度分析</title>
+      <link>https://www.mao.com.cn/articles/cat-food-review-2024.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>12分钟</p>
+            <p>从营养成分、性价比、适口性等维度，专业测评市面上热门猫粮品牌。</p>
+            <p><a href="https://www.mao.com.cn/articles/cat-food-review-2024.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/cat-food-review-2024.html</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪疫苗接种全攻略：时间、种类、注意事项</title>
+      <link>https://www.mao.com.cn/articles/cat-vaccination-guide.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>9分钟</p>
+            <p>详细解析猫咪疫苗接种的重要性、时间安排和接种后的护理要点。</p>
+            <p><a href="https://www.mao.com.cn/articles/cat-vaccination-guide.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Thu, 11 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/cat-vaccination-guide.html</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪行为解读：读懂你家猫主子的小心思</title>
+      <link>https://www.mao.com.cn/articles/understanding-cat-behavior.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>10分钟</p>
+            <p>从尾巴摆动到叫声含义，全面解读猫咪的各种行为表现和情绪信号。</p>
+            <p><a href="https://www.mao.com.cn/articles/understanding-cat-behavior.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 10 Jan 2024 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/understanding-cat-behavior.html</guid>
+      <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>

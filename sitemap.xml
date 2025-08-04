@@ -4,26 +4,56 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>https://pet-content-hub.github.io/pet-daily</loc>
+    <loc>https://www.mao.com.cn</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pet-content-hub.github.io/pet-daily/index.html</loc>
+    <loc>https://www.mao.com.cn/index.html</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://pet-content-hub.github.io/pet-daily/feed.xml</loc>
+    <loc>https://www.mao.com.cn/feed.xml</loc>
     <lastmod>2025-08-04</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html</loc>
-    <lastmod>2025-01-04</lastmod>
+    <loc>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html</loc>
+    <lastmod>2024-01-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/articles/kitten-feeding-schedule.html</loc>
+    <lastmod>2024-01-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/articles/cat-food-review-2024.html</loc>
+    <lastmod>2024-01-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/articles/cat-vaccination-guide.html</loc>
+    <lastmod>2024-01-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/articles/understanding-cat-behavior.html</loc>
+    <lastmod>2024-01-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
