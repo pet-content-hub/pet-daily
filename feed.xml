@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>猫咪世界</title>
+    <link>https://pet-content-hub.github.io/pet-daily/</link>
+    <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
+    <language>zh-CN</language>
+    <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
+    <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
+    <lastBuildDate>Mon, 04 Aug 2025 15:32:10 +0800</lastBuildDate>
+    <pubDate>Mon, 04 Aug 2025 15:32:10 +0800</pubDate>
+    <ttl>1440</ttl>
+    <atom:link href="https://pet-content-hub.github.io/pet-daily/feed.xml" rel="self" type="application/rss+xml" />
+    <image>
+      <title>猫咪世界</title>
+      <url>https://pet-content-hub.github.io/pet-daily/assets/images/logo.png</url>
+      <link>https://pet-content-hub.github.io/pet-daily/</link>
+      <width>144</width>
+      <height>144</height>
+      <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
+    </image>
+    <item>
+      <title>新手养猫指南：第一次养猫需要准备什么</title>
+      <link>https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>新手指南</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>想要成为一名合格的铲屎官？本文将为新手提供全面的养猫准备清单，包括基本用品、环境准备和健康管理等方面。</p>
+            <p><a href="https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 04 Jan 2025 10:00:00 +0800</pubDate>
+      <guid>https://pet-content-hub.github.io/pet-daily/articles/beginner-cat-guide-test.html</guid>
+      <category>新手指南</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+  </channel>
+</rss>

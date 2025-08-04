@@ -1,0 +1,29 @@
+{
+  "ai_provider": "openai",
+  "api_keys": {
+    "openai": "",
+    "claude": "",
+    "zhipu": "",
+    "qwen": ""
+  },
+  "article_length": "medium",
+  "articles_per_day": 1,
+  "output_dir": "articles",
+  "images_dir": "assets/images",
+  "base_url": "https://pet-content-hub.github.io/pet-daily",
+  "seo": {
+    "site_name": "猫咪世界",
+    "site_description": "专业的养猫知识分享平台",
+    "author": "猫咪世界编辑团队",
+    "keywords": ["养猫", "猫咪", "宠物", "猫粮", "幼猫", "猫咪品种", "宠物护理"]
+  },
+  "ads": {
+    "google_adsense_id": "ca-pub-YOUR_ADSENSE_ID",
+    "ad_slots": {
+      "header": "1234567890",
+      "sidebar": "0987654321",
+      "footer": "1122334455",
+      "in_article": "5566778899"
+    }
+  }
+}
