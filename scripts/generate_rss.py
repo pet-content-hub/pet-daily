@@ -12,12 +12,44 @@ from typing import List, Dict
 import html
 
 class RSSGenerator:
-    def __init__(self, base_url: str = "https://yourusername.github.io/mao.com.cn"):
+    def __init__(self, base_url: str = None):
+        # 自动检测域名：优先使用CNAME，否则使用config.json中的base_url
+        if base_url is None:
+            base_url = self.detect_base_url()
         self.base_url = base_url.rstrip('/')
         self.site_title = "猫咪世界"
         self.site_description = "专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容"
         self.site_language = "zh-CN"
         self.site_author = "猫咪世界编辑团队"
+        print(f"🌐 RSS使用域名: {self.base_url}")
+        
+    def detect_base_url(self) -> str:
+        """自动检测base URL"""
+        # 首先检查CNAME文件
+        try:
+            with open('CNAME', 'r', encoding='utf-8') as f:
+                cname_domain = f.read().strip()
+                if cname_domain:
+                    print(f"📍 RSS检测到CNAME域名: {cname_domain}")
+                    return f"https://{cname_domain}"
+        except FileNotFoundError:
+            pass
+        
+        # 然后检查config.json
+        try:
+            with open('config.json', 'r', encoding='utf-8') as f:
+                config = json.load(f)
+                config_url = config.get('base_url')
+                if config_url:
+                    print(f"📍 RSS使用config.json中的URL: {config_url}")
+                    return config_url
+        except FileNotFoundError:
+            pass
+        
+        # 默认使用GitHub Pages URL
+        default_url = 'https://pet-content-hub.github.io/pet-daily'
+        print(f"📍 RSS使用默认URL: {default_url}")
+        return default_url
         
     def load_articles(self) -> List[Dict]:
         """加载文章数据"""
@@ -123,18 +155,10 @@ def main():
     current_dir = os.getcwd()
     if os.path.basename(current_dir) == 'scripts':
         os.chdir('..')
-        print(f"工作目录已切换到: {os.getcwd()}")
+        print(f"📁 工作目录已切换到: {os.getcwd()}")
     
-    # 从配置文件读取设置
-    try:
-        with open('config.json', 'r', encoding='utf-8') as f:
-            config = json.load(f)
-            base_url = config.get('base_url', 'https://yourusername.github.io/mao.com.cn')
-    except FileNotFoundError:
-        base_url = 'https://yourusername.github.io/mao.com.cn'
-        print("⚠️  配置文件不存在，使用默认设置")
-    
-    generator = RSSGenerator(base_url)
+    # 创建RSS生成器（自动检测域名）
+    generator = RSSGenerator()
     generator.save_rss_feed()
     
     print("🎉 RSS Feed生成完成")
