@@ -15,6 +15,15 @@ import time
 import re
 from pathlib import Path
 
+import os
+from dotenv import load_dotenv
+
+load_dotenv()  # 加载 .env 文件
+openai_key = os.getenv("OPENAI_API_KEY")
+claude_key = os.getenv("CLAUDE_API_KEY")
+zhipu_key = os.getenv("ZHIPU_API_KEY")
+qwen_key = os.getenv("QWEN_API_KEY")
+
 class ArticleGenerator:
     def __init__(self, config_file: str = "config.json"):
         """初始化文章生成器"""
@@ -41,12 +50,6 @@ class ArticleGenerator:
         """加载配置文件"""
         default_config = {
             "ai_provider": "openai",  # openai, claude, zhipu, qwen
-            "api_keys": {
-                "openai": os.getenv("OPENAI_API_KEY", ""),
-                "claude": os.getenv("CLAUDE_API_KEY", ""),
-                "zhipu": os.getenv("ZHIPU_API_KEY", ""),
-                "qwen": os.getenv("QWEN_API_KEY", "")
-            },
             "article_length": "medium",  # short, medium, long
             "articles_per_day": 1,
             "output_dir": "articles",
@@ -237,8 +240,8 @@ class ArticleGenerator:
     def call_ai_api(self, prompt: str, max_tokens: int = 2000) -> str:
         """调用AI API生成内容"""
         provider = self.config["ai_provider"]
-        api_key = self.config["api_keys"].get(provider, "")
-        
+
+        api_key = os.getenv(f"{provider.upper()}_API_KEY", "")
         if not api_key:
             raise ValueError(f"未配置 {provider} API密钥")
         
@@ -666,6 +669,9 @@ class ArticleGenerator:
 
 def main():
     """主函数"""
+    if not OPENAI_API_KEY:
+        print("⚠️ Warning: OPENAI_API_KEY not set. Make sure to set it in .env or GitHub Secrets.")
+
     print("🐱 开始生成猫咪文章...")
     
     generator = ArticleGenerator()

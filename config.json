@@ -1,11 +1,5 @@
 {
   "ai_provider": "openai",
-  "api_keys": {
-    "openai": "",
-    "claude": "",
-    "zhipu": "",
-    "qwen": ""
-  },
   "article_length": "medium",
   "articles_per_day": 1,
   "output_dir": "articles",
