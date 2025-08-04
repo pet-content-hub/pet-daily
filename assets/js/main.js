@@ -4,6 +4,10 @@ class CatWorldSite {
         this.articles = [];
         this.currentPage = 1;
         this.articlesPerPage = 6;
+        this.basePath = this.getBasePath();
+        console.log('🐱 猫咪世界初始化完成');
+        console.log('🔗 检测到的基础路径:', this.basePath || '根目录');
+        console.log('🌐 当前域名:', window.location.hostname);
         this.init();
     }
 
@@ -11,6 +15,53 @@ class CatWorldSite {
         this.loadArticles();
         this.setupEventListeners();
         this.updateArticleCount();
+        this.updateStaticLinks();
+    }
+
+    getBasePath() {
+        // 自动检测base path，支持多域名
+        const pathname = window.location.pathname;
+        const hostname = window.location.hostname;
+        
+        // 如果是GitHub Pages项目路径 (/pet-daily/...)
+        if (pathname.startsWith('/pet-daily/')) {
+            return '/pet-daily';
+        }
+        
+        // 如果是GitHub Pages，检查URL结构
+        if (hostname.includes('github.io')) {
+            // 如果URL是 username.github.io/project-name 格式
+            const pathParts = pathname.split('/').filter(part => part);
+            if (pathParts.length === 0 || pathname === '/') {
+                // 对于pet-content-hub.github.io/pet-daily 这种情况
+                // 尝试从当前URL推断项目名
+                const currentUrl = window.location.href;
+                if (currentUrl.includes('/pet-daily')) {
+                    return '/pet-daily';
+                }
+                // 如果没有明确的项目路径，可能是直接部署到根目录
+                return '';
+            }
+        }
+        
+        // 对于自定义域名（如mao.com.cn）或其他情况，使用根路径
+        return '';
+    }
+
+    updateStaticLinks() {
+        // 更新页面中的静态链接，使其支持动态base path
+        const staticLinks = [
+            { selector: 'a[href="/sitemap.xml"]', path: '/sitemap.xml' },
+            { selector: 'a[href="/feed.xml"]', path: '/feed.xml' },
+            { selector: 'link[href="/feed.xml"]', path: '/feed.xml' }
+        ];
+
+        staticLinks.forEach(link => {
+            const elements = document.querySelectorAll(link.selector);
+            elements.forEach(element => {
+                element.href = `${this.basePath}${link.path}`;
+            });
+        });
     }
 
     setupEventListeners() {
@@ -37,8 +88,9 @@ class CatWorldSite {
 
     async loadArticles() {
         try {
-            // 尝试从articles.json加载文章数据
-            const response = await fetch('/articles.json');
+            // 使用动态base path加载articles.json
+            const articlesUrl = `${this.basePath}/articles.json`;
+            const response = await fetch(articlesUrl);
             if (response.ok) {
                 this.articles = await response.json();
             } else {
@@ -142,7 +194,7 @@ class CatWorldSite {
                 <div class="article-content">
                     <span class="article-category">${article.category}</span>
                     <h3 class="article-title">
-                        <a href="/articles/${article.slug}.html">${article.title}</a>
+                        <a href="${this.basePath}/articles/${article.slug}.html">${article.title}</a>
                     </h3>
                     <p class="article-excerpt">${article.excerpt}</p>
                     <div class="article-meta">
