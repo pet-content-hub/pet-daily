@@ -23,14 +23,14 @@
     </section>
 
     <!-- 广告位 -->
-    <div class="ad-container">
+    <!-- <div class="ad-container">
       <ins class="adsbygoogle"
            style="display:block"
            data-ad-client="ca-pub-YOUR_ADSENSE_ID"
            data-ad-slot="1234567890"
            data-ad-format="auto"
            data-full-width-responsive="true"></ins>
-    </div>
+    </div> -->
 
     <!-- 最新文章 -->
     <section id="latest-articles" class="articles-section">

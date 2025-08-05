@@ -121,7 +121,7 @@ const seoMeta = computed(() => {
     keywords: `${article.value.category},猫咪,养猫,宠物护理`,
     ogTitle: `${article.value.title} - 猫咪世界`,
     ogDescription: article.value.excerpt,
-    ogUrl: `https://www.mao.com.cn/articles/${article.value.slug}`
+    ogUrl: `https://www.mao.com.cn/stories/${article.value.slug}`
   }
 })
 
@@ -175,7 +175,40 @@ async function loadArticle(slug) {
         console.log('无法加载完整文章内容，使用摘要')
       }
     } else {
-      article.value = null
+      // 如果文章不存在，尝试从静态文件加载
+      try {
+        const response = await fetch(`${appStore.basePath}/articles/${slug}.html`)
+        if (response.ok) {
+          const html = await response.text()
+          const parser = new DOMParser()
+          const doc = parser.parseFromString(html, 'text/html')
+          
+          // 从HTML中提取文章信息
+          const title = doc.querySelector('h1')?.textContent || '文章详情'
+          const excerpt = doc.querySelector('meta[name="description"]')?.content || '专业的养猫知识文章'
+          const category = doc.querySelector('.article-category')?.textContent || '养猫知识'
+          
+          article.value = {
+            slug,
+            title,
+            excerpt,
+            category,
+            date: new Date().toISOString().split('T')[0],
+            readTime: '5分钟',
+            icon: '🐱'
+          }
+          
+          const content = doc.querySelector('.article-body') || doc.querySelector('main') || doc.body
+          if (content) {
+            articleContent.value = content.innerHTML
+          }
+        } else {
+          article.value = null
+        }
+      } catch (error) {
+        console.log('无法加载文章:', error)
+        article.value = null
+      }
     }
   } catch (error) {
     console.error('加载文章失败:', error)

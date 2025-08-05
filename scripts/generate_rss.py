@@ -106,7 +106,7 @@ class RSSGenerator:
         
         for article in articles:
             pub_date = self.format_rfc822_date(article['date'])
-            article_url = f"{self.base_url}/articles/{article['slug']}.html"
+            article_url = f"{self.base_url}/stories/{article['slug']}"
             
             # 构建内容描述
             content_description = f"""

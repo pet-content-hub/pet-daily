@@ -82,7 +82,7 @@ app.get('*', (req, res) => {
 访问网站后，检查：
 - [x] 页面正常显示
 - [x] 导航栏有LOGO图片（如果已添加图片文件）
-- [x] 路由切换正常（/about, /articles/xxx）
+- [x] 路由切换正常（/about, /stories/xxx）
 - [x] 控制台无错误
 - [x] PWA功能可用
 

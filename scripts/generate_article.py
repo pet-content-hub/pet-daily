@@ -365,10 +365,10 @@ class ArticleGenerator:
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{self.config['base_url']}/articles/{slug}.html">
+    <meta property="og:url" content="{self.config['base_url']}/stories/{slug}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="canonical" href="{self.config['base_url']}/articles/{slug}.html">
+    <link rel="canonical" href="{self.config['base_url']}/stories/{slug}">
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
      crossorigin="anonymous"></script>
@@ -378,14 +378,14 @@ class ArticleGenerator:
         <nav class="navbar">
             <div class="nav-container">
                 <div class="nav-logo">
-                    <h1><a href="../index.html">🐱 猫咪世界</a></h1>
+                    <h1><a href="/">🐱 猫咪世界</a></h1>
                 </div>
                 <ul class="nav-menu">
-                    <li><a href="../index.html">首页</a></li>
-                    <li><a href="../index.html#articles">文章</a></li>
-                    <li><a href="../index.html#breeds">品种</a></li>
-                    <li><a href="../index.html#care">护理</a></li>
-                    <li><a href="../index.html#products">用品</a></li>
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/#articles">文章</a></li>
+                    <li><a href="/#breeds">品种</a></li>
+                    <li><a href="/#care">护理</a></li>
+                    <li><a href="/#products">用品</a></li>
                 </ul>
             </div>
         </nav>
@@ -437,7 +437,7 @@ class ArticleGenerator:
                     <h4>分享这篇文章</h4>
                     <div class="share-buttons">
                         <button class="share-btn" onclick="shareArticle()">分享</button>
-                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/articles/{slug}.html&title={title}" target="_blank" class="social-share weibo">微博</a>
+                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/stories/{slug}&title={title}" target="_blank" class="social-share weibo">微博</a>
                         <a href="javascript:void(0)" onclick="copyLink()" class="social-share copy">复制链接</a>
                     </div>
                 </div>
@@ -461,9 +461,9 @@ class ArticleGenerator:
             <div class="footer-section">
                 <h4>快速链接</h4>
                 <ul>
-                    <li><a href="../index.html">返回首页</a></li>
-                    <li><a href="../sitemap.xml">网站地图</a></li>
-                    <li><a href="../feed.xml">RSS订阅</a></li>
+                    <li><a href="/">返回首页</a></li>
+                    <li><a href="/sitemap.xml">网站地图</a></li>
+                    <li><a href="/feed.xml">RSS订阅</a></li>
                 </ul>
             </div>
         </div>

@@ -29,7 +29,7 @@ const routes = [
     }
   },
   {
-    path: '/articles/:slug',
+    path: '/stories/:slug',
     name: 'Article',
     component: Article,
     meta: {
@@ -68,6 +68,11 @@ const router = createRouter({
       return { top: 0 }
     }
   }
+})
+
+// 添加错误处理
+router.onError((error) => {
+  console.warn('路由错误（已自动处理）:', error.message)
 })
 
 // 全局前置守卫

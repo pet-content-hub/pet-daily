@@ -11,7 +11,7 @@
       <div class="article-body">
         <section>
           <h2>🌟 我们的使命</h2>
-          <p>猫咪世界创立于2024年，我们的使命是为广大铲屎官提供最专业、最实用的养猫知识。我们相信，每一只猫咪都值得最好的照顾，每一位铲屎官都应该成为更专业的猫奴。</p>
+          <p>猫咪世界创立于2025年，我们的使命是为广大铲屎官提供最专业、最实用的养猫知识。我们相信，每一只猫咪都值得最好的照顾，每一位铲屎官都应该成为更专业的猫奴。</p>
         </section>
 
         <section>
@@ -235,7 +235,7 @@ useHead({
 .cta-button {
   display: inline-block;
   background: var(--primary-color);
-  color: white;
+  color: white !important;
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: var(--border-radius);
@@ -244,6 +244,7 @@ useHead({
   
   &:hover {
     background: darken(#ff6b6b, 10%);
+    color: white !important;
     transform: translateY(-2px);
     box-shadow: 0 5px 15px rgba(255, 107, 107, 0.3);
   }

@@ -68,7 +68,7 @@ class SitemapGenerator:
             
             for article in articles:
                 self.add_url(
-                    f"/articles/{article['slug']}.html",
+                    f"/stories/{article['slug']}",
                     lastmod=article['date'],
                     changefreq="monthly",
                     priority="0.7"
@@ -83,7 +83,7 @@ class SitemapGenerator:
         
         # 其他重要页面
         static_pages = [
-            {"url": "/index.html", "changefreq": "daily", "priority": "1.0"},
+            {"url": "/about", "changefreq": "daily", "priority": "1.0"},
             {"url": "/feed.xml", "changefreq": "daily", "priority": "0.5"},
         ]
         
