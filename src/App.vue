@@ -34,11 +34,15 @@ useHead({
   meta: [
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-    { name: 'theme-color', content: '#ff6b6b' }
+    { name: 'theme-color', content: '#ff6b6b' },
+    { property: 'og:image', content: 'assets/images/logo.png' },
+    { property: 'og:site_name', content: '猫咪世界' },
+    { name: 'twitter:image', content: 'assets/images/logo.png' }
   ],
   link: [
     { rel: 'icon', type: 'image/x-icon', href: '/assets/images/favicon.ico' },
-    { rel: 'apple-touch-icon', href: '/assets/images/apple-touch-icon.png' }
+    { rel: 'apple-touch-icon', href: '/assets/images/apple-touch-icon.png' },
+    { rel: 'shortcut icon', href: '/assets/images/logo.png' }
   ]
 })
 

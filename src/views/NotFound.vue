@@ -47,7 +47,7 @@
         <h3>或许您在寻找：</h3>
         <div class="suggestion-links">
           <RouterLink to="/" class="suggestion-link">
-            <span class="icon">🏠</span>
+            <img src="/assets/images/logo.png" alt="猫咪世界" class="suggestion-logo" @error="handleLogoError">
             <div class="link-info">
               <h4>首页</h4>
               <p>浏览最新的养猫知识文章</p>
@@ -97,6 +97,14 @@ function goBack() {
   } else {
     router.push('/')
   }
+}
+
+function handleLogoError(event) {
+  // 如果logo加载失败，显示emoji作为后备
+  const fallbackIcon = document.createElement('span')
+  fallbackIcon.textContent = '🏠'
+  fallbackIcon.className = 'icon'
+  event.target.parentNode.replaceChild(fallbackIcon, event.target)
 }
 </script>
 
@@ -333,6 +341,14 @@ function goBack() {
   .icon {
     font-size: 2rem;
     flex-shrink: 0;
+  }
+  
+  .suggestion-logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    flex-shrink: 0;
+    object-fit: contain;
   }
   
   .link-info {

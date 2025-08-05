@@ -3,11 +3,15 @@
     <nav class="navbar">
       <div class="nav-container">
         <div class="nav-logo">
-          <h1>
-            <RouterLink to="/" class="logo-link">
-              🐱 猫咪世界
-            </RouterLink>
-          </h1>
+          <RouterLink to="/" class="logo-link">
+            <img 
+              src="/assets/images/logo.png" 
+              alt="猫咪世界" 
+              class="logo-image"
+              @error="handleLogoError"
+            >
+            <h1 class="logo-text">猫咪世界</h1>
+          </RouterLink>
         </div>
         
         <ul class="nav-menu">
@@ -75,6 +79,15 @@ function toggleMobileMenu() {
   isMobileMenuOpen.value = !isMobileMenuOpen.value
 }
 
+function handleLogoError(event) {
+  // 如果logo加载失败，显示emoji作为后备
+  event.target.style.display = 'none'
+  const logoText = event.target.nextElementSibling
+  if (logoText) {
+    logoText.textContent = '🐱 猫咪世界'
+  }
+}
+
 function closeMobileMenu() {
   isMobileMenuOpen.value = false
 }
@@ -125,13 +138,15 @@ function scrollToArticles() {
   align-items: center;
 }
 
-.nav-logo h1 {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin: 0;
+.nav-logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo-link {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
   text-decoration: none;
   color: var(--primary-color);
   transition: var(--transition);
@@ -139,6 +154,24 @@ function scrollToArticles() {
   &:hover {
     opacity: 0.8;
   }
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  border-radius: 4px;
+  transition: var(--transition);
+  
+  &:hover {
+    transform: scale(1.05);
+  }
+}
+
+.logo-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--primary-color);
 }
 
 .nav-menu {
@@ -255,6 +288,28 @@ function scrollToArticles() {
   
   .mobile-menu-btn {
     display: flex;
+  }
+  
+  .logo-image {
+    height: 32px;
+  }
+  
+  .logo-text {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo-link {
+    gap: 0.5rem;
+  }
+  
+  .logo-image {
+    height: 28px;
+  }
+  
+  .logo-text {
+    font-size: 1.1rem;
   }
 }
 </style>
