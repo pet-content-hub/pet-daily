@@ -5,10 +5,6 @@ on:
     # 每天上午 10:00 (UTC+8 02:00) 运行
     - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
 
 jobs:
   generate-and-build:
