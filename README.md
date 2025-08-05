@@ -6,7 +6,7 @@
 
 - **前端框架**: Vue 3 (Composition API)
 - **构建工具**: Vite
-- **路由管理**: Vue Router 4
+- **路由管理**: Vue Router 4 (Hash Mode)
 - **状态管理**: Pinia
 - **样式方案**: SCSS
 - **SEO优化**: @vueuse/head
@@ -21,7 +21,7 @@
 - 🎯 **SEO优化** - 动态meta标签、sitemap、RSS订阅
 - 💰 **广告变现** - 预集成Google AdSense代码
 - 📱 **响应式设计** - 完美适配桌面和移动设备
-- 🚀 **零成本托管** - 基于GitHub Pages
+- 🚀 **零成本托管** - 基于GitHub Pages (Hash路由兼容)
 
 ## 🛠️ 快速开始
 
@@ -62,6 +62,8 @@ npm run preview
 npm run lint
 ```
 
+**注意：** 项目使用 Hash 路由模式 (`/#/stories/xxx`)，确保与 GitHub Pages 完全兼容。
+
 ### 1. 项目设置
 
 1. Fork 这个仓库到你的GitHub账户
@@ -90,7 +92,7 @@ npm install
 ```json
 {
   "ai_provider": "openai",
-  "base_url": "https://pet-content-hub.github.io/pet-daily",
+  "base_url": "https://www.mao.com.cn",
   "ads": {
     "google_adsense_id": "ca-pub-YOUR_ADSENSE_ID"
   }
@@ -150,6 +152,8 @@ public/                 # 公共资源
 ├── sitemap.xml         # 网站地图（自动生成）
 ├── feed.xml           # RSS订阅（自动生成）
 └── articles/          # 文章HTML文件（自动生成）
+
+**注意：** 项目使用 Hash 路由模式，URL 格式为 `/#/stories/xxx`
 
 scripts/               # Python生成脚本
 ├── generate_article.py

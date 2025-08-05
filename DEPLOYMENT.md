@@ -63,6 +63,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /index.html [L]
 ```
 
+**注意：** 项目使用 Hash 路由模式，无需特殊的服务器配置。所有路由都通过 `/#/` 前缀处理。
+
 ### Nginx
 ```nginx
 location / {
@@ -82,7 +84,7 @@ app.get('*', (req, res) => {
 访问网站后，检查：
 - [x] 页面正常显示
 - [x] 导航栏有LOGO图片（如果已添加图片文件）
-- [x] 路由切换正常（/about, /stories/xxx）
+- [x] 路由切换正常（/about, /#/stories/xxx）
 - [x] 控制台无错误
 - [x] PWA功能可用
 
@@ -90,8 +92,9 @@ app.get('*', (req, res) => {
 
 1. **永远部署 `dist/` 目录的内容**
 2. **不要部署 `src/`, `node_modules/`, `package.json`**
-3. **服务器需要支持SPA路由**
+3. **Hash 路由模式无需特殊服务器配置**
 4. **使用GitHub Actions自动部署更可靠**
+5. **URL 格式：`https://your-domain.com/#/stories/xxx`**
 
 ## 📞 如果仍有问题
 

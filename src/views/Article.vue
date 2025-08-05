@@ -121,7 +121,7 @@ const seoMeta = computed(() => {
     keywords: `${article.value.category},猫咪,养猫,宠物护理`,
     ogTitle: `${article.value.title} - 猫咪世界`,
     ogDescription: article.value.excerpt,
-    ogUrl: `https://www.mao.com.cn/stories/${article.value.slug}`
+    ogUrl: `https://www.mao.com.cn/#/stories/${article.value.slug}`
   }
 })
 

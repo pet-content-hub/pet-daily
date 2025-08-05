@@ -6,6 +6,11 @@ on:
     - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   generate-articles:
     runs-on: ubuntu-latest
@@ -35,11 +40,13 @@ jobs:
       run: |
         cd scripts
         python generate_article.py
+      continue-on-error: true
 
     - name: Generate sitemap and RSS
       run: |
         python scripts/generate_sitemap.py
         python scripts/generate_rss.py
+      continue-on-error: true
 
     - name: Commit and Push Changes
       run: |
@@ -50,4 +57,6 @@ jobs:
           echo "No changes to commit"
         else
           git commit -m "🤖 自动生成每日文章 - $(date +'%Y-%m-%d')"
-          git push
+          git push origin main
+        fi
+      continue-on-error: true
