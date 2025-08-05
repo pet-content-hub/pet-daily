@@ -62,6 +62,7 @@ export default defineConfig({
       }
     }
   },
+  base: process.env.NODE_ENV === 'production' ? '/pet-daily/' : '/',
   server: {
     port: 3000,
     open: true,

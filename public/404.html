@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面重定向中...</title>
+    <script>
+        // GitHub Pages SPA 路由处理
+        (function() {
+            // 获取当前路径
+            var path = window.location.pathname;
+            
+            // 如果是根路径，直接跳转到首页
+            if (path === '/' || path === '/index.html') {
+                window.location.href = '/';
+                return;
+            }
+            
+            // 检查是否是文章路径
+            if (path.startsWith('/stories/')) {
+                // 提取文章 slug
+                var slug = path.replace('/stories/', '');
+                // 跳转到 Vue 应用
+                window.location.href = '/?redirect=' + encodeURIComponent(path);
+                return;
+            }
+            
+            // 检查是否是分类路径
+            if (path.startsWith('/categories/')) {
+                var category = path.replace('/categories/', '');
+                window.location.href = '/?redirect=' + encodeURIComponent(path);
+                return;
+            }
+            
+            // 检查是否是关于页面
+            if (path === '/about') {
+                window.location.href = '/?redirect=' + encodeURIComponent(path);
+                return;
+            }
+            
+            // 其他情况，跳转到首页
+            window.location.href = '/';
+        })();
+    </script>
+</head>
+<body>
+    <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+        <h1>🐱 猫咪世界</h1>
+        <p>正在跳转到正确的页面...</p>
+        <p>如果没有自动跳转，请 <a href="/">点击这里</a> 返回首页</p>
+    </div>
+</body>
+</html> 

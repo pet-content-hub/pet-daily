@@ -51,6 +51,18 @@ onMounted(async () => {
   isLoading.value = true
   try {
     await appStore.initialize()
+    
+    // 处理 GitHub Pages 重定向
+    const urlParams = new URLSearchParams(window.location.search)
+    const redirect = urlParams.get('redirect')
+    
+    if (redirect) {
+      // 清除重定向参数并跳转到目标路由
+      const newUrl = new URL(window.location)
+      newUrl.searchParams.delete('redirect')
+      window.history.replaceState({}, '', newUrl.toString())
+      router.push(redirect)
+    }
   } catch (error) {
     console.error('应用初始化失败:', error)
   } finally {
