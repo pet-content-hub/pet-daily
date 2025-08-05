@@ -669,9 +669,6 @@ class ArticleGenerator:
 
 def main():
     """主函数"""
-    if not OPENAI_API_KEY:
-        print("⚠️ Warning: OPENAI_API_KEY not set. Make sure to set it in .env or GitHub Secrets.")
-
     print("🐱 开始生成猫咪文章...")
     
     generator = ArticleGenerator()
