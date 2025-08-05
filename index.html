@@ -2,11 +2,19 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no,email=no,address=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="猫咪世界">
     <title>猫咪世界 - 专业的养猫知识分享平台</title>
     <meta name="description" content="猫咪世界是专业的养猫知识分享平台，提供猫咪品种介绍、幼猫照顾、猫粮测评等丰富内容，帮助铲屎官更好地照顾爱猫。">
     <meta name="keywords" content="养猫,猫咪,宠物,猫粮,幼猫,猫咪品种,宠物护理">
     <link rel="canonical" href="https://www.mao.com.cn/">
+    
+    <!-- 微信专用标签 -->
+    <meta itemprop="name" content="猫咪世界 - 最全养猫知识" />
+    <meta itemprop="image" content="https://www.mao.com.cn/assets/images/logo.png" />
     <link rel="alternate" type="application/rss+xml" title="猫咪世界 RSS" href="/feed.xml">
     <link rel="icon" type="image/x-icon" href="/assets/images/favicon.ico">
     <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
@@ -24,6 +32,43 @@
         // AdSense 初始化
         if (window.adsbygoogle) {
             (adsbygoogle = window.adsbygoogle || []).push({});
+        }
+        
+        // 微信分享配置
+        document.addEventListener('WeixinJSBridgeReady', function onBridgeReady() {
+            // 微信分享到朋友圈
+            WeixinJSBridge.on('menu:share:timeline', function () {
+                WeixinJSBridge.invoke('shareTimeline', {
+                    title: document.title,
+                    desc: document.querySelector('meta[name="description"]').content,
+                    link: window.location.href,
+                    imgUrl: 'https://www.mao.com.cn/assets/images/logo.png'
+                });
+            });
+            
+            // 微信分享给朋友
+            WeixinJSBridge.on('menu:share:appmessage', function () {
+                WeixinJSBridge.invoke('sendAppMessage', {
+                    title: document.title,
+                    desc: document.querySelector('meta[name="description"]').content,
+                    link: window.location.href,
+                    imgUrl: 'https://www.mao.com.cn/assets/images/logo.png'
+                });
+            });
+        });
+        
+        // 检测是否在微信浏览器中
+        function isWeixinBrowser() {
+            const ua = navigator.userAgent.toLowerCase();
+            return ua.indexOf('micromessenger') !== -1;
+        }
+        
+        // 如果在微信中，隐藏一些元素
+        if (isWeixinBrowser()) {
+            document.addEventListener('DOMContentLoaded', function() {
+                // 可以在这里添加微信特定的处理
+                console.log('在微信浏览器中打开');
+            });
         }
     </script>
 </body>

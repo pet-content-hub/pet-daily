@@ -49,7 +49,7 @@
         </div>
         
         <div class="article-actions">
-          <button @click="shareArticle" class="share-btn">
+          <button @click="openShareMenu" class="share-btn">
             📤 分享文章
           </button>
           <RouterLink to="/" class="back-btn">
@@ -77,6 +77,13 @@
         />
       </div>
     </section>
+    
+    <!-- 分享菜单 -->
+    <ShareMenu 
+      :article="article" 
+      :is-visible="showShareMenu" 
+      @close="closeShareMenu"
+    />
   </div>
 </template>
 
@@ -87,6 +94,7 @@ import { useHead } from '@vueuse/head'
 import { useArticlesStore } from '@/stores/articles'
 import { useAppStore } from '@/stores/app'
 import ArticleCard from '@/components/ui/ArticleCard.vue'
+import ShareMenu from '@/components/ui/ShareMenu.vue'
 
 const route = useRoute()
 const articlesStore = useArticlesStore()
@@ -96,6 +104,7 @@ const appStore = useAppStore()
 const isLoading = ref(true)
 const article = ref(null)
 const articleContent = ref('')
+const showShareMenu = ref(false)
 
 // 计算属性
 const relatedArticles = computed(() => {
@@ -134,7 +143,19 @@ useHead(() => ({
     { property: 'og:title', content: seoMeta.value.ogTitle },
     { property: 'og:description', content: seoMeta.value.ogDescription },
     { property: 'og:type', content: 'article' },
-    { property: 'og:url', content: seoMeta.value.ogUrl }
+    { property: 'og:url', content: seoMeta.value.ogUrl },
+    { property: 'og:image', content: 'https://www.mao.com.cn/assets/images/logo.png' },
+    { property: 'og:site_name', content: '猫咪世界' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: seoMeta.value.ogTitle },
+    { name: 'twitter:description', content: seoMeta.value.ogDescription },
+    { name: 'twitter:image', content: 'https://www.mao.com.cn/assets/images/logo.png' },
+    // 微信分享专用meta标签
+    { name: 'format-detection', content: 'telephone=no' },
+    { name: 'viewport', content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' },
+    // 微信专用标签
+    { itemprop: 'name', content: '猫咪世界 - 最全养猫知识' },
+    { itemprop: 'image', content: 'https://www.mao.com.cn/assets/images/logo.png' }
   ]
 }))
 
@@ -218,20 +239,16 @@ async function loadArticle(slug) {
   }
 }
 
-function shareArticle() {
-  if (navigator.share && article.value) {
-    navigator.share({
-      title: article.value.title,
-      text: article.value.excerpt,
-      url: window.location.href
-    }).catch(error => {
-      console.log('分享失败:', error)
-      // 降级方案：复制链接到剪贴板
-      fallbackShare()
-    })
-  } else {
-    fallbackShare()
+function openShareMenu() {
+  if (!article.value) {
+    alert('文章信息未加载完成')
+    return
   }
+  showShareMenu.value = true
+}
+
+function closeShareMenu() {
+  showShareMenu.value = false
 }
 
 function fallbackShare() {
@@ -243,6 +260,8 @@ function fallbackShare() {
     prompt('请复制以下链接进行分享：', url)
   })
 }
+
+
 
 // 监听路由变化
 watch(() => route.params.slug, (newSlug) => {

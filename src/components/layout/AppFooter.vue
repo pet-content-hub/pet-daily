@@ -27,6 +27,7 @@
     
     <div class="footer-bottom">
       <p>&copy; {{ currentYear }} 猫咪世界. All rights reserved.</p>
+      <p><a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener">京ICP备19004658号</a></p>
     </div>
   </footer>
 </template>
