@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch: # 允许手动触发
+  workflow_run:
+    workflows: ["Generate Articles"]
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
