@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 05 Aug 2025 00:10:59 +0800</lastBuildDate>
-    <pubDate>Tue, 05 Aug 2025 00:10:59 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Aug 2025 03:49:30 +0800</lastBuildDate>
+    <pubDate>Tue, 05 Aug 2025 03:49:30 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,18 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪消化不良：症状识别与处理方法</title>
+      <link>https://www.mao.com.cn/articles/breed-0af00c98.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>3分钟</p>
+            <p>猫咪消化不良：症状识别与处理方法  病症基本介绍 猫咪消化不良是一种常见的疾病，主要表现为食欲不振、呕吐、腹泻等症状。猫咪消化不良可能是由于饮食不当、疾病感染、消化系统问题等引起的，如果不及时处理，会影响猫咪的健康。</p>
+            <p><a href="https://www.mao.com.cn/articles/breed-0af00c98.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 05 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/breed-0af00c98.html</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪抓家具训练：从基础到进阶</title>
       <link>https://www.mao.com.cn/articles/breed-14664590.html</link>
@@ -38,7 +50,7 @@
             <p><strong>阅读时间：</strong>4分钟</p>
             <p>深度解析布偶猫猫：从历史到现代饲养  品种起源与历史 布偶猫是一种源自美国的猫种，其起源可以追溯到20世纪60年代。据说，布偶猫的名字来源于其温柔的性格，让人觉得它们就像布偶娃娃一样可爱。</p>
             <p><a href="https://www.mao.com.cn/articles/breed-b643d464.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 05 Aug 2025 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 04 Aug 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/breed-b643d464.html</guid>
       <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -50,7 +62,7 @@
             <p><strong>阅读时间：</strong>8分钟</p>
             <p>想要养猫但不知道从何开始？这篇文章将为你详细介绍养猫的方方面面，从猫咪品种选择到日常护理技巧。</p>
             <p><a href="https://www.mao.com.cn/articles/beginner-cat-care-guide.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Tue, 15 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</guid>
       <category>新手指南</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -62,7 +74,7 @@
             <p><strong>阅读时间：</strong>6分钟</p>
             <p>详细对比三大热门猫咪品种的性格特点、护理需求和适合人群，帮你选择最适合的毛孩子。</p>
             <p><a href="https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Mon, 14 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html</guid>
       <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -74,7 +86,7 @@
             <p><strong>阅读时间：</strong>7分钟</p>
             <p>科学的幼猫喂养计划，包括不同月龄的营养需求、喂食频率和注意事项。</p>
             <p><a href="https://www.mao.com.cn/articles/kitten-feeding-schedule.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 13 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Sun, 13 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/kitten-feeding-schedule.html</guid>
       <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -86,7 +98,7 @@
             <p><strong>阅读时间：</strong>12分钟</p>
             <p>从营养成分、性价比、适口性等维度，专业测评市面上热门猫粮品牌。</p>
             <p><a href="https://www.mao.com.cn/articles/cat-food-review-2024.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Sat, 12 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/cat-food-review-2024.html</guid>
       <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -98,7 +110,7 @@
             <p><strong>阅读时间：</strong>9分钟</p>
             <p>详细解析猫咪疫苗接种的重要性、时间安排和接种后的护理要点。</p>
             <p><a href="https://www.mao.com.cn/articles/cat-vaccination-guide.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Fri, 11 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/cat-vaccination-guide.html</guid>
       <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
@@ -110,7 +122,7 @@
             <p><strong>阅读时间：</strong>10分钟</p>
             <p>从尾巴摆动到叫声含义，全面解读猫咪的各种行为表现和情绪信号。</p>
             <p><a href="https://www.mao.com.cn/articles/understanding-cat-behavior.html">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Jan 2024 10:00:00 +0800</pubDate>
+      <pubDate>Thu, 10 Jul 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/articles/understanding-cat-behavior.html</guid>
       <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
