@@ -8,11 +8,14 @@ class CatWorldSite {
         console.log('🐱 猫咪世界初始化完成');
         console.log('🔗 检测到的基础路径:', this.basePath || '根目录');
         console.log('🌐 当前域名:', window.location.hostname);
-        this.init();
+        // 异步初始化
+        this.init().catch(error => {
+            console.error('初始化失败:', error);
+        });
     }
 
-    init() {
-        this.loadArticles();
+    async init() {
+        await this.loadArticles();
         this.setupEventListeners();
         this.updateArticleCount();
         this.updateStaticLinks();
@@ -98,10 +101,12 @@ class CatWorldSite {
                 this.articles = this.getExampleArticles();
             }
             this.renderArticles();
+            this.updateArticleCount(); // 确保在文章加载完成后更新计数
         } catch (error) {
             console.log('加载文章数据失败，使用示例数据');
             this.articles = this.getExampleArticles();
             this.renderArticles();
+            this.updateArticleCount(); // 确保在使用示例数据后也更新计数
         }
     }
 
