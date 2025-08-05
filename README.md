@@ -1,17 +1,66 @@
-# 🐱 猫咪世界 - AI自动化宠物博客
+# 🐱 猫咪世界 - Vue 3 单页应用
 
-专业的养猫知识分享平台，使用AI每日自动生成高质量宠物文章，支持SEO优化和广告变现。
+专业的养猫知识分享平台，基于 Vue 3 + Vite 构建的现代化单页应用。
+
+## 🚀 技术栈
+
+- **前端框架**: Vue 3 (Composition API)
+- **构建工具**: Vite
+- **路由管理**: Vue Router 4
+- **状态管理**: Pinia
+- **样式方案**: SCSS
+- **SEO优化**: @vueuse/head
+- **PWA支持**: vite-plugin-pwa
+- **代码规范**: ESLint + Prettier
 
 ## ✨ 特性
 
+- 🚀 **单页应用** - 无刷新页面切换，流畅用户体验
 - 🤖 **AI自动生成内容** - 支持OpenAI、Claude、智谱AI等多种API
 - 📅 **每日定时发布** - GitHub Actions自动化工作流
-- 🎯 **SEO优化** - 完整的meta标签、sitemap、RSS订阅
+- 🎯 **SEO优化** - 动态meta标签、sitemap、RSS订阅
 - 💰 **广告变现** - 预集成Google AdSense代码
 - 📱 **响应式设计** - 完美适配桌面和移动设备
 - 🚀 **零成本托管** - 基于GitHub Pages
 
 ## 🛠️ 快速开始
+
+### 环境要求
+
+- Node.js >= 16
+- npm >= 8
+
+### 安装依赖
+
+```bash
+npm install
+```
+
+### 开发服务器
+
+```bash
+npm run dev
+```
+
+访问 http://localhost:3000
+
+### 构建生产版本
+
+```bash
+npm run build
+```
+
+### 预览生产构建
+
+```bash
+npm run preview
+```
+
+### 代码检查
+
+```bash
+npm run lint
+```
 
 ### 1. 项目设置
 
@@ -20,8 +69,9 @@
 3. 克隆仓库到本地：
 
 ```bash
-git clone https://github.com/pet-content-hub/pet-daily.git
-cd pet-daily
+git clone https://github.com/your-username/mao.com.cn.git
+cd mao.com.cn
+npm install
 ```
 
 ### 2. 配置API密钥
@@ -84,23 +134,30 @@ python test_local.py
 ## 📁 项目结构
 
 ```
-mao.com.cn/
-├── index.html              # 主页
-├── articles.json           # 文章索引
-├── config.json            # 配置文件
-├── robots.txt             # 搜索引擎爬虫规则
-├── sitemap.xml            # 网站地图（自动生成）
-├── feed.xml               # RSS订阅（自动生成）
-├── assets/                # 静态资源
-│   ├── css/style.css      # 样式文件
-│   └── js/main.js         # JavaScript
-├── articles/              # 文章HTML文件（自动生成）
-├── scripts/               # 生成脚本
-│   ├── generate_article.py
-│   ├── generate_sitemap.py
-│   └── generate_rss.py
-└── .github/workflows/     # GitHub Actions
-    └── daily-article.yml
+src/
+├── components/          # 组件
+│   ├── layout/         # 布局组件
+│   └── ui/             # UI组件
+├── views/              # 页面组件
+├── stores/             # Pinia状态管理
+├── router/             # 路由配置
+├── assets/             # 静态资源
+│   └── styles/         # 样式文件
+└── main.js             # 应用入口
+
+public/                 # 公共资源
+├── articles.json       # 文章索引
+├── sitemap.xml         # 网站地图（自动生成）
+├── feed.xml           # RSS订阅（自动生成）
+└── articles/          # 文章HTML文件（自动生成）
+
+scripts/               # Python生成脚本
+├── generate_article.py
+├── generate_sitemap.py
+└── generate_rss.py
+
+.github/workflows/     # GitHub Actions
+└── daily-article.yml
 ```
 
 ## 🤖 AI文章生成系统

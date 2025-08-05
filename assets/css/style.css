@@ -16,6 +16,7 @@
     --border-light: #e9ecef;
     --shadow: 0 2px 10px rgba(0,0,0,0.1);
     --border-radius: 8px;
+    --transition: all 0.3s ease;
 }
 
 body {
@@ -64,10 +65,27 @@ body {
     color: var(--text-dark);
     font-weight: 500;
     transition: color 0.3s ease;
+    position: relative;
 }
 
 .nav-menu a:hover {
     color: var(--primary-color);
+}
+
+.nav-menu a.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav-menu a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--primary-color);
+    border-radius: 1px;
 }
 
 /* 主要内容区域 */
@@ -75,6 +93,54 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 2rem;
+    min-height: 60vh;
+    opacity: 1;
+    transition: var(--transition);
+}
+
+.main-content.fade-out {
+    opacity: 0;
+}
+
+/* 错误页面样式 */
+.error-page {
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.error-content h1 {
+    font-size: 6rem;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.error-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.error-content p {
+    font-size: 1.1rem;
+    color: var(--text-light);
+    margin-bottom: 2rem;
+}
+
+/* 分类页面样式 */
+.category-page .page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem 0;
+}
+
+.category-page .page-header h1 {
+    font-size: 2.5rem;
+    color: var(--text-dark);
+    margin-bottom: 0.5rem;
+}
+
+.category-page .page-header p {
+    font-size: 1.1rem;
+    color: var(--text-light);
 }
 
 /* Hero区域 */

@@ -1,13 +1,17 @@
-name: Daily Article Generation
+name: Build and Deploy Vue App
 
 on:
   schedule:
     # 每天上午 10:00 (UTC+8 02:00) 运行
     - cron: '0 2 * * *'
   workflow_dispatch: # 允许手动触发
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  generate-article:
+  generate-and-build:
     runs-on: ubuntu-latest
     
     permissions:
@@ -26,16 +30,25 @@ jobs:
       with:
         python-version: '3.9'
     
-    - name: Install dependencies
+    - name: Set up Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+    
+    - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install requests markdown beautifulsoup4 python-dotenv
     
+    - name: Install Node.js dependencies
+      run: npm ci
+    
     - name: Configure Git
       run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-    
+        git config --local user.email "rayhu007@gmail.com"
+        git config --local user.name "Ray Hu"
+
     - name: Generate article
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -46,17 +59,17 @@ jobs:
         cd scripts
         python generate_article.py
     
-    - name: Generate sitemap
+    - name: Generate sitemap and RSS
       run: |
         python scripts/generate_sitemap.py
-    
-    - name: Generate RSS feed
-      run: |
         python scripts/generate_rss.py
     
-    - name: Commit and push changes
+    - name: Build Vue application
+      run: npm run build
+    
+    - name: Commit generated content
       run: |
-        git add .
+        git add articles.json articles/ sitemap.xml feed.xml
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
@@ -66,10 +79,11 @@ jobs:
     
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
+      if: github.ref == 'refs/heads/main'
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
+        publish_dir: ./dist
         publish_branch: gh-pages
         user_name: 'github-actions[bot]'
         user_email: 'github-actions[bot]@users.noreply.github.com'
-        commit_message: '🚀 Deploy: ${{ github.sha }}'
+        commit_message: '🚀 Deploy Vue App: ${{ github.sha }}'

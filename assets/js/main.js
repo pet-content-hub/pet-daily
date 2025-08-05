@@ -197,9 +197,11 @@ class CatWorldSite {
                     ${article.icon || '🐱'}
                 </div>
                 <div class="article-content">
-                    <span class="article-category">${article.category}</span>
+                    <span class="article-category">
+                        <a href="/categories/${article.category}">${article.category}</a>
+                    </span>
                     <h3 class="article-title">
-                        <a href="${this.basePath}/articles/${article.slug}.html">${article.title}</a>
+                        <a href="/articles/${article.slug}">${article.title}</a>
                     </h3>
                     <p class="article-excerpt">${article.excerpt}</p>
                     <div class="article-meta">
@@ -386,9 +388,14 @@ class PerformanceMonitor {
 
 // 初始化应用
 document.addEventListener('DOMContentLoaded', () => {
-    new CatWorldSite();
-    new SEOOptimizer();
-    new PerformanceMonitor();
+    // 创建全局实例
+    window.catWorldSite = new CatWorldSite();
+    window.seoOptimizer = new SEOOptimizer();
+    window.performanceMonitor = new PerformanceMonitor();
+    
+    // 初始化SPA路由
+    window.router = new SPARouter();
+    window.router.init();
 });
 
 // 导出给其他脚本使用

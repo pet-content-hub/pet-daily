@@ -1,0 +1,101 @@
+import { createRouter, createWebHistory } from 'vue-router'
+import { useHead } from '@vueuse/head'
+
+// 路由组件懒加载
+const Home = () => import('@/views/Home.vue')
+const About = () => import('@/views/About.vue')
+const Article = () => import('@/views/Article.vue')
+const Category = () => import('@/views/Category.vue')
+const NotFound = () => import('@/views/NotFound.vue')
+
+// 路由配置
+const routes = [
+  {
+    path: '/',
+    name: 'Home',
+    component: Home,
+    meta: {
+      title: '首页',
+      description: '专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等专业内容'
+    }
+  },
+  {
+    path: '/about',
+    name: 'About',
+    component: About,
+    meta: {
+      title: '关于我们',
+      description: '了解猫咪世界的创立初衷和专业团队，我们致力于为广大铲屎官提供最优质的养猫知识'
+    }
+  },
+  {
+    path: '/articles/:slug',
+    name: 'Article',
+    component: Article,
+    meta: {
+      title: '文章详情',
+      description: '阅读专业的养猫知识文章'
+    }
+  },
+  {
+    path: '/categories/:category',
+    name: 'Category', 
+    component: Category,
+    meta: {
+      title: '分类文章',
+      description: '浏览分类下的所有文章'
+    }
+  },
+  {
+    path: '/:pathMatch(.*)*',
+    name: 'NotFound',
+    component: NotFound,
+    meta: {
+      title: '页面未找到',
+      description: '您访问的页面不存在'
+    }
+  }
+]
+
+// 创建路由实例
+const router = createRouter({
+  history: createWebHistory(),
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  }
+})
+
+// 全局前置守卫
+router.beforeEach((to, from, next) => {
+  // 页面切换加载指示
+  if (to.name !== from.name) {
+    document.body.style.cursor = 'wait'
+  }
+  next()
+})
+
+// 全局后置钩子
+router.afterEach((to) => {
+  // 恢复光标
+  document.body.style.cursor = ''
+  
+  // 更新页面 meta 信息
+  const { title, description } = to.meta
+  
+  useHead({
+    title: title || '猫咪世界',
+    meta: [
+      { name: 'description', content: description || '专业的养猫知识分享平台' },
+      { property: 'og:title', content: title ? `${title} - 猫咪世界` : '猫咪世界 - 专业的养猫知识分享平台' },
+      { property: 'og:description', content: description || '专业的养猫知识分享平台' },
+      { property: 'og:url', content: window.location.href }
+    ]
+  })
+})
+
+export default router
