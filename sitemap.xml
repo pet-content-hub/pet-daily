@@ -10,7 +10,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/index.html</loc>
+    <loc>https://www.mao.com.cn/about</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -22,61 +22,67 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/breed-b27c1fee.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/breed-42eb8523</loc>
     <lastmod>2025-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/breed-0af00c98.html</loc>
-    <lastmod>2025-08-05</lastmod>
+    <loc>https://www.mao.com.cn/#/stories/breed-b27c1fee</loc>
+    <lastmod>2025-07-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/breed-14664590.html</loc>
-    <lastmod>2025-08-05</lastmod>
+    <loc>https://www.mao.com.cn/#/stories/breed-0af00c98</loc>
+    <lastmod>2025-07-18</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/breed-b643d464.html</loc>
-    <lastmod>2025-08-04</lastmod>
+    <loc>https://www.mao.com.cn/#/stories/breed-14664590</loc>
+    <lastmod>2025-07-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/breed-b643d464</loc>
+    <lastmod>2025-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/#/stories/beginner-cat-care-guide</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/popular-cat-breeds-comparison.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/popular-cat-breeds-comparison</loc>
     <lastmod>2025-07-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/kitten-feeding-schedule.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/kitten-feeding-schedule</loc>
     <lastmod>2025-07-13</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/cat-food-review-2024.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/cat-food-review-2024</loc>
     <lastmod>2025-07-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/cat-vaccination-guide.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/cat-vaccination-guide</loc>
     <lastmod>2025-07-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.mao.com.cn/articles/understanding-cat-behavior.html</loc>
+    <loc>https://www.mao.com.cn/#/stories/understanding-cat-behavior</loc>
     <lastmod>2025-07-10</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
