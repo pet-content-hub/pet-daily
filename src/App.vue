@@ -18,6 +18,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue'
+import { useRouter } from 'vue-router'
 import { useHead } from '@vueuse/head'
 import { useAppStore } from '@/stores/app'
 import AppHeader from '@/components/layout/AppHeader.vue'
@@ -25,6 +26,7 @@ import AppFooter from '@/components/layout/AppFooter.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
 
 // 全局状态
+const router = useRouter()
 const appStore = useAppStore()
 const isLoading = ref(false)
 
