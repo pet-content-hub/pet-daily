@@ -154,7 +154,7 @@ function showToast(message) {
   right: 0;
   bottom: 0;
   background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(4px);
+  /* 移除 backdrop-filter，避免立即模糊 */
 }
 
 .share-content {
@@ -165,6 +165,10 @@ function showToast(message) {
   width: 90%;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
   animation: slideUp 0.3s ease-out;
+}
+
+.share-overlay {
+  animation: fadeIn 0.2s ease-out;
 }
 
 .share-header {
@@ -299,6 +303,15 @@ function showToast(message) {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
