@@ -262,7 +262,7 @@ class ArticleGenerator:
         }
         
         data = {
-            "model": "gpt-3.5-turbo",
+            "model": "gpt-4o",
             "messages": [{"role": "user", "content": prompt}],
             "max_tokens": max_tokens,
             "temperature": 0.7
