@@ -365,10 +365,10 @@ class ArticleGenerator:
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{self.config['base_url']}/stories/{slug}">
+    <meta property="og:url" content="{self.config['base_url']}/#/stories/{slug}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="canonical" href="{self.config['base_url']}/stories/{slug}">
+    <link rel="canonical" href="{self.config['base_url']}/#/stories/{slug}">
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
      crossorigin="anonymous"></script>
@@ -437,7 +437,7 @@ class ArticleGenerator:
                     <h4>分享这篇文章</h4>
                     <div class="share-buttons">
                         <button class="share-btn" onclick="shareArticle()">分享</button>
-                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/stories/{slug}&title={title}" target="_blank" class="social-share weibo">微博</a>
+                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/#/stories/{slug}&title={title}" target="_blank" class="social-share weibo">微博</a>
                         <a href="javascript:void(0)" onclick="copyLink()" class="social-share copy">复制链接</a>
                     </div>
                 </div>

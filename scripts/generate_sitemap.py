@@ -68,7 +68,7 @@ class SitemapGenerator:
             
             for article in articles:
                 self.add_url(
-                    f"/stories/{article['slug']}",
+                    f"/#/stories/{article['slug']}",
                     lastmod=article['date'],
                     changefreq="monthly",
                     priority="0.7"

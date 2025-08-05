@@ -15,7 +15,6 @@ export default defineConfig({
         { src: 'robots.txt', dest: 'dist' },
         { src: 'articles/**/*', dest: 'dist/articles' },
         // { src: 'assets/**/*', dest: 'dist/assets' }, // 注释掉，因为这是旧版本的资源
-        { src: '404.html', dest: 'dist' },
         { src: 'CNAME', dest: 'dist' },
       ],
       hook: 'writeBundle',
