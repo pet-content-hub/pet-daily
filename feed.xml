@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Mon, 04 Aug 2025 16:17:02 +0800</lastBuildDate>
-    <pubDate>Mon, 04 Aug 2025 16:17:02 +0800</pubDate>
+    <lastBuildDate>Tue, 05 Aug 2025 00:04:01 +0800</lastBuildDate>
+    <pubDate>Tue, 05 Aug 2025 00:04:01 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,18 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>深度解析布偶猫猫：从历史到现代饲养</title>
+      <link>https://www.mao.com.cn/articles/breed-b643d464.html</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>4分钟</p>
+            <p>深度解析布偶猫猫：从历史到现代饲养  品种起源与历史 布偶猫是一种源自美国的猫种，其起源可以追溯到20世纪60年代。据说，布偶猫的名字来源于其温柔的性格，让人觉得它们就像布偶娃娃一样可爱。</p>
+            <p><a href="https://www.mao.com.cn/articles/breed-b643d464.html">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 05 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/articles/breed-b643d464.html</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>新手养猫完全指南：从选择到日常护理</title>
       <link>https://www.mao.com.cn/articles/beginner-cat-care-guide.html</link>
