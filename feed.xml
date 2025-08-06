@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 05 Aug 2025 08:11:11 +0800</lastBuildDate>
-    <pubDate>Tue, 05 Aug 2025 08:11:11 +0800</pubDate>
+    <lastBuildDate>Wed, 06 Aug 2025 03:46:54 +0800</lastBuildDate>
+    <pubDate>Wed, 06 Aug 2025 03:46:54 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,18 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>认识美国短毛猫猫：品种特征与饲养要点</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f1991f80</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>认识美国短毛猫猫：品种特征与饲养要点 美国短毛猫是一种深受猫咪爱好者青睐的猫品种。由于其适应性强、性格温和、易于饲养，成为了许多家庭的首选宠物。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f1991f80">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 06 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f1991f80</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪关节炎预防与治疗指南</title>
       <link>https://www.mao.com.cn/#/stories/breed-42eb8523</link>
