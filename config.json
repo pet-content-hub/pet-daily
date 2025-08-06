@@ -1,7 +1,7 @@
 {
   "ai_provider": "openai",
   "article_length": "medium",
-  "articles_per_day": 1,
+  "articles_per_day": 12,
   "output_dir": "articles",
   "images_dir": "assets/images",
   "base_url": "https://www.mao.com.cn",

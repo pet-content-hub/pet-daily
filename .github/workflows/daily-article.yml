@@ -14,6 +14,7 @@ permissions:
 jobs:
   generate-articles:
     runs-on: ubuntu-latest
+    timeout-minutes: 60  # 增加超时时间，因为需要生成12篇文章
 
     steps:
     - name: Checkout repository
@@ -31,7 +32,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install requests markdown beautifulsoup4 python-dotenv
 
-    - name: Generate article
+    - name: Generate articles
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         CLAUDE_API_KEY: ${{ secrets.CLAUDE_API_KEY }}
