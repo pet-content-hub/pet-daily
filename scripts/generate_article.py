@@ -78,7 +78,11 @@ class ArticleGenerator:
                     "{breed}猫品种详解：性格特点与饲养指南",
                     "深度解析{breed}猫：从历史到现代饲养",
                     "{breed}猫全面指南：选择、护理与训练",
-                    "认识{breed}猫：品种特征与饲养要点"
+                    "认识{breed}猫：品种特征与饲养要点",
+                    "{breed}猫饲养全攻略：新手必读",
+                    "揭秘{breed}猫：你不知道的品种秘密",
+                    "{breed}猫适合你吗？完整分析报告",
+                    "专业解读{breed}猫：从选购到护理"
                 ],
                 "content_structure": [
                     "品种起源与历史",
@@ -97,7 +101,11 @@ class ArticleGenerator:
                     "{age}幼猫护理完全指南",
                     "新生幼猫{topic}的专业建议",
                     "{age}幼猫{topic}：科学方法与注意事项",
-                    "幼猫{topic}常见问题解答"
+                    "幼猫{topic}常见问题解答",
+                    "{age}幼猫{topic}全攻略：专家建议",
+                    "幼猫{topic}必读指南：避免常见错误",
+                    "{age}幼猫{topic}详解：从理论到实践",
+                    "幼猫{topic}实用技巧：新手也能轻松上手"
                 ],
                 "content_structure": [
                     "幼猫发育特点",
@@ -114,10 +122,14 @@ class ArticleGenerator:
             {
                 "category": "用品测评",
                 "title_patterns": [
-                    "2024年{product}深度测评：{count}款产品对比",
+                    "2025年{product}深度测评：{count}款产品对比",
                     "{product}选购指南：性价比分析与推荐",
                     "专业测评：{product}品牌横向对比",
-                    "{product}使用体验：真实用户反馈汇总"
+                    "{product}使用体验：真实用户反馈汇总",
+                    "{product}购买攻略：避坑指南与推荐",
+                    "2025年{product}排行榜：{count}款热门产品测评",
+                    "{product}选购全攻略：从入门到精通",
+                    "{product}深度解析：{count}款产品真实体验"
                 ],
                 "content_structure": [
                     "产品类型介绍",
@@ -137,7 +149,11 @@ class ArticleGenerator:
                     "猫咪{condition}预防与治疗指南",
                     "{condition}在猫咪中的表现与应对",
                     "专业解析：猫咪{condition}的全面护理",
-                    "猫咪{condition}：症状识别与处理方法"
+                    "猫咪{condition}：症状识别与处理方法",
+                    "猫咪{condition}完全指南：预防、识别、治疗",
+                    "{condition}猫咪护理手册：专家建议",
+                    "猫咪{condition}应对策略：从预防到康复",
+                    "专业解读猫咪{condition}：症状、原因、治疗"
                 ],
                 "content_structure": [
                     "病症基本介绍",
@@ -156,7 +172,11 @@ class ArticleGenerator:
                     "解决猫咪{behavior}问题的有效方法",
                     "猫咪{behavior}训练：从基础到进阶",
                     "理解与纠正猫咪的{behavior}行为",
-                    "专业训练师教你处理猫咪{behavior}"
+                    "专业训练师教你处理猫咪{behavior}",
+                    "猫咪{behavior}行为矫正：科学方法详解",
+                    "{behavior}猫咪训练指南：实用技巧分享",
+                    "专业解析猫咪{behavior}：原因与解决方案",
+                    "猫咪{behavior}问题解决手册：从理论到实践"
                 ],
                 "content_structure": [
                     "行为产生原因",
@@ -168,16 +188,43 @@ class ArticleGenerator:
                     "进度评估方法"
                 ],
                 "behaviors": ["不使用猫砂盆", "抓家具", "咬人", "夜间吵闹", "挑食", "攻击性", "分离焦虑", "过度舔毛"]
+            },
+            {
+                "category": "营养饮食",
+                "title_patterns": [
+                    "猫咪{nutrition}营养指南：科学喂养方法",
+                    "{nutrition}猫咪饮食全攻略：专家建议",
+                    "猫咪{nutrition}营养解析：从理论到实践",
+                    "{nutrition}猫咪喂养指南：避免常见误区",
+                    "专业营养师解读猫咪{nutrition}：完整方案",
+                    "猫咪{nutrition}营养手册：实用技巧分享",
+                    "{nutrition}猫咪饮食详解：科学方法与注意事项",
+                    "猫咪{nutrition}营养攻略：新手必读指南"
+                ],
+                "content_structure": [
+                    "营养需求分析",
+                    "食材选择要点",
+                    "喂养时间安排",
+                    "营养搭配原则",
+                    "常见问题解答",
+                    "注意事项提醒",
+                    "专家建议总结"
+                ],
+                "nutrition": ["蛋白质", "维生素", "矿物质", "脂肪", "碳水化合物", "水分", "膳食纤维", "益生菌"]
             }
         ]
     
-    def load_used_topics(self) -> List[str]:
+    def load_used_topics(self) -> Dict[str, List[str]]:
         """加载已使用的话题，避免重复"""
         try:
             with open('used_topics.json', 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+                # 兼容旧格式
+                if isinstance(data, list):
+                    return {"topics": data, "titles": [], "categories": {}}
+                return data
         except FileNotFoundError:
-            return []
+            return {"topics": [], "titles": [], "categories": {}}
     
     def save_used_topics(self) -> None:
         """保存已使用的话题"""
@@ -186,55 +233,110 @@ class ArticleGenerator:
     
     def generate_article_idea(self) -> Dict:
         """生成文章创意"""
-        template = random.choice(self.article_templates)
+        max_attempts = 50  # 最大尝试次数，避免无限递归
+        attempts = 0
+        
+        while attempts < max_attempts:
+            template = random.choice(self.article_templates)
+            
+            # 根据模板类型生成具体内容
+            if template["category"] == "品种介绍":
+                breed = random.choice(template["breeds"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(breed=breed)
+                topic_key = f"{template['category']}_{breed}"
 
-        # 根据模板类型生成具体内容
-        if template["category"] == "品种介绍":
-            breed = random.choice(template["breeds"])
-            title_pattern = random.choice(template["title_patterns"])
-            title = title_pattern.format(breed=breed)
-            topic_key = f"{template['category']}_{breed}"
+            elif template["category"] == "幼猫护理":
+                age = random.choice(template["ages"])
+                topic = random.choice(template["topics"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(age=age, topic=topic)
+                topic_key = f"{template['category']}_{age}_{topic}"
 
-        elif template["category"] == "幼猫护理":
-            age = random.choice(template["ages"])
-            topic = random.choice(template["topics"])
-            title_pattern = random.choice(template["title_patterns"])
-            title = title_pattern.format(age=age, topic=topic)
-            topic_key = f"{template['category']}_{age}_{topic}"
+            elif template["category"] == "用品测评":
+                product = random.choice(template["products"])
+                count = random.choice(template["counts"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(product=product, count=count)
+                topic_key = f"{template['category']}_{product}"
 
-        elif template["category"] == "用品测评":
-            product = random.choice(template["products"])
-            count = random.choice(template["counts"])
-            title_pattern = random.choice(template["title_patterns"])
-            title = title_pattern.format(product=product, count=count)
-            topic_key = f"{template['category']}_{product}"
+            elif template["category"] == "健康护理":
+                condition = random.choice(template["conditions"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(condition=condition)
+                topic_key = f"{template['category']}_{condition}"
 
-        elif template["category"] == "健康护理":
-            condition = random.choice(template["conditions"])
-            title_pattern = random.choice(template["title_patterns"])
-            title = title_pattern.format(condition=condition)
-            topic_key = f"{template['category']}_{condition}"
+            elif template["category"] == "行为训练":
+                behavior = random.choice(template["behaviors"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(behavior=behavior)
+                topic_key = f"{template['category']}_{behavior}"
 
-        elif template["category"] == "行为训练":
-            behavior = random.choice(template["behaviors"])
-            title_pattern = random.choice(template["title_patterns"])
-            title = title_pattern.format(behavior=behavior)
-            topic_key = f"{template['category']}_{behavior}"
+            elif template["category"] == "营养饮食":
+                nutrition = random.choice(template["nutrition"])
+                title_pattern = random.choice(template["title_patterns"])
+                title = title_pattern.format(nutrition=nutrition)
+                topic_key = f"{template['category']}_{nutrition}"
 
-        else:
-            # fallback
-            title = "猫咪博文"
-            topic_key = "unknown"
+            else:
+                # fallback
+                title = "猫咪博文"
+                topic_key = "unknown"
 
-        # 检查是否已经使用过这个话题
-        if topic_key in self.used_topics:
-            return self.generate_article_idea()  # 递归重新生成
-
+            # 检查是否已经使用过这个话题或标题
+            if (topic_key not in self.used_topics.get("topics", []) and 
+                title not in self.used_topics.get("titles", []) and
+                self._check_category_balance(template["category"])):
+                return {
+                    "title": title,
+                    "category": template["category"],
+                    "content_structure": template["content_structure"],
+                    "topic_key": topic_key
+                }
+            
+            attempts += 1
+        
+        # 如果尝试次数过多，返回一个通用话题
+        return self._generate_fallback_idea()
+    
+    def _check_category_balance(self, category: str) -> bool:
+        """检查分类平衡，避免某个分类过多"""
+        category_counts = self.used_topics.get("categories", {})
+        current_count = category_counts.get(category, 0)
+        
+        # 如果某个分类已经有3篇以上文章，减少该分类的选择概率
+        if current_count >= 3:
+            return random.random() > 0.7  # 30%的概率仍然选择
+        
+        return True
+    
+    def _generate_fallback_idea(self) -> Dict:
+        """生成备用文章创意"""
+        # 使用更通用的标题模板
+        fallback_templates = [
+            {
+                "title": "猫咪日常护理小贴士",
+                "category": "健康护理",
+                "content_structure": ["基础护理", "营养需求", "运动建议", "健康检查", "常见问题"]
+            },
+            {
+                "title": "新手养猫必备知识",
+                "category": "幼猫护理", 
+                "content_structure": ["准备工作", "基础护理", "训练要点", "注意事项", "成长里程碑"]
+            },
+            {
+                "title": "猫咪用品选购指南",
+                "category": "用品测评",
+                "content_structure": ["选购原则", "品牌推荐", "性价比分析", "使用技巧", "维护保养"]
+            }
+        ]
+        
+        template = random.choice(fallback_templates)
         return {
-            "title": title,
+            "title": template["title"],
             "category": template["category"],
             "content_structure": template["content_structure"],
-            "topic_key": topic_key
+            "topic_key": f"fallback_{template['category']}_{random.randint(1000, 9999)}"
         }
     
     def call_ai_api(self, prompt: str, max_tokens: int = 2000) -> str:
@@ -650,7 +752,20 @@ class ArticleGenerator:
         self.update_articles_index(article_info)
         
         # 记录已使用的话题
-        self.used_topics.append(article_idea['topic_key'])
+        if "topics" not in self.used_topics:
+            self.used_topics["topics"] = []
+        if "titles" not in self.used_topics:
+            self.used_topics["titles"] = []
+        if "categories" not in self.used_topics:
+            self.used_topics["categories"] = {}
+        
+        self.used_topics["topics"].append(article_idea['topic_key'])
+        self.used_topics["titles"].append(article_idea['title'])
+        
+        # 更新分类计数
+        category = article_idea['category']
+        self.used_topics["categories"][category] = self.used_topics["categories"].get(category, 0) + 1
+        
         self.save_used_topics()
         
         print(f"文章生成完成：{html_file_path}")
@@ -663,7 +778,8 @@ class ArticleGenerator:
             "幼猫护理": "🍼", 
             "用品测评": "🥫",
             "健康护理": "🏥",
-            "行为训练": "🧠"
+            "行为训练": "🧠",
+            "营养饮食": "🍽️"
         }
         return icons.get(category, "🐱")
 

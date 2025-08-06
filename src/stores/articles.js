@@ -68,7 +68,7 @@ export const useArticlesStore = defineStore('articles', () => {
       icon: "🍼"
     },
     {
-      title: "2024年猫粮测评：10款热门猫粮深度分析",
+      title: "2025年猫粮测评：10款热门猫粮深度分析",
       category: "用品测评",
       excerpt: "从营养成分、性价比、适口性等维度，专业测评市面上热门猫粮品牌。",
       date: "2025-08-12",
