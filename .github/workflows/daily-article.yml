@@ -2,8 +2,11 @@ name: Generate Articles
 
 on:
   schedule:
-    # 每天上午 10:00 (UTC+8 02:00) 运行
-    - cron: '0 2 * * *'
+    # 每天执行4次：上午6:00, 10:00, 14:00, 18:00 (UTC+8)
+    - cron: '0 6 * * *'  # 上午6:00
+    - cron: '0 10 * * *'  # 上午10:00
+    - cron: '0 14 * * *'  # 下午2:00
+    - cron: '0 18 * * *'  # 下午6:00
   workflow_dispatch: # 允许手动触发
 
 permissions:
@@ -14,7 +17,7 @@ permissions:
 jobs:
   generate-articles:
     runs-on: ubuntu-latest
-    timeout-minutes: 60  # 增加超时时间，因为需要生成12篇文章
+    timeout-minutes: 40  # 每次生成3篇文章，预计15-20分钟完成
 
     steps:
     - name: Checkout repository
