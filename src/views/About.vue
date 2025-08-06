@@ -64,7 +64,7 @@
           <h2>📞 联系我们</h2>
           <p>如果您有任何问题、建议或想要投稿，欢迎通过以下方式联系我们：</p>
           <ul>
-            <li><strong>邮箱</strong>: contact@mao.com.cn</li>
+            <li><strong>邮箱</strong>: meng@amis.hk</li>
             <li><strong>RSS订阅</strong>: <a href="/feed.xml" target="_blank">获取最新文章</a></li>
             <li><strong>网站地图</strong>: <a href="/sitemap.xml" target="_blank">查看所有内容</a></li>
           </ul>
