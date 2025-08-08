@@ -12,6 +12,7 @@
     "generate:sitemap": "node scripts/generate_sitemap.py"
   },
   "dependencies": {
+    "@cloudbase/js-sdk": "^2.20.2",
     "@vueuse/core": "^10.7.2",
     "@vueuse/head": "^2.0.0",
     "pinia": "^2.1.7",

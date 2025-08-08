@@ -26,6 +26,11 @@
             </RouterLink>
           </li>
           <li>
+            <RouterLink to="/upload" :class="{ active: $route.name === 'Upload' }">
+              上传
+            </RouterLink>
+          </li>
+          <li>
             <RouterLink to="/about" :class="{ active: $route.name === 'About' }">
               关于
             </RouterLink>
@@ -55,6 +60,9 @@
           </li>
           <li>
             <RouterLink to="/#articles" @click="scrollToArticles">文章</RouterLink>
+          </li>
+          <li>
+            <RouterLink to="/upload" @click="closeMobileMenu">上传</RouterLink>
           </li>
           <li>
             <RouterLink to="/about" @click="closeMobileMenu">关于</RouterLink>

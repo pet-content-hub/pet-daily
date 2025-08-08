@@ -6,6 +6,7 @@ const Home = () => import('@/views/Home.vue')
 const About = () => import('@/views/About.vue')
 const Article = () => import('@/views/Article.vue')
 const Category = () => import('@/views/Category.vue')
+const Upload = () => import('@/views/Upload.vue')
 const NotFound = () => import('@/views/NotFound.vue')
 
 // 路由配置
@@ -44,6 +45,15 @@ const routes = [
     meta: {
       title: '分类文章',
       description: '浏览分类下的所有文章'
+    }
+  },
+  {
+    path: '/upload',
+    name: 'Upload',
+    component: Upload,
+    meta: {
+      title: '图片上传',
+      description: '安全便捷的图片上传服务，支持多种格式，腾讯云存储'
     }
   },
   {
