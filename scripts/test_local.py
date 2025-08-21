@@ -147,6 +147,8 @@ def create_article_html(title, category, content, date, slug):
     """创建文章HTML"""
     read_time = f"{max(1, round(len(content) / 250))}分钟"
     excerpt = content.split('\n\n')[1][:120] + "..." if len(content.split('\n\n')) > 1 else "示例文章内容"
+    base_url = "https://www.mao.com.cn"
+    og_image = f"{base_url}/assets/images/logo.png"
     
     html_content = f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -156,7 +158,36 @@ def create_article_html(title, category, content, date, slug):
     <title>{title} - 猫咪世界</title>
     <meta name="description" content="{excerpt}">
     <meta name="keywords" content="养猫,猫咪,{category}">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="{base_url}/#/stories/{slug}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{excerpt}">
+    <meta property="og:image" content="{og_image}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="猫咪世界">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:published_time" content="{date}T00:00:00+08:00">
+    <meta property="article:section" content="{category}">
+    <meta property="article:tag" content="养猫">
+    <meta property="article:tag" content="猫咪">
+    <meta property="article:tag" content="{category}">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{base_url}/#/stories/{slug}">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{excerpt}">
+    <meta name="twitter:image" content="{og_image}">
+    
+    <!-- WeChat specific -->
+    <meta name="apple-mobile-web-app-title" content="猫咪世界">
+    <meta name="application-name" content="猫咪世界">
+    
     <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="canonical" href="{base_url}/#/stories/{slug}">
 </head>
 <body>
     <header class="site-header">

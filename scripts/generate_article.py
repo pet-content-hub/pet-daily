@@ -456,6 +456,9 @@ class ArticleGenerator:
         # 生成SEO描述
         description = self.extract_description(content)
         
+        # 生成文章图片URL（使用网站logo）
+        og_image = f"{self.config['base_url']}/assets/images/logo.png"
+        
         html_template = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -464,11 +467,33 @@ class ArticleGenerator:
     <title>{title} - 猫咪世界</title>
     <meta name="description" content="{description}">
     <meta name="keywords" content="养猫,猫咪,{category},{title.split('：')[0] if '：' in title else title}">
-    <meta property="og:title" content="{title}">
-    <meta property="og:description" content="{description}">
+    
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
     <meta property="og:url" content="{self.config['base_url']}/#/stories/{slug}">
+    <meta property="og:title" content="{title}">
+    <meta property="og:description" content="{description}">
+    <meta property="og:image" content="{og_image}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="猫咪世界">
+    <meta property="og:locale" content="zh_CN">
+    <meta property="article:published_time" content="{date}T00:00:00+08:00">
+    <meta property="article:section" content="{category}">
+    <meta property="article:tag" content="养猫">
+    <meta property="article:tag" content="猫咪">
+    <meta property="article:tag" content="{category}">
+    
+    <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="{self.config['base_url']}/#/stories/{slug}">
+    <meta name="twitter:title" content="{title}">
+    <meta name="twitter:description" content="{description}">
+    <meta name="twitter:image" content="{og_image}">
+    
+    <!-- WeChat specific -->
+    <meta name="apple-mobile-web-app-title" content="猫咪世界">
+    <meta name="application-name" content="猫咪世界">
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="canonical" href="{self.config['base_url']}/#/stories/{slug}">
     <!-- Google AdSense -->
