@@ -146,7 +146,13 @@ def generate_sample_article():
 def create_article_html(title, category, content, date, slug):
     """创建文章HTML"""
     read_time = f"{max(1, round(len(content) / 250))}分钟"
-    excerpt = content.split('\n\n')[1][:120] + "..." if len(content.split('\n\n')) > 1 else "示例文章内容"
+    # 提取更好的描述文本
+    import re
+    # 移除Markdown标记并获取第一段实际内容
+    text_content = re.sub(r'[#*>-]', '', content)
+    text_content = re.sub(r'\n+', ' ', text_content).strip()
+    lines = [line.strip() for line in text_content.split('\n') if line.strip() and not line.startswith('#')]
+    excerpt = lines[0][:120] + "..." if lines else "专业的猫咪饲养知识分享"
     base_url = "https://www.mao.com.cn"
     og_image = f"{base_url}/assets/images/logo.png"
     
@@ -161,7 +167,7 @@ def create_article_html(title, category, content, date, slug):
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{base_url}/#/stories/{slug}">
+    <meta property="og:url" content="{base_url}/articles/{slug}.html">
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{excerpt}">
     <meta property="og:image" content="{og_image}">
@@ -177,7 +183,7 @@ def create_article_html(title, category, content, date, slug):
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{base_url}/#/stories/{slug}">
+    <meta name="twitter:url" content="{base_url}/articles/{slug}.html">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{excerpt}">
     <meta name="twitter:image" content="{og_image}">
@@ -187,7 +193,7 @@ def create_article_html(title, category, content, date, slug):
     <meta name="application-name" content="猫咪世界">
     
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="canonical" href="{base_url}/#/stories/{slug}">
+    <link rel="canonical" href="{base_url}/articles/{slug}.html">
 </head>
 <body>
     <header class="site-header">

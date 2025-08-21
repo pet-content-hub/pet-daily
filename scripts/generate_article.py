@@ -470,7 +470,7 @@ class ArticleGenerator:
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="{self.config['base_url']}/#/stories/{slug}">
+    <meta property="og:url" content="{self.config['base_url']}/articles/{slug}.html">
     <meta property="og:title" content="{title}">
     <meta property="og:description" content="{description}">
     <meta property="og:image" content="{og_image}">
@@ -486,7 +486,7 @@ class ArticleGenerator:
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="{self.config['base_url']}/#/stories/{slug}">
+    <meta name="twitter:url" content="{self.config['base_url']}/articles/{slug}.html">
     <meta name="twitter:title" content="{title}">
     <meta name="twitter:description" content="{description}">
     <meta name="twitter:image" content="{og_image}">
@@ -495,7 +495,7 @@ class ArticleGenerator:
     <meta name="apple-mobile-web-app-title" content="猫咪世界">
     <meta name="application-name" content="猫咪世界">
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="canonical" href="{self.config['base_url']}/#/stories/{slug}">
+    <link rel="canonical" href="{self.config['base_url']}/articles/{slug}.html">
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
      crossorigin="anonymous"></script>
@@ -681,22 +681,22 @@ class ArticleGenerator:
     def extract_description(self, content: str, max_length: int = 160) -> str:
         """从内容中提取SEO描述"""
         # 移除Markdown标记
-        text = re.sub(r'[#*>-]', '', content)
-        text = re.sub(r'\n+', ' ', text).strip()
+        text = re.sub(r'#+\s*', '', content)  # 移除标题标记
+        text = re.sub(r'\*\*(.*?)\*\*', r'\1', text)  # 移除加粗标记
+        text = re.sub(r'[*>-]', '', text)  # 移除其他标记
+        text = re.sub(r'\n+', ' ', text).strip()  # 合并换行
         
-        if len(text) <= max_length:
-            return text
-        
-        # 在句号处截断
-        sentences = text.split('。')
-        description = ""
-        for sentence in sentences:
-            if len(description + sentence + '。') <= max_length:
-                description += sentence + '。'
+        # 获取第一段有意义的内容
+        sentences = [s.strip() for s in text.split('。') if s.strip() and len(s.strip()) > 10]
+        if sentences:
+            first_sentence = sentences[0] + '。'
+            if len(first_sentence) <= max_length:
+                return first_sentence
             else:
-                break
+                return first_sentence[:max_length-3] + '...'
         
-        return description or text[:max_length] + '...'
+        # 如果没有合适的句子，截取前部分内容
+        return text[:max_length-3] + '...' if len(text) > max_length else text
     
     def generate_slug(self, title: str) -> str:
         """生成URL友好的slug"""
