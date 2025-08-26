@@ -5,21 +5,39 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
     <loc>https://www.mao.com.cn</loc>
-    <lastmod>2025-08-25</lastmod>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.mao.com.cn/about</loc>
-    <lastmod>2025-08-25</lastmod>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.mao.com.cn/feed.xml</loc>
-    <lastmod>2025-08-25</lastmod>
+    <lastmod>2025-08-26</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/#/stories/breed-1532f479</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/#/stories/breed-12f01b66</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.mao.com.cn/#/stories/breed-dd06268b</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.mao.com.cn/#/stories/breed-6257a4d8</loc>
