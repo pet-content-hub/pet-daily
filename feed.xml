@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 29 Aug 2025 14:21:57 +0800</lastBuildDate>
-    <pubDate>Fri, 29 Aug 2025 14:21:57 +0800</pubDate>
+    <lastBuildDate>Fri, 29 Aug 2025 18:33:17 +0800</lastBuildDate>
+    <pubDate>Fri, 29 Aug 2025 18:33:17 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪关节炎预防与治疗指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-42eb8523</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪关节炎预防与治疗指南 病症基本介绍 猫咪关节炎是一种常见的慢性关节疾病，多发于中老年猫咪。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-42eb8523">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-42eb8523</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫健康检查必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8e96b529</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫健康检查必读指南：避免常见错误 幼猫在生命的头几个月中经历快速的身体和行为发育。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8e96b529">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8e96b529</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解读猫咪口炎：症状、原因、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-3c5dd50e</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解读猫咪口炎：症状、原因、治疗 猫咪口炎是一种常见但复杂的口腔疾病，对猫咪的健康和生活质量有着显著影响。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-3c5dd50e">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 29 Aug 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-3c5dd50e</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫玩具选购全攻略：从入门到精通</title>
       <link>https://www.mao.com.cn/#/stories/breed-e18097a1</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 28 Aug 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-472eca04</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫社会化训练常见问题解答</title>
-      <link>https://www.mao.com.cn/#/stories/breed-18fc423c</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>幼猫社会化训练常见问题解答 幼猫的社会化训练是其成长过程中的重要环节。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-18fc423c">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 28 Aug 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫砂深度解析：5款产品真实体验</title>
-      <link>https://www.mao.com.cn/#/stories/breed-d31fdf65</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫砂深度解析：5款产品真实体验 随着养猫家庭的增多，猫砂市场也变得越来越繁荣，各种类型的猫砂层出不穷。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-d31fdf65">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 28 Aug 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-d31fdf65</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪脂肪营养指南：科学喂养方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-2dbe6792</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪脂肪营养指南：科学喂养方法 猫咪的健康离不开均衡的饮食，而脂肪作为猫咪饮食中的重要组成部分，更是不可或缺的。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-2dbe6792">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 28 Aug 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-2dbe6792</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
