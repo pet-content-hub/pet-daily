@@ -26,8 +26,8 @@
             </RouterLink>
           </li>
           <li>
-            <RouterLink to="/upload" :class="{ active: $route.name === 'Upload' }">
-              上传
+            <RouterLink to="/diary" :class="{ active: $route.name === 'DiaryHome' }">
+              猫咪日记
             </RouterLink>
           </li>
           <li>
@@ -62,7 +62,7 @@
             <RouterLink to="/#articles" @click="scrollToArticles">文章</RouterLink>
           </li>
           <li>
-            <RouterLink to="/upload" @click="closeMobileMenu">上传</RouterLink>
+            <RouterLink to="/diary" @click="closeMobileMenu">猫咪日记</RouterLink>
           </li>
           <li>
             <RouterLink to="/about" @click="closeMobileMenu">关于</RouterLink>

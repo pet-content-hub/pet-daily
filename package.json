@@ -9,10 +9,17 @@
     "lint": "echo 'Linting disabled for static site'",
     "generate": "node scripts/generate_article.py",
     "generate:rss": "node scripts/generate_rss.py",
-    "generate:sitemap": "node scripts/generate_sitemap.py"
+    "generate:sitemap": "node scripts/generate_sitemap.py",
+    "supabase:start": "supabase start",
+    "supabase:stop": "supabase stop",
+    "supabase:status": "supabase status",
+    "supabase:reset": "supabase db reset",
+    "supabase:studio": "supabase studio",
+    "dev:full": "npm run supabase:start && npm run dev"
   },
   "dependencies": {
     "@cloudbase/js-sdk": "^2.20.2",
+    "@supabase/supabase-js": "^2.56.1",
     "@vueuse/core": "^10.7.2",
     "@vueuse/head": "^2.0.0",
     "pinia": "^2.1.7",

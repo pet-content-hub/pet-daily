@@ -9,6 +9,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - `npm run build` - Build production version to `dist/` directory
 - `npm run preview` - Preview production build locally
 - `npm run lint` - Code linting (currently disabled for static site)
+- `npm run dev:full` - Start Supabase + Vite development environment
+
+### Supabase Local Development
+- `npm run supabase:start` - Start local Supabase services (PostgreSQL + Auth + Storage)
+- `npm run supabase:stop` - Stop local Supabase services
+- `npm run supabase:status` - Check Supabase services status
+- `npm run supabase:reset` - Reset local database with migrations
+- `npm run supabase:studio` - Open Supabase Studio (database management UI)
 
 **Important**: Avoid creating duplicate workflows if existing ones work well. Improve existing functionality rather than rebuilding.
 
@@ -35,7 +43,8 @@ python generate_article.py
 - **Routing**: Vue Router 4 with `createWebHashHistory()`
 - **Styling**: SCSS with component-scoped styles
 - **PWA**: vite-plugin-pwa for offline support
-- **Backend Service**: Tencent CloudBase integration
+- **Backend Service**: Supabase (PostgreSQL + Auth + Storage) with local development support
+- **Legacy**: Tencent CloudBase integration (being phased out)
 
 ### AI Content Generation System
 - **Backend**: Python scripts in `scripts/` directory
@@ -99,24 +108,78 @@ python generate_article.py
 - Configuration in `config.json` controls AI provider, article count, SEO settings
 - Scripts generate articles in Chinese for cat care topics
 
-### CloudBase Integration
+### Supabase Integration (Current)
+- **Authentication**: Magic Link email authentication
+- **Database**: PostgreSQL with Row Level Security (RLS)
+- **File Storage**: Organized buckets for avatars, cat photos, diary images
+- **SDK**: `@supabase/supabase-js` for frontend integration
+- **Local Development**: Full local stack with Docker containers
+- **Configuration**: Environment variables in `.env.local`
+
+### Key Supabase Components
+- `src/utils/supabase.js` - Supabase service wrapper with comprehensive API
+- `src/stores/user.js` - User authentication state management (Magic Link)
+- `src/stores/cats.js` - Cat profiles and management
+- `src/stores/diary.js` - Cat diary entries and timeline
+- `supabase/migrations/` - Database schema and migrations
+- `supabase/config.toml` - Local development configuration
+
+### Database Schema (Supabase)
+- **user_profiles** - User account information and preferences
+- **cats** - Cat profiles with breed, health data, photos
+- **cat_diaries** - Daily diary entries with mood, health metrics
+- **diary_images** - Photos associated with diary entries
+- **vaccination_records** - Vaccination tracking and reminders
+- **medical_records** - Veterinary visits and health history
+
+### Cat Diary Features
+- **Public Timeline**: Browse all public cat diary entries
+- **Cat Profiles**: Detailed cat information with photos and stats
+- **Diary Creation**: Rich diary entries with mood, health metrics, photos
+- **Privacy Controls**: Public vs private diary entries
+- **Image Management**: Upload and organize photos with automatic storage
+- **Health Tracking**: Weight, temperature, food intake, activity levels
+
+### CloudBase Integration (Legacy - Being Phased Out)
 - **Authentication**: Anonymous login, WeChat login support
 - **File Storage**: Image upload with progress tracking, file management
 - **Database**: User data and file metadata storage
 - **SDK**: `@cloudbase/js-sdk` for frontend integration
 - **Configuration**: Environment ID set via `VITE_CLOUDBASE_ENV`
 
-### Key CloudBase Components
+### Key CloudBase Components (Legacy)
 - `src/utils/cloudbase.js` - CloudBase service wrapper
-- `src/stores/user.js` - User authentication state management  
-- `src/stores/upload.js` - File upload state management
-- `src/components/ui/UserAuth.vue` - Login/logout interface
+- `src/components/ui/UserAuth.vue` - Login/logout interface (being updated for Supabase)
 - `src/components/ui/ImageUpload.vue` - File upload interface
-- `src/views/Upload.vue` - Upload page with full functionality
+- `src/views/Upload.vue` - Upload page (being replaced with diary functionality)
+
+### Local Development Environment
+
+#### Supabase Services (Local)
+When running `npm run supabase:start`, the following services are available:
+- **API URL**: http://127.0.0.1:54321 - Main Supabase API
+- **Database**: postgresql://postgres:postgres@127.0.0.1:54322/postgres
+- **Studio**: http://127.0.0.1:54323 - Database management interface
+- **Inbucket**: http://127.0.0.1:54324 - Email testing (for Magic Link)
+- **Storage**: http://127.0.0.1:54321/storage/v1/s3 - File storage
+
+#### Environment Configuration
+- `.env.local` - Local development environment variables
+- `VITE_SUPABASE_URL` - Local Supabase API URL
+- `VITE_SUPABASE_ANON_KEY` - Anonymous access key for client
+- All keys are development-only and safe for local use
+
+#### Development Workflow
+1. `npm run supabase:start` - Start all backend services
+2. `npm run dev` - Start frontend development server
+3. Visit http://localhost:3000 for the app
+4. Visit http://127.0.0.1:54323 for database management
+5. Use http://127.0.0.1:54324 to see Magic Link emails
 
 ### Deployment
+- **Development**: Local Supabase + Vite dev server
+- **Production**: Will require Supabase cloud project setup
 - Production builds copy all necessary files to `dist/`
 - GitHub Pages serves from `gh-pages` branch
 - CNAME file preserves custom domain setup
 - Hash routing ensures SPA works on static hosting
-- CloudBase requires environment configuration for full functionality

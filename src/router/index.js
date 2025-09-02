@@ -9,6 +9,14 @@ const Category = () => import('@/views/Category.vue')
 const Upload = () => import('@/views/Upload.vue')
 const NotFound = () => import('@/views/NotFound.vue')
 
+// 猫咪日记相关页面
+const DiaryHome = () => import('@/views/DiaryHome.vue')
+const CatProfile = () => import('@/views/CatProfile.vue')
+const CreateDiary = () => import('@/views/CreateDiary.vue')
+const DiaryDetail = () => import('@/views/DiaryDetail.vue')
+const AuthCallback = () => import('@/views/AuthCallback.vue')
+const CatsManagement = () => import('@/views/CatsManagement.vue')
+
 // 路由配置
 const routes = [
   {
@@ -54,6 +62,60 @@ const routes = [
     meta: {
       title: '图片上传',
       description: '安全便捷的图片上传服务，支持多种格式，腾讯云存储'
+    }
+  },
+  {
+    path: '/diary',
+    name: 'DiaryHome',
+    component: DiaryHome,
+    meta: {
+      title: '猫咪日记',
+      description: '记录与猫咪的美好时光，浏览公开的猫咪日记，分享养猫心得'
+    }
+  },
+  {
+    path: '/cats/:catId',
+    name: 'CatProfile',
+    component: CatProfile,
+    meta: {
+      title: '猫咪档案',
+      description: '查看猫咪详细档案信息，包括基本信息、健康记录和日记时间线'
+    }
+  },
+  {
+    path: '/diary/create',
+    name: 'CreateDiary',
+    component: CreateDiary,
+    meta: {
+      title: '写日记',
+      description: '记录今天与猫咪的美好时光，上传照片，记录健康数据'
+    }
+  },
+  {
+    path: '/diary/:diaryId',
+    name: 'DiaryDetail',
+    component: DiaryDetail,
+    meta: {
+      title: '日记详情',
+      description: '查看完整的猫咪日记内容'
+    }
+  },
+  {
+    path: '/cats',
+    name: 'CatsManagement',
+    component: CatsManagement,
+    meta: {
+      title: '我的猫咪',
+      description: '管理我的猫咪档案，添加新的猫咪信息'
+    }
+  },
+  {
+    path: '/auth/callback',
+    name: 'AuthCallback',
+    component: AuthCallback,
+    meta: {
+      title: '登录中...',
+      description: '正在处理登录'
     }
   },
   {
