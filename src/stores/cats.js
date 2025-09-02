@@ -14,6 +14,10 @@ export const useCatsStore = defineStore('cats', () => {
     return cats.value.filter(cat => cat.is_active)
   })
 
+  const inactiveCats = computed(() => {
+    return cats.value.filter(cat => !cat.is_active)
+  })
+
   const catCount = computed(() => activeCats.value.length)
 
   const getCatById = computed(() => {
@@ -142,6 +146,7 @@ export const useCatsStore = defineStore('cats', () => {
     
     // 计算属性
     activeCats,
+    inactiveCats,
     catCount,
     getCatById,
     

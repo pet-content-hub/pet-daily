@@ -267,6 +267,15 @@ import { useUserStore } from '@/stores/user'
 import UserAuth from '@/components/ui/UserAuth.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
 
+// 设置页面 meta - 必须在其他任何异步操作之前调用
+useHead({
+  title: '我的猫咪 - 猫咪世界',
+  meta: [
+    { name: 'description', content: '管理你的猫咪档案，记录每只猫咪的详细信息和成长历程' },
+    { name: 'keywords', content: '猫咪管理,宠物档案,猫咪信息,宠物记录' }
+  ]
+})
+
 const router = useRouter()
 const catsStore = useCatsStore()
 const diaryStore = useDiaryStore()
@@ -286,23 +295,16 @@ const deleteConfirmData = ref({
   confirmText: ''
 })
 
-// 设置页面 meta
-useHead({
-  title: '我的猫咪 - 猫咪世界',
-  meta: [
-    { name: 'description', content: '管理你的猫咪档案，记录每只猫咪的详细信息和成长历程' },
-    { name: 'keywords', content: '猫咪管理,宠物档案,猫咪信息,宠物记录' }
-  ]
-})
-
 // 计算属性
 const catDiaryCounts = computed(() => {
   const counts = {}
-  diaryStore.diaries.forEach(diary => {
-    if (diary.cat_id) {
-      counts[diary.cat_id] = (counts[diary.cat_id] || 0) + 1
-    }
-  })
+  if (diaryStore.diaries && Array.isArray(diaryStore.diaries)) {
+    diaryStore.diaries.forEach(diary => {
+      if (diary.cat_id) {
+        counts[diary.cat_id] = (counts[diary.cat_id] || 0) + 1
+      }
+    })
+  }
   return counts
 })
 
@@ -332,6 +334,10 @@ function getCatDiaryCount(catId) {
 }
 
 function getDaysSinceLastDiary(catId) {
+  if (!diaryStore.diaries || !Array.isArray(diaryStore.diaries)) {
+    return '从未'
+  }
+  
   const catDiaries = diaryStore.diaries.filter(diary => diary.cat_id === catId)
   if (catDiaries.length === 0) return '从未'
   
@@ -460,34 +466,10 @@ onUnmounted(() => {
   document.removeEventListener('click', handleClickOutside)
 })
 
-// 动态导入模态框组件
-const AddCatModal = ref(null)
-const EditCatModal = ref(null)
-const ConfirmModal = ref(null)
-
-// 懒加载模态框组件
-import { watch } from 'vue'
-
-watch(showAddForm, async (show) => {
-  if (show && !AddCatModal.value) {
-    const { default: component } = await import('@/components/modals/AddCatModal.vue')
-    AddCatModal.value = component
-  }
-})
-
-watch(showEditForm, async (show) => {
-  if (show && !EditCatModal.value) {
-    const { default: component } = await import('@/components/modals/EditCatModal.vue')
-    EditCatModal.value = component
-  }
-})
-
-watch(showDeleteConfirm, async (show) => {
-  if (show && !ConfirmModal.value) {
-    const { default: component } = await import('@/components/modals/ConfirmModal.vue')
-    ConfirmModal.value = component
-  }
-})
+// 静态导入模态框组件
+import AddCatModal from '@/components/modals/AddCatModal.vue'
+import EditCatModal from '@/components/modals/EditCatModal.vue'
+import ConfirmModal from '@/components/modals/ConfirmModal.vue'
 </script>
 
 <style scoped>

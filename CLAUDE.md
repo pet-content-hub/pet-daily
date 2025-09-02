@@ -44,7 +44,6 @@ python generate_article.py
 - **Styling**: SCSS with component-scoped styles
 - **PWA**: vite-plugin-pwa for offline support
 - **Backend Service**: Supabase (PostgreSQL + Auth + Storage) with local development support
-- **Legacy**: Tencent CloudBase integration (being phased out)
 
 ### AI Content Generation System
 - **Backend**: Python scripts in `scripts/` directory
@@ -140,18 +139,7 @@ python generate_article.py
 - **Image Management**: Upload and organize photos with automatic storage
 - **Health Tracking**: Weight, temperature, food intake, activity levels
 
-### CloudBase Integration (Legacy - Being Phased Out)
-- **Authentication**: Anonymous login, WeChat login support
-- **File Storage**: Image upload with progress tracking, file management
-- **Database**: User data and file metadata storage
-- **SDK**: `@cloudbase/js-sdk` for frontend integration
-- **Configuration**: Environment ID set via `VITE_CLOUDBASE_ENV`
 
-### Key CloudBase Components (Legacy)
-- `src/utils/cloudbase.js` - CloudBase service wrapper
-- `src/components/ui/UserAuth.vue` - Login/logout interface (being updated for Supabase)
-- `src/components/ui/ImageUpload.vue` - File upload interface
-- `src/views/Upload.vue` - Upload page (being replaced with diary functionality)
 
 ### Local Development Environment
 

@@ -40,7 +40,7 @@
           <div class="instruction-item">
             <div class="instruction-icon">☁️</div>
             <h4>云端存储</h4>
-            <p>图片安全存储在腾讯云，单个文件最大 5MB</p>
+            <p>图片安全存储在云端，单个文件最大 5MB</p>
           </div>
           
           <div class="instruction-item">
@@ -55,7 +55,7 @@
       <div class="tech-info">
         <h3>技术特性</h3>
         <ul>
-          <li>✅ 腾讯云 CloudBase 云存储</li>
+          <li>✅ 云端存储服务</li>
           <li>✅ 支持多文件并发上传</li>
           <li>✅ 实时上传进度显示</li>
           <li>✅ 图片预览和链接复制</li>
@@ -76,10 +76,10 @@ import ImageUpload from '@/components/ui/ImageUpload.vue'
 useHead({
   title: '图片上传 - 猫咪世界',
   meta: [
-    { name: 'description', content: '安全便捷的图片上传服务，支持多种格式，腾讯云存储，实时预览和分享' },
-    { name: 'keywords', content: '图片上传,云存储,腾讯云,CloudBase,图片分享' },
+    { name: 'description', content: '安全便捷的图片上传服务，支持多种格式，云端存储，实时预览和分享' },
+    { name: 'keywords', content: '图片上传,云存储,图片分享' },
     { property: 'og:title', content: '图片上传 - 猫咪世界' },
-    { property: 'og:description', content: '安全便捷的图片上传服务，支持多种格式，腾讯云存储' },
+    { property: 'og:description', content: '安全便捷的图片上传服务，支持多种格式，云端存储' },
     { property: 'og:type', content: 'website' }
   ]
 })

@@ -18,7 +18,6 @@
     "dev:full": "npm run supabase:start && npm run dev"
   },
   "dependencies": {
-    "@cloudbase/js-sdk": "^2.20.2",
     "@supabase/supabase-js": "^2.56.1",
     "@vueuse/core": "^10.7.2",
     "@vueuse/head": "^2.0.0",
