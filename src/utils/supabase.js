@@ -19,10 +19,15 @@ class SupabaseService {
    */
   async signInWithMagicLink(email) {
     try {
+      // 生产环境使用实际域名，开发环境使用 localhost
+      const redirectUrl = import.meta.env.PROD 
+        ? 'https://www.mao.com.cn/#/auth/callback'
+        : `${window.location.origin}/#/auth/callback`
+      
       const { error } = await this.client.auth.signInWithOtp({
         email: email,
         options: {
-          emailRedirectTo: `${window.location.origin}/#/auth/callback`,
+          emailRedirectTo: redirectUrl,
           data: {
             welcome: true
           }
