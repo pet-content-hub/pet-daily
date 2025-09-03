@@ -41,6 +41,7 @@ useHead({
     { charset: 'utf-8' },
     { name: 'viewport', content: 'width=device-width, initial-scale=1' },
     { name: 'theme-color', content: '#ff6b6b' },
+    { name: 'mobile-web-app-capable', content: 'yes' },
     { property: 'og:image', content: 'https://www.mao.com.cn/assets/images/logo.png' },
     { property: 'og:site_name', content: '猫咪世界' },
     { name: 'twitter:image', content: 'https://www.mao.com.cn/assets/images/logo.png' }
