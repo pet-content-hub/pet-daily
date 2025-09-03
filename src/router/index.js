@@ -74,7 +74,7 @@ const routes = [
     }
   },
   {
-    path: '/cats/:catId',
+    path: '/cat/:catId',
     name: 'CatProfile',
     component: CatProfile,
     meta: {

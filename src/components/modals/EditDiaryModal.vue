@@ -142,6 +142,7 @@
 import { ref, reactive, computed, onMounted } from 'vue'
 import { useCatsStore } from '@/stores/cats'
 import { useDiaryStore } from '@/stores/diary'
+import { useNotificationStore } from '@/stores/notification'
 
 const props = defineProps({
   diary: {
@@ -154,6 +155,7 @@ const emit = defineEmits(['close', 'updated'])
 
 const catsStore = useCatsStore()
 const diaryStore = useDiaryStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const isSubmitting = ref(false)
@@ -235,8 +237,7 @@ async function handleSubmit() {
 }
 
 function showErrorMessage(message) {
-  // 简单的错误提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showError(message)
 }
 
 // 初始化表单数据

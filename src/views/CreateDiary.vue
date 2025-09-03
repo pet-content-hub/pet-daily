@@ -272,12 +272,14 @@ import { useUserStore } from '@/stores/user'
 import UserAuth from '@/components/ui/UserAuth.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
 import ImageUpload from '@/components/ui/ImageUpload.vue'
+import { useNotificationStore } from '@/stores/notification'
 
 const router = useRouter()
 const route = useRoute()
 const diaryStore = useDiaryStore()
 const catsStore = useCatsStore()
 const userStore = useUserStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const isSubmitting = ref(false)
@@ -452,13 +454,11 @@ function resetForm() {
 }
 
 function showSuccessMessage(message = '操作成功') {
-  // 简单的成功提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showSuccess(message)
 }
 
 function showErrorMessage(message) {
-  // 简单的错误提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showError(message)
 }
 
 // 监听路由参数，如果指定了猫咪ID则自动选择

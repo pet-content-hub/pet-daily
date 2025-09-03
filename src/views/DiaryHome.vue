@@ -197,10 +197,12 @@ import { useDiaryStore } from '@/stores/diary'
 import { useUserStore } from '@/stores/user'
 import UserAuth from '@/components/ui/UserAuth.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
+import { useNotificationStore } from '@/stores/notification'
 
 const router = useRouter()
 const diaryStore = useDiaryStore()
 const userStore = useUserStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const currentFilter = ref('all')
@@ -317,7 +319,7 @@ function shareDiary(diaryId) {
     // 复制链接到剪贴板
     const url = `${window.location.origin}/#/diary/${diaryId}`
     navigator.clipboard.writeText(url).then(() => {
-      alert('链接已复制到剪贴板')
+      notificationStore.showSuccess('链接已复制到剪贴板')
     })
   }
 }
@@ -334,8 +336,11 @@ watch(currentFilter, async (newFilter) => {
 // 页面初始化
 onMounted(async () => {
   try {
+    console.log('DiaryHome: 开始加载公开日记')
     // 加载公开日记
     await diaryStore.fetchPublicDiaries({ reset: true })
+    console.log('DiaryHome: 加载完成，公开日记数量:', diaryStore.publicDiaries.length)
+    console.log('DiaryHome: 公开日记数据:', diaryStore.publicDiaries)
   } catch (error) {
     console.error('初始化页面失败:', error)
   }

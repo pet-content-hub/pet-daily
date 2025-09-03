@@ -79,7 +79,7 @@
             <span class="stat-label">天相伴</span>
           </div>
           <div class="stat-item" v-if="lastDiaryDate">
-            <span class="stat-number">{{ daysSinceLastDiary }}</span>
+            <span class="stat-number">{{ daysSinceLastDiary ?? 0 }}</span>
             <span class="stat-label">天未更新</span>
           </div>
         </div>
@@ -347,7 +347,7 @@ const daysSinceLastDiary = computed(() => {
   const lastDate = new Date(lastDiaryDate.value)
   const today = new Date()
   const diffTime = Math.abs(today - lastDate)
-  return Math.floor(diffTime / (1000 * 60 * 60 * 24))
+  return Math.floor(diffTime / (1000 * 60 * 60 * 24)) ?? 0
 })
 
 const weightData = computed(() => {

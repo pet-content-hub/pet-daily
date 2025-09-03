@@ -6,6 +6,27 @@
       <p>正在加载日记详情...</p>
     </div>
 
+    <!-- 错误状态/日记不存在 -->
+    <div v-else-if="!diary && !isLoading" class="error-container">
+      <div class="container">
+        <div class="error-card">
+          <div class="error-icon">😿</div>
+          <h2>日记不存在</h2>
+          <p>抱歉，您要查看的日记不存在或已被删除。</p>
+          <div class="error-actions">
+            <button @click="goBack" class="btn btn-primary">
+              <span class="icon">←</span>
+              返回上一页
+            </button>
+            <router-link to="/diary" class="btn btn-outline">
+              <span class="icon">📖</span>
+              浏览日记
+            </router-link>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- 日记内容 -->
     <div v-else-if="diary" class="diary-content">
       <div class="container">
@@ -221,12 +242,13 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useHead } from '@vueuse/head'
 import { useDiaryStore } from '@/stores/diary'
 import { useCatsStore } from '@/stores/cats'
 import { useUserStore } from '@/stores/user'
+import { useNotificationStore } from '@/stores/notification'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
 
 const route = useRoute()
@@ -234,6 +256,7 @@ const router = useRouter()
 const diaryStore = useDiaryStore()
 const catsStore = useCatsStore()
 const userStore = useUserStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const isLoading = ref(true)
@@ -472,7 +495,7 @@ async function copyDiaryLink() {
   try {
     if (navigator.clipboard) {
       await navigator.clipboard.writeText(url)
-      showSuccessMessage('链接已复制到剪贴板')
+      notificationStore.showSuccess('链接已复制到剪贴板')
     } else {
       // 兼容旧浏览器
       const textArea = document.createElement('textarea')
@@ -481,7 +504,7 @@ async function copyDiaryLink() {
       textArea.select()
       document.execCommand('copy')
       document.body.removeChild(textArea)
-      showSuccessMessage('链接已复制')
+      notificationStore.showSuccess('链接已复制')
     }
   } catch (error) {
     console.error('复制链接失败:', error)
@@ -500,18 +523,22 @@ function shareToPlatform(platform) {
 }
 
 function showSuccessMessage(message) {
-  // 简单的成功提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showSuccess(message)
 }
 
 function showErrorMessage(message) {
-  // 简单的错误提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showError(message)
 }
 
 // 页面初始化
 onMounted(async () => {
   const diaryId = route.params.diaryId
+  
+  if (!diaryId) {
+    console.error('缺少日记ID参数')
+    isLoading.value = false
+    return
+  }
   
   try {
     isLoading.value = true
@@ -520,29 +547,45 @@ onMounted(async () => {
     await diaryStore.getDiaryDetail(diaryId)
     
     if (!diary.value) {
-      console.error('日记不存在')
+      console.error('日记不存在:', diaryId)
       return
     }
     
     // 如果是私密日记且不是所有者，则无法查看
     if (diary.value.is_private && !isOwner.value) {
-      diary.value = null
+      console.log('无权访问私密日记')
+      diaryStore.selectedDiary = null
       return
     }
     
     // 加载相关日记
     if (diary.value.cat_id) {
-      if (isOwner.value) {
-        await diaryStore.fetchUserDiaries(diary.value.user_id, { catId: diary.value.cat_id })
-      } else {
-        await diaryStore.fetchPublicDiaries({ catId: diary.value.cat_id })
+      try {
+        if (isOwner.value) {
+          await diaryStore.fetchUserDiaries(diary.value.user_id, { catId: diary.value.cat_id })
+        } else {
+          await diaryStore.fetchPublicDiaries({ catId: diary.value.cat_id })
+        }
+      } catch (relatedError) {
+        console.warn('加载相关日记失败:', relatedError)
+        // 相关日记加载失败不影响主日记显示
       }
     }
     
   } catch (error) {
     console.error('加载日记详情失败:', error)
+    // 确保在错误时清空选中的日记
+    diaryStore.selectedDiary = null
   } finally {
     isLoading.value = false
+  }
+})
+
+// 组件卸载时清理状态
+onUnmounted(() => {
+  // 清空选中的日记，避免状态污染
+  if (diaryStore.selectedDiary) {
+    diaryStore.selectedDiary = null
   }
 })
 
@@ -587,6 +630,50 @@ watch(showDeleteConfirm, async (show) => {
   justify-content: center;
   min-height: 60vh;
   color: #64748b;
+}
+
+.error-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh;
+  padding: 2rem 0;
+}
+
+.error-card {
+  background: white;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+  width: 100%;
+}
+
+.error-icon {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.error-card h2 {
+  color: #2c3e50;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
+}
+
+.error-card p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0 0 2rem 0;
+}
+
+.error-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .diary-content {

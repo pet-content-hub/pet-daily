@@ -95,10 +95,12 @@ import { useArticlesStore } from '@/stores/articles'
 import { useAppStore } from '@/stores/app'
 import ArticleCard from '@/components/ui/ArticleCard.vue'
 import ShareMenu from '@/components/ui/ShareMenu.vue'
+import { useNotificationStore } from '@/stores/notification'
 
 const route = useRoute()
 const articlesStore = useArticlesStore()
 const appStore = useAppStore()
+const notificationStore = useNotificationStore()
 
 // 响应式数据
 const isLoading = ref(true)
@@ -241,7 +243,7 @@ async function loadArticle(slug) {
 
 function openShareMenu() {
   if (!article.value) {
-    alert('文章信息未加载完成')
+    notificationStore.showWarning('文章信息未加载完成')
     return
   }
   showShareMenu.value = true
@@ -254,7 +256,7 @@ function closeShareMenu() {
 function fallbackShare() {
   const url = window.location.href
   navigator.clipboard.writeText(url).then(() => {
-    alert('文章链接已复制到剪贴板！')
+    notificationStore.showSuccess('文章链接已复制到剪贴板！')
   }).catch(() => {
     // 如果剪贴板API也不可用，显示链接
     prompt('请复制以下链接进行分享：', url)

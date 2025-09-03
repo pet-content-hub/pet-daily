@@ -13,6 +13,9 @@
     
     <!-- 加载指示器 -->
     <LoadingIndicator v-if="isLoading" />
+    
+    <!-- 通知容器 -->
+    <NotificationContainer />
   </div>
 </template>
 
@@ -24,6 +27,7 @@ import { useAppStore } from '@/stores/app'
 import AppHeader from '@/components/layout/AppHeader.vue'
 import AppFooter from '@/components/layout/AppFooter.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
+import NotificationContainer from '@/components/ui/NotificationContainer.vue'
 
 // 全局状态
 const router = useRouter()

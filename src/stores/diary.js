@@ -40,6 +40,7 @@ export const useDiaryStore = defineStore('diary', () => {
   // 方法
   async function fetchPublicDiaries(options = {}) {
     try {
+      console.log('DiaryStore: fetchPublicDiaries 开始，选项:', options)
       isLoading.value = true
       error.value = null
       
@@ -51,12 +52,16 @@ export const useDiaryStore = defineStore('diary', () => {
         ...options
       })
       
+      console.log('DiaryStore: 从 supabase 获取到数据:', diariesData)
+      
       if (reset || page === 1) {
         publicDiaries.value = diariesData
         currentPage.value = 1
       } else {
         publicDiaries.value = [...publicDiaries.value, ...diariesData]
       }
+      
+      console.log('DiaryStore: 设置后的 publicDiaries:', publicDiaries.value)
       
       currentPage.value = page
       hasMorePublic.value = diariesData.length === limit

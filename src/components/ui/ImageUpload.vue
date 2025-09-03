@@ -123,9 +123,11 @@
 import { ref, onMounted } from 'vue'
 import { useUserStore } from '@/stores/user'
 import { useUploadStore } from '@/stores/upload'
+import { useNotificationStore } from '@/stores/notification'
 
 const userStore = useUserStore()
 const uploadStore = useUploadStore()
+const notificationStore = useNotificationStore()
 
 const fileInput = ref(null)
 const isDragOver = ref(false)
@@ -203,11 +205,11 @@ async function copyImageUrl(result) {
     if (result.fileID) {
       const downloadURL = await uploadStore.getImageDownloadURL(result.fileID)
       await navigator.clipboard.writeText(downloadURL)
-      alert('图片链接已复制到剪贴板')
+      notificationStore.showSuccess('图片链接已复制到剪贴板')
     }
   } catch (error) {
     console.error('复制链接失败:', error)
-    alert('复制链接失败: ' + error.message)
+    notificationStore.showError('复制链接失败: ' + error.message)
   }
 }
 
@@ -218,7 +220,7 @@ async function previewImage(result) {
     }
   } catch (error) {
     console.error('预览失败:', error)
-    alert('预览失败: ' + error.message)
+    notificationStore.showError('预览失败: ' + error.message)
   }
 }
 
@@ -226,10 +228,10 @@ async function deleteImage(result) {
   if (confirm('确定要删除这张图片吗？')) {
     try {
       await uploadStore.deleteImage(result.fileID)
-      alert('图片删除成功')
+      notificationStore.showSuccess('图片删除成功')
     } catch (error) {
       console.error('删除失败:', error)
-      alert('删除失败: ' + error.message)
+      notificationStore.showError('删除失败: ' + error.message)
     }
   }
 }

@@ -268,11 +268,21 @@ class SupabaseService {
    */
   async createCat(catData) {
     try {
+      // 验证用户是否已登录
+      const user = await this.getCurrentUser()
+      if (!user) {
+        throw new Error('用户未登录，无法创建猫咪档案')
+      }
+
+      console.log('Supabase: 当前用户:', user.id)
+      console.log('Supabase: 创建猫咪，数据:', catData)
+      
       const { data, error } = await this.client
         .from('cats')
         .insert(catData)
         .select()
 
+      console.log('Supabase: 创建猫咪结果:', { data, error })
       if (error) throw error
       return data?.[0]
     } catch (error) {
@@ -308,11 +318,15 @@ class SupabaseService {
    */
   async getCat(catId) {
     try {
+      console.log('Supabase: 获取猫咪信息，ID:', catId)
+      
       const { data, error } = await this.client
         .from('cats')
         .select('*')
         .eq('id', catId)
         .single()
+
+      console.log('Supabase: 猫咪信息查询结果:', { data, error })
 
       if (error) throw error
       return data
@@ -333,13 +347,12 @@ class SupabaseService {
     const offset = (page - 1) * limit
 
     try {
+      // 首先获取日记和猫咪数据
       let query = this.client
         .from('cat_diaries')
         .select(`
           *,
-          cats(*),
-          user_profiles(username, full_name),
-          diary_images(*)
+          cats(*)
         `)
         .eq('is_private', false)
         .order('created_at', { ascending: false })
@@ -349,10 +362,54 @@ class SupabaseService {
         query = query.eq('cat_id', catId)
       }
 
-      const { data, error } = await query
+      const { data: diariesData, error: diariesError } = await query
 
-      if (error) throw error
-      return data || []
+      if (diariesError) throw diariesError
+
+      if (!diariesData || diariesData.length === 0) {
+        return []
+      }
+
+      // 获取用户ID列表
+      const userIds = [...new Set(diariesData.map(diary => diary.user_id))]
+      
+      // 批量获取用户资料
+      const { data: userProfiles, error: userError } = await this.client
+        .from('user_profiles')
+        .select('id, username, full_name')
+        .in('id', userIds)
+
+      if (userError) {
+        console.warn('获取用户资料失败，将使用默认值:', userError)
+      }
+
+      // 批量获取日记图片
+      const diaryIds = diariesData.map(diary => diary.id)
+      const { data: imagesData, error: imagesError } = await this.client
+        .from('diary_images')
+        .select('*')
+        .in('diary_id', diaryIds)
+
+      if (imagesError) {
+        console.warn('获取日记图片失败，将使用默认值:', imagesError)
+      }
+
+      // 组合数据
+      const result = diariesData.map(diary => {
+        // 找到对应的用户资料
+        const userProfile = userProfiles?.find(up => up.id === diary.user_id)
+        
+        // 找到对应的图片
+        const images = imagesData?.filter(img => img.diary_id === diary.id) || []
+
+        return {
+          ...diary,
+          user_profiles: userProfile || { username: '未知用户', full_name: '' },
+          diary_images: images
+        }
+      })
+
+      return result
     } catch (error) {
       console.error('获取公开日记失败:', error)
       throw error
@@ -369,12 +426,14 @@ class SupabaseService {
     const offset = (page - 1) * limit
 
     try {
+      console.log('Supabase: 获取用户日记，用户ID:', userId, '选项:', options)
+      
+      // 获取日记和猫咪数据
       let query = this.client
         .from('cat_diaries')
         .select(`
           *,
-          cats(*),
-          diary_images(*)
+          cats(*)
         `)
         .eq('user_id', userId)
         .order('created_at', { ascending: false })
@@ -384,10 +443,39 @@ class SupabaseService {
         query = query.eq('cat_id', catId)
       }
 
-      const { data, error } = await query
+      const { data: diariesData, error: diariesError } = await query
+      console.log('Supabase: 用户日记和猫咪数据:', { data: diariesData, error: diariesError })
 
-      if (error) throw error
-      return data || []
+      if (diariesError) throw diariesError
+
+      if (!diariesData || diariesData.length === 0) {
+        return []
+      }
+
+      // 批量获取日记图片
+      const diaryIds = diariesData.map(diary => diary.id)
+      const { data: imagesData, error: imagesError } = await this.client
+        .from('diary_images')
+        .select('*')
+        .in('diary_id', diaryIds)
+
+      console.log('Supabase: 用户日记图片数据:', { data: imagesData, error: imagesError })
+
+      if (imagesError) {
+        console.warn('获取日记图片失败，将使用默认值:', imagesError)
+      }
+
+      // 组合数据
+      const result = diariesData.map(diary => {
+        const images = imagesData?.filter(img => img.diary_id === diary.id) || []
+        return {
+          ...diary,
+          diary_images: images
+        }
+      })
+
+      console.log('Supabase: 用户日记最终结果:', result)
+      return result
     } catch (error) {
       console.error('获取用户日记失败:', error)
       throw error
@@ -400,11 +488,21 @@ class SupabaseService {
    */
   async createDiary(diaryData) {
     try {
+      // 验证用户是否已登录
+      const user = await this.getCurrentUser()
+      if (!user) {
+        throw new Error('用户未登录，无法创建日记')
+      }
+
+      console.log('Supabase: 当前用户:', user.id)
+      console.log('Supabase: 创建日记，数据:', diaryData)
+
       const { data, error } = await this.client
         .from('cat_diaries')
         .insert(diaryData)
         .select()
 
+      console.log('Supabase: 创建日记结果:', { data, error })
       if (error) throw error
       return data?.[0]
     } catch (error) {
@@ -419,19 +517,49 @@ class SupabaseService {
    */
   async getDiary(diaryId) {
     try {
-      const { data, error } = await this.client
+      // 首先获取日记和猫咪数据
+      const { data: diaryData, error: diaryError } = await this.client
         .from('cat_diaries')
         .select(`
           *,
-          cats(*),
-          user_profiles(username, full_name, avatar_url),
-          diary_images(*)
+          cats(*)
         `)
         .eq('id', diaryId)
         .single()
 
-      if (error) throw error
-      return data
+      if (diaryError) throw diaryError
+      if (!diaryData) throw new Error('日记不存在')
+
+      // 获取用户资料
+      const { data: userProfile, error: userError } = await this.client
+        .from('user_profiles')
+        .select('id, username, full_name, avatar_url')
+        .eq('id', diaryData.user_id)
+        .single()
+
+      if (userError) {
+        console.warn('获取用户资料失败，将使用默认值:', userError)
+      }
+
+      // 获取日记图片
+      const { data: imagesData, error: imagesError } = await this.client
+        .from('diary_images')
+        .select('*')
+        .eq('diary_id', diaryId)
+        .order('display_order', { ascending: true })
+
+      if (imagesError) {
+        console.warn('获取日记图片失败，将使用默认值:', imagesError)
+      }
+
+      // 组合数据
+      const result = {
+        ...diaryData,
+        user_profiles: userProfile || { username: '未知用户', full_name: '', avatar_url: null },
+        diary_images: imagesData || []
+      }
+
+      return result
     } catch (error) {
       console.error('获取日记详情失败:', error)
       throw error

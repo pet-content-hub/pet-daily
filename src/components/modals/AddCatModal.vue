@@ -150,11 +150,13 @@
 import { ref, reactive, computed } from 'vue'
 import { useCatsStore } from '@/stores/cats'
 import { useUserStore } from '@/stores/user'
+import { useNotificationStore } from '@/stores/notification'
 
 const emit = defineEmits(['close', 'added'])
 
 const catsStore = useCatsStore()
 const userStore = useUserStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const isSubmitting = ref(false)
@@ -241,8 +243,7 @@ async function handleSubmit() {
 }
 
 function showErrorMessage(message) {
-  // 简单的错误提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showError(message)
 }
 </script>
 

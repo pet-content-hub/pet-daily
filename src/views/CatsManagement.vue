@@ -102,7 +102,7 @@
                     <span class="stat-label">篇日记</span>
                   </div>
                   <div class="stat-item">
-                    <span class="stat-value">{{ getDaysSinceLastDiary(cat.id) }}</span>
+                    <span class="stat-value">{{ getDaysSinceLastDiary(cat.id) ?? 0 }}</span>
                     <span class="stat-label">天未更新</span>
                   </div>
                 </div>
@@ -264,6 +264,7 @@ import { useHead } from '@vueuse/head'
 import { useCatsStore } from '@/stores/cats'
 import { useDiaryStore } from '@/stores/diary'
 import { useUserStore } from '@/stores/user'
+import { useNotificationStore } from '@/stores/notification'
 import UserAuth from '@/components/ui/UserAuth.vue'
 import LoadingIndicator from '@/components/ui/LoadingIndicator.vue'
 
@@ -280,6 +281,7 @@ const router = useRouter()
 const catsStore = useCatsStore()
 const diaryStore = useDiaryStore()
 const userStore = useUserStore()
+const notificationStore = useNotificationStore()
 
 // 响应式状态
 const showAddForm = ref(false)
@@ -347,7 +349,7 @@ function getDaysSinceLastDiary(catId) {
   const diffTime = Math.abs(today - lastDate)
   const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24))
   
-  return diffDays === 0 ? '今天' : diffDays
+  return diffDays === 0 ? '0' : diffDays
 }
 
 function goToCatProfile(catId) {
@@ -426,13 +428,11 @@ function handleCatUpdated(updatedCat) {
 }
 
 function showSuccessMessage(message) {
-  // 简单的成功提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showSuccess(message)
 }
 
 function showErrorMessage(message) {
-  // 简单的错误提示，可以后续替换为更好的提示组件
-  alert(message)
+  notificationStore.showError(message)
 }
 
 // 点击外部关闭下拉菜单
@@ -444,9 +444,17 @@ function handleClickOutside(event) {
 
 // 页面初始化
 onMounted(async () => {
-  if (!userStore.isLoggedIn) return
+  // 首先初始化用户认证状态
+  await userStore.initAuth()
+
+  if (!userStore.isLoggedIn || !userStore.user) {
+    console.log('用户未登录，跳过数据加载')
+    return
+  }
 
   try {
+    console.log('正在加载用户数据，用户ID:', userStore.user.id)
+    
     // 加载用户的猫咪列表
     await catsStore.fetchUserCats(userStore.user.id)
     
