@@ -238,19 +238,19 @@ async function handleSubmit() {
     }
 
     // 更新猫咪档案
-    const updatedCat = await catsStore.updateCat(props.cat.id, updateData)
+    let updatedCat = await catsStore.updateCat(props.cat.id, updateData)
 
     // 如果有新头像文件，上传头像
     if (selectedAvatarFile.value && updatedCat) {
       try {
-        await catsStore.uploadCatAvatar(updatedCat.id, selectedAvatarFile.value)
+        updatedCat = await catsStore.uploadCatAvatar(updatedCat.id, selectedAvatarFile.value)
       } catch (avatarError) {
         console.warn('头像上传失败:', avatarError)
         // 头像上传失败不影响整体更新过程
       }
     }
 
-    // 触发更新成功事件
+    // 触发更新成功事件（尽量带上最新 avatar_url）
     emit('updated', updatedCat)
 
   } catch (error) {

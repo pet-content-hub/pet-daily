@@ -224,14 +224,17 @@ async function handleSubmit() {
     // 如果有头像文件，上传头像
     if (selectedAvatarFile.value && newCat) {
       try {
-        await catsStore.uploadCatAvatar(newCat.id, selectedAvatarFile.value)
+        const updatedCat = await catsStore.uploadCatAvatar(newCat.id, selectedAvatarFile.value)
+        // 触发添加成功事件（带 avatar_url）
+        emit('added', updatedCat)
+        return
       } catch (avatarError) {
         console.warn('头像上传失败:', avatarError)
         // 头像上传失败不影响整体创建过程
       }
     }
 
-    // 触发添加成功事件
+    // 无头像或上传失败时回退为原对象
     emit('added', newCat)
 
   } catch (error) {

@@ -54,13 +54,13 @@
           <!-- 猫咪信息 -->
           <div class="cat-info" @click="goToCatProfile">
             <img 
-              :src="diary.cat?.avatar_url || '/images/default-cat-avatar.png'"
-              :alt="diary.cat?.name"
+              :src="diary.cats?.avatar_url || '/images/default-cat-avatar.png'"
+              :alt="diary.cats?.name"
               class="cat-avatar"
             >
             <div class="cat-details">
-              <h3 class="cat-name">{{ diary.cat?.name }}</h3>
-              <p class="cat-meta">{{ diary.cat?.breed }} • {{ getCatAge(diary.cat?.birth_date) }}</p>
+              <h3 class="cat-name">{{ diary.cats?.name }}</h3>
+              <p class="cat-meta">{{ diary.cats?.breed }} • {{ getCatAge(diary.cats?.birth_date) }}</p>
             </div>
           </div>
 
@@ -161,7 +161,7 @@
 
         <!-- 相关推荐 -->
         <div v-if="relatedDiaries.length > 0" class="related-diaries">
-          <h3>{{ diary.cat?.name }}的其他日记</h3>
+          <h3>{{ diary.cats?.name }}的其他日记</h3>
           <div class="related-list">
             <div 
               v-for="relatedDiary in relatedDiaries" 
