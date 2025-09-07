@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 07 Sep 2025 10:19:55 +0800</lastBuildDate>
-    <pubDate>Sun, 07 Sep 2025 10:19:55 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Sep 2025 14:18:12 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Sep 2025 14:18:12 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪益生菌营养解析：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-415bfb9d</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>猫咪益生菌营养解析：从理论到实践 猫咪作为家庭的重要成员，其健康和营养需求一直是每位猫主人关注的焦点。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-415bfb9d">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-415bfb9d</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫包深度解析：5款产品真实体验</title>
+      <link>https://www.mao.com.cn/#/stories/breed-19f77a90</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫包深度解析：5款产品真实体验 作为猫主子们的忠实仆人，选择一款合适的猫包不仅能提升出行体验，也能为猫咪的安全和舒适保驾护航。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-19f77a90">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-19f77a90</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解析：猫咪皮肤病的全面护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-c7f5d6d4</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解析：猫咪皮肤病的全面护理 猫咪是许多家庭的宠物伴侣，但它们娇嫩的皮肤容易受到多种因素的影响，导致皮肤病的发生。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-c7f5d6d4">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-c7f5d6d4</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>幼猫环境适应必读指南：避免常见错误</title>
       <link>https://www.mao.com.cn/#/stories/breed-addd301b</link>
@@ -221,42 +257,6 @@
       <pubDate>Sat, 06 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-6437d6bf</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>揭秘俄罗斯蓝猫猫：你不知道的品种秘密</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f1806c76</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>揭秘俄罗斯蓝猫猫：你不知道的品种秘密 俄罗斯蓝猫，以其优雅的外观和温和的性格，吸引了无数猫咪爱好者的目光。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f1806c76">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 06 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f1806c76</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫喂养实用技巧：新手也能轻松上手</title>
-      <link>https://www.mao.com.cn/#/stories/breed-c2bd897f</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫喂养实用技巧：新手也能轻松上手 照顾一只幼猫可能是一项挑战，但也是一段令人愉快的旅程。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-c2bd897f">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-c2bd897f</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>缅因猫猫全面指南：选择、护理与训练</title>
-      <link>https://www.mao.com.cn/#/stories/breed-d88ca777</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>缅因猫猫全面指南：选择、护理与训练 缅因猫，作为世界上最大的家猫品种之一，以其友好性格和独特的外观受到许多猫咪爱好者的青睐。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-d88ca777">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 05 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-d88ca777</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
