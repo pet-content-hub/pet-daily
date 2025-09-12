@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 12 Sep 2025 06:02:12 +0800</lastBuildDate>
-    <pubDate>Fri, 12 Sep 2025 06:02:12 +0800</pubDate>
+    <lastBuildDate>Fri, 12 Sep 2025 10:22:24 +0800</lastBuildDate>
+    <pubDate>Fri, 12 Sep 2025 10:22:24 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫环境适应必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-addd301b</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫环境适应必读指南：避免常见错误 幼猫刚刚进入新家庭时，会面临一系列环境适应挑战。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-addd301b">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-addd301b</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪不使用猫砂盆问题解决手册：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-07f7b87a</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫咪不使用猫砂盆问题解决手册：从理论到实践 猫咪不使用猫砂盆是许多猫主人可能面临的棘手问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-07f7b87a">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-07f7b87a</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2025年猫粮排行榜：10款热门产品测评</title>
+      <link>https://www.mao.com.cn/#/stories/breed-86e237bc</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>2025年猫粮排行榜：10款热门产品测评 猫咪作为人类的好伙伴，它们的健康与饮食息息相关。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-86e237bc">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-86e237bc</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪攻击性行为矫正：科学方法详解</title>
       <link>https://www.mao.com.cn/#/stories/breed-a534aa11</link>
@@ -221,42 +257,6 @@
       <pubDate>Wed, 10 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪心脏病完全指南：预防、识别、治疗</title>
-      <link>https://www.mao.com.cn/#/stories/breed-498af44d</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪心脏病完全指南：预防、识别、治疗 猫咪是许多家庭中可爱的成员，它们的健康需要我们细心呵护。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-498af44d">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-498af44d</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>碳水化合物猫咪饮食详解：科学方法与注意事项</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5f9516bd</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>碳水化合物猫咪饮食详解：科学方法与注意事项 营养需求分析 猫是一种严格的肉食动物，其饮食需求与其他宠物，如狗，有很大不同。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5f9516bd">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5f9516bd</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫爬架使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7b787379</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫爬架使用体验：真实用户反馈汇总 猫爬架作为猫咪生活中的重要一环，不仅为猫咪提供了活动空间，还能满足它们的攀爬、磨爪等天性需求。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7b787379">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7b787379</guid>
-      <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
