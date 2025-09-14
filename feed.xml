@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sat, 13 Sep 2025 18:30:12 +0800</lastBuildDate>
-    <pubDate>Sat, 13 Sep 2025 18:30:12 +0800</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 06:02:07 +0800</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 06:02:07 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫喂养必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-6ce99734</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫喂养必读指南：避免常见错误 幼猫的健康成长离不开细心的喂养和照顾。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-6ce99734">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-6ce99734</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>3-6个月幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f87382e6</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>36个月幼猫护理完全指南 幼猫在36个月期间正处于快速成长的重要阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f87382e6">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f87382e6</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>解决猫咪攻击性问题的有效方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-bf513bad</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>解决猫咪攻击性问题的有效方法 猫咪通常以其独立而温顺的性格著称，但有时它们也会表现出攻击性行为。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-bf513bad">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-bf513bad</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>6-12个月幼猫健康检查：科学方法与注意事项</title>
       <link>https://www.mao.com.cn/#/stories/breed-dc602370</link>
@@ -221,42 +257,6 @@
       <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-2819941d</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业测评：猫抓板品牌横向对比</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7163e828</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业测评：猫抓板品牌横向对比 猫抓板是每位养猫家庭的必备品，它不仅可以满足猫咪的天性需求，还能有效保护家具不被抓坏。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7163e828">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7163e828</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫环境适应必读指南：避免常见错误</title>
-      <link>https://www.mao.com.cn/#/stories/breed-addd301b</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>幼猫环境适应必读指南：避免常见错误 幼猫刚刚进入新家庭时，会面临一系列环境适应挑战。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-addd301b">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-addd301b</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪不使用猫砂盆问题解决手册：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-07f7b87a</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪不使用猫砂盆问题解决手册：从理论到实践 猫咪不使用猫砂盆是许多猫主人可能面临的棘手问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-07f7b87a">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-07f7b87a</guid>
-      <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
