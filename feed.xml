@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 16 Sep 2025 06:02:48 +0800</lastBuildDate>
-    <pubDate>Tue, 16 Sep 2025 06:02:48 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2025 10:22:23 +0800</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2025 10:22:23 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫窝选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-3d02a8b6</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫窝选购全攻略：从入门到精通 猫窝是每个养猫家庭不可或缺的重要用品。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-3d02a8b6">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-3d02a8b6</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解读美国短毛猫猫：从选购到护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-85c0c42c</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解读美国短毛猫：从选购到护理 美国短毛猫以其友好的性格和低维护的护理需求而闻名，是众多猫主人钟爱的品种之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-85c0c42c">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-85c0c42c</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>膳食纤维猫咪喂养指南：避免常见误区</title>
+      <link>https://www.mao.com.cn/#/stories/breed-ff8ada2c</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>膳食纤维猫咪喂养指南：避免常见误区 在猫咪的营养饮食中，膳食纤维常常被忽视。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-ff8ada2c">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-ff8ada2c</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪夜间吵闹问题解决手册：从理论到实践</title>
       <link>https://www.mao.com.cn/#/stories/breed-267f89c1</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-c598b117</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪肥胖症的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-6853e01a</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析：猫咪肥胖症的全面护理 猫咪是许多家庭中备受喜爱的宠物，然而，随着养宠观念和生活方式的变化，猫咪肥胖问题也日益普遍。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-6853e01a">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-6853e01a</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫疫苗接种实用技巧：新手也能轻松上手</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1af37343</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫疫苗接种实用技巧：新手也能轻松上手 幼猫疫苗接种是每一个猫主人都需要面对的任务。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1af37343">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1af37343</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>皮肤病猫咪护理手册：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e3e0ee37</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>皮肤病猫咪护理手册：专家建议 猫咪的皮肤是其健康的重要指标之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e3e0ee37">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e3e0ee37</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
