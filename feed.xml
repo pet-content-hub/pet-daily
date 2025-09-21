@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 21 Sep 2025 06:01:57 +0800</lastBuildDate>
-    <pubDate>Sun, 21 Sep 2025 06:01:57 +0800</pubDate>
+    <lastBuildDate>Sun, 21 Sep 2025 10:20:10 +0800</lastBuildDate>
+    <pubDate>Sun, 21 Sep 2025 10:20:10 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫健康检查必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8e96b529</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫健康检查必读指南：避免常见错误 幼猫是许多家庭的新成员，它们的健康成长需要细心呵护和科学指导。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8e96b529">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 21 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8e96b529</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪维生素营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a596f7ab</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪维生素营养指南：科学喂养方法 猫咪作为人类的伴侣动物，它们的健康与营养密切相关。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a596f7ab">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 21 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a596f7ab</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>矿物质猫咪饮食全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-76fc9f83</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>矿物质猫咪饮食全攻略：专家建议 猫咪的健康和幸福在很大程度上取决于其饮食。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-76fc9f83">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 21 Sep 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-76fc9f83</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业解析：猫咪泌尿系统疾病的全面护理</title>
       <link>https://www.mao.com.cn/#/stories/breed-8592147a</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-053efee6">阅读全文 →</a></p>]]></description>
       <pubDate>Fri, 19 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-053efee6</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-4周幼猫疫苗接种详解：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-0a9098b2</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>24周幼猫疫苗接种详解：从理论到实践 幼猫的成长阶段是一个充满挑战但又充满乐趣的过程。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-0a9098b2">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 19 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-0a9098b2</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪关节炎的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-cc23fe78</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析：猫咪关节炎的全面护理 猫咪作为家庭中的一员，其健康和幸福直接影响到整个家庭的和谐。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-cc23fe78">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 19 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-cc23fe78</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪寄生虫应对策略：从预防到康复</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7bc2c6bc</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪寄生虫应对策略：从预防到康复 猫咪是许多家庭中的重要成员，保持它们的健康是每位猫主人的责任。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7bc2c6bc">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 19 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7bc2c6bc</guid>
       <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
