@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 01 Oct 2025 10:23:38 +0800</lastBuildDate>
-    <pubDate>Wed, 01 Oct 2025 10:23:38 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Oct 2025 14:24:31 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Oct 2025 14:24:31 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>矿物质猫咪饮食全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-76fc9f83</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>矿物质猫咪饮食全攻略：专家建议 猫咪的健康与其饮食密切相关，矿物质作为猫咪饮食的重要组成部分，对于维持其生长发育和日常活动至关重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-76fc9f83">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-76fc9f83</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2-4周幼猫环境适应：科学方法与注意事项</title>
+      <link>https://www.mao.com.cn/#/stories/breed-cafb750d</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>24周幼猫环境适应：科学方法与注意事项 照顾24周大的幼猫需要特别的关注和科学的方法。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-cafb750d">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-cafb750d</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解析：猫咪肥胖症的全面护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-6853e01a</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解析：猫咪肥胖症的全面护理 猫咪肥胖症是当前宠物健康管理中的一大挑战。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-6853e01a">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-6853e01a</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫窝选购全攻略：从入门到精通</title>
       <link>https://www.mao.com.cn/#/stories/breed-3d02a8b6</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-1bf06e2e">阅读全文 →</a></p>]]></description>
       <pubDate>Tue, 30 Sep 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-1bf06e2e</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>苏格兰折耳猫猫适合你吗？完整分析报告</title>
-      <link>https://www.mao.com.cn/#/stories/breed-99e07da4</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>苏格兰折耳猫猫适合你吗？完整分析报告 苏格兰折耳猫（Scottish Fold）以其独特的外观和迷人的性格深受猫咪爱好者们的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-99e07da4">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 30 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-99e07da4</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪肥胖症：症状识别与处理方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5a5583a6</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪肥胖症：症状识别与处理方法 肥胖症不仅是人类的健康问题，同样在猫咪中也日益普遍。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5a5583a6">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 29 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5a5583a6</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>自动喂食器选购指南：性价比分析与推荐</title>
-      <link>https://www.mao.com.cn/#/stories/breed-b92476ef</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>自动喂食器选购指南：性价比分析与推荐 随着生活节奏的加快，许多猫主人都面临着喂养宠物时间不足的问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-b92476ef">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 29 Sep 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-b92476ef</guid>
       <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
