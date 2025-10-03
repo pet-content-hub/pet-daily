@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 03 Oct 2025 10:22:05 +0800</lastBuildDate>
-    <pubDate>Fri, 03 Oct 2025 10:22:05 +0800</pubDate>
+    <lastBuildDate>Fri, 03 Oct 2025 14:21:26 +0800</lastBuildDate>
+    <pubDate>Fri, 03 Oct 2025 14:21:26 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>暹罗猫猫全面指南：选择、护理与训练</title>
+      <link>https://www.mao.com.cn/#/stories/breed-05bbcd95</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>暹罗猫猫全面指南：选择、护理与训练 暹罗猫，以其优雅的外观和迷人的个性而闻名，是许多猫咪爱好者的理想选择。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-05bbcd95">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 03 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-05bbcd95</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪寄生虫完全指南：预防、识别、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-31f73a3d</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪寄生虫完全指南：预防、识别、治疗 猫咪是很多家庭的重要成员，保持它们的健康是每位猫主人的责任。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-31f73a3d">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 03 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-31f73a3d</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫窝选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-3d02a8b6</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫窝选购全攻略：从入门到精通 产品类型介绍 选择合适的猫窝对于猫咪的舒适和安全至关重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-3d02a8b6">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 03 Oct 2025 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-3d02a8b6</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫窝深度解析：10款产品真实体验</title>
       <link>https://www.mao.com.cn/#/stories/breed-a5ad9fa5</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 02 Oct 2025 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-097c9d07</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业营养师解读猫咪蛋白质：完整方案</title>
-      <link>https://www.mao.com.cn/#/stories/breed-ffa1adcc</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业营养师解读猫咪蛋白质：完整方案 猫咪作为严格的肉食动物，其营养需求与人类或其他宠物截然不同。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-ffa1adcc">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 02 Oct 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-ffa1adcc</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪泌尿系统疾病的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8592147a</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析：猫咪泌尿系统疾病的全面护理 猫咪是许多家庭中重要的成员，它们优雅、可爱，但同时也容易受到各种健康问题的困扰。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8592147a">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 01 Oct 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8592147a</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-4周幼猫健康检查详解：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f2c9900a</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>24周幼猫健康检查详解：从理论到实践 幼猫在出生后的头几周中迅速成长和发展，对于这些小生命来说，初期的护理和健康检查至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f2c9900a">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 01 Oct 2025 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f2c9900a</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
