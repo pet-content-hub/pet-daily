@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 31 Mar 2026 10:47:34 +0800</lastBuildDate>
-    <pubDate>Tue, 31 Mar 2026 10:47:34 +0800</pubDate>
+    <lastBuildDate>Tue, 31 Mar 2026 15:06:47 +0800</lastBuildDate>
+    <pubDate>Tue, 31 Mar 2026 15:06:47 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫包使用体验：真实用户反馈汇总</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b5e4d396</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫包使用体验：真实用户反馈汇总 随着养猫家庭的不断增加，市场上出现了多种多样的猫包。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b5e4d396">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b5e4d396</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫社会化训练必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-34e75fdf</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫社会化训练必读指南：避免常见错误 养育一只幼猫不仅需要爱心和耐心，更需要科学的方法和知识。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-34e75fdf">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-34e75fdf</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>土耳其安哥拉猫猫饲养全攻略：新手必读</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8fd31cc7</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>土耳其安哥拉猫猫饲养全攻略：新手必读 土耳其安哥拉猫是猫界中一个优雅而迷人的品种，其高贵的外观和亲人的性格使它成为许多猫咪爱好者的心头好。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8fd31cc7">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8fd31cc7</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪挑食训练：从基础到进阶</title>
       <link>https://www.mao.com.cn/#/stories/breed-504d657c</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 30 Mar 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-0ed4912a</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>美国短毛猫猫全面指南：选择、护理与训练</title>
-      <link>https://www.mao.com.cn/#/stories/breed-302c92e8</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>美国短毛猫猫全面指南：选择、护理与训练 美国短毛猫（American Shorthair）是一个受欢迎的猫品种，以其友好的性格、坚韧的健康和迷人的外表而著称。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-302c92e8">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 30 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-302c92e8</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪脂肪营养解析：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8d949a25</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪脂肪营养解析：从理论到实践 猫咪作为许多家庭的重要成员，其健康饮食需求受到越来越多的关注。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8d949a25">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 29 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8d949a25</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>认识美国短毛猫猫：品种特征与饲养要点</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f1991f80</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>认识美国短毛猫猫：品种特征与饲养要点 美国短毛猫以其友善的性格和适应力强的特质在全球范围内受到宠爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f1991f80">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 29 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f1991f80</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
