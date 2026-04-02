@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 01 Apr 2026 19:14:55 +0800</lastBuildDate>
-    <pubDate>Wed, 01 Apr 2026 19:14:55 +0800</pubDate>
+    <lastBuildDate>Thu, 02 Apr 2026 07:15:51 +0800</lastBuildDate>
+    <pubDate>Thu, 02 Apr 2026 07:15:51 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪脂肪营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-2dbe6792</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>猫咪脂肪营养指南：科学喂养方法 在现代家庭中，猫咪不仅是宠物，更是家庭的一员。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-2dbe6792">阅读全文 →</a></p>]]></description>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-2dbe6792</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪碳水化合物营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-ba4ccc2f</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪碳水化合物营养指南：科学喂养方法 猫咪的健康与饮食密切相关。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-ba4ccc2f">阅读全文 →</a></p>]]></description>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-ba4ccc2f</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2025年猫爬架深度测评：10款产品对比</title>
+      <link>https://www.mao.com.cn/#/stories/breed-2c7d7eef</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>2025年猫爬架深度测评：10款产品对比 产品类型介绍 猫爬架是猫咪日常生活中不可或缺的用品之一，它不仅为猫咪提供了一个活动和休息的场所，还能有效满足其攀爬、抓挠等天性需求。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-2c7d7eef">阅读全文 →</a></p>]]></description>
+      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-2c7d7eef</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪碳水化合物营养指南：科学喂养方法</title>
       <link>https://www.mao.com.cn/#/stories/breed-ba4ccc2f</link>
@@ -221,42 +257,6 @@
       <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-34e75fdf</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>土耳其安哥拉猫猫饲养全攻略：新手必读</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8fd31cc7</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>土耳其安哥拉猫猫饲养全攻略：新手必读 土耳其安哥拉猫是猫界中一个优雅而迷人的品种，其高贵的外观和亲人的性格使它成为许多猫咪爱好者的心头好。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8fd31cc7">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8fd31cc7</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪挑食训练：从基础到进阶</title>
-      <link>https://www.mao.com.cn/#/stories/breed-504d657c</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪挑食训练：从基础到进阶 猫咪挑食是许多猫主人都会面临的问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-504d657c">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-504d657c</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>俄罗斯蓝猫猫全面指南：选择、护理与训练</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e6b9ade6</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>俄罗斯蓝猫猫全面指南：选择、护理与训练 俄罗斯蓝猫，以其优雅的外观和温柔的性格，成为许多猫咪爱好者的心头好。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e6b9ade6">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 31 Mar 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e6b9ade6</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
