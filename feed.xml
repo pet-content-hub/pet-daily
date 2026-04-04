@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 03 Apr 2026 18:59:22 +0800</lastBuildDate>
-    <pubDate>Fri, 03 Apr 2026 18:59:22 +0800</pubDate>
+    <lastBuildDate>Sat, 04 Apr 2026 07:03:56 +0800</lastBuildDate>
+    <pubDate>Sat, 04 Apr 2026 07:03:56 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪皮肤病完全指南：预防、识别、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-c68e3290</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪皮肤病完全指南：预防、识别、治疗 猫咪皮肤病不仅影响着猫咪的健康，也对其生活质量造成了极大的困扰。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-c68e3290">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-c68e3290</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫爬架使用体验：真实用户反馈汇总</title>
+      <link>https://www.mao.com.cn/#/stories/breed-7b787379</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫爬架使用体验：真实用户反馈汇总 产品类型介绍 猫爬架是一种为猫咪设计的多功能玩具和家具，通常由多个平台、柱子和洞穴组成，旨在为猫咪提供攀爬、磨爪、休息和玩耍的场所。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-7b787379">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-7b787379</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫抓板选购指南：性价比分析与推荐</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f04bb5b1</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫抓板选购指南：性价比分析与推荐 猫抓板是每一个爱猫家庭的必备品。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f04bb5b1">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 04 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f04bb5b1</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>幼猫社会化训练实用技巧：新手也能轻松上手</title>
       <link>https://www.mao.com.cn/#/stories/breed-ed162d69</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-c358aafb</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>深度解析苏格兰折耳猫猫：从历史到现代饲养</title>
-      <link>https://www.mao.com.cn/#/stories/breed-3dc1d0f9</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>深度解析苏格兰折耳猫猫：从历史到现代饲养 苏格兰折耳猫以其独特的外观和温顺的性格深受猫咪爱好者的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-3dc1d0f9">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-3dc1d0f9</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪分离焦虑训练：从基础到进阶</title>
-      <link>https://www.mao.com.cn/#/stories/breed-35c37239</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪分离焦虑训练：从基础到进阶 猫咪是许多人心中的完美宠物，它们独立、优雅，但有时也会表现出对主人的强烈依赖。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-35c37239">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-35c37239</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪攻击性训练：从基础到进阶</title>
-      <link>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪攻击性训练：从基础到进阶 猫咪是许多人心中的宠物伴侣，但有时候它们的攻击性行为会让主人困扰不已。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-0fdbc1b3">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 02 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</guid>
-      <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
