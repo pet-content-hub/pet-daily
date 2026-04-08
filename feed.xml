@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 07 Apr 2026 19:16:14 +0800</lastBuildDate>
-    <pubDate>Tue, 07 Apr 2026 19:16:14 +0800</pubDate>
+    <lastBuildDate>Wed, 08 Apr 2026 07:23:13 +0800</lastBuildDate>
+    <pubDate>Wed, 08 Apr 2026 07:23:13 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>挑食猫咪训练指南：实用技巧分享</title>
+      <link>https://www.mao.com.cn/#/stories/breed-12f603cc</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>挑食猫咪训练指南：实用技巧分享 猫咪挑食是许多猫主人面临的常见问题之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-12f603cc">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 08 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-12f603cc</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪膳食纤维营养解析：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-7821374c</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>猫咪膳食纤维营养解析：从理论到实践 猫咪的健康离不开科学的饮食，而膳食纤维在饮食结构中扮演着不可或缺的角色。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-7821374c">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 08 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-7821374c</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪水分营养攻略：新手必读指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-00ec6233</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫咪水分营养攻略：新手必读指南 猫咪是许多家庭的重要成员，而保持它们健康的关键之一就是确保它们摄入足够的水分和营养。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-00ec6233">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 08 Apr 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-00ec6233</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>解决猫咪分离焦虑问题的有效方法</title>
       <link>https://www.mao.com.cn/#/stories/breed-e091731b</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 06 Apr 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-ddf552a2</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪脂肪营养手册：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-9a214685</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪脂肪营养手册：实用技巧分享 猫咪的健康与饮食密切相关，特别是脂肪摄入的管理。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-9a214685">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-9a214685</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪皮肤病预防与治疗指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1898db7e</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪皮肤病预防与治疗指南 猫咪是许多家庭的重要成员，保持它们的健康是每位猫主人的责任。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1898db7e">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1898db7e</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫爬架选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-4dafd43b</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫爬架选购全攻略：从入门到精通 猫爬架是每个猫咪家庭的必备用品，它不仅可以为猫咪提供一个活动和休息的空间，还能满足它们攀爬、磨爪的天性。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-4dafd43b">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 06 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-4dafd43b</guid>
-      <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
