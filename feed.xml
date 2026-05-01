@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Thu, 30 Apr 2026 19:43:45 +0800</lastBuildDate>
-    <pubDate>Thu, 30 Apr 2026 19:43:45 +0800</pubDate>
+    <lastBuildDate>Fri, 01 May 2026 08:13:30 +0800</lastBuildDate>
+    <pubDate>Fri, 01 May 2026 08:13:30 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>1-2个月幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9adc91ed</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>12个月幼猫护理完全指南 欢迎来到这篇关于照顾12个月幼猫的全面指南。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9adc91ed">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9adc91ed</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2-4周幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-2d50d6dd</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>24周幼猫护理完全指南 幼猫在出生后的头几周里处于快速发育的阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-2d50d6dd">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-2d50d6dd</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪碳水化合物营养攻略：新手必读指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-003e8fd3</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪碳水化合物营养攻略：新手必读指南 猫咪作为肉食性动物，其饮食结构与人类和犬类有明显不同。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-003e8fd3">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-003e8fd3</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫爬架选购指南：性价比分析与推荐</title>
       <link>https://www.mao.com.cn/#/stories/breed-9af748de</link>
@@ -221,42 +257,6 @@
       <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-082eef53</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫健康检查必读指南：避免常见错误</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8e96b529</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫健康检查必读指南：避免常见错误 幼猫发育特点 了解幼猫的发育特点是确保它们健康成长的第一步。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8e96b529">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8e96b529</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪皮肤病预防与治疗指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1898db7e</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪皮肤病预防与治疗指南 猫咪是许多家庭的重要成员，保持其健康尤为重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1898db7e">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1898db7e</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫社会化训练常见问题解答</title>
-      <link>https://www.mao.com.cn/#/stories/breed-18fc423c</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>幼猫社会化训练常见问题解答 幼猫的社会化训练是确保其健康成长和融入家庭环境的重要过程。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-18fc423c">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 29 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
