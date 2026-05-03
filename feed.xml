@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sat, 02 May 2026 19:11:22 +0800</lastBuildDate>
-    <pubDate>Sat, 02 May 2026 19:11:22 +0800</pubDate>
+    <lastBuildDate>Sun, 03 May 2026 08:02:59 +0800</lastBuildDate>
+    <pubDate>Sun, 03 May 2026 08:02:59 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>新生幼猫喂养的专业建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>新生幼猫喂养的专业建议 新生幼猫的护理是一项充满挑战但又非常有成就感的任务。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-1bcb3ba7">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫社会化训练常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-18fc423c</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫社会化训练常见问题解答 幼猫的社会化训练是帮助它们适应新环境、与人类和其他动物建立良好关系的关键时期。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-18fc423c">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪夜间吵闹行为矫正：科学方法详解</title>
+      <link>https://www.mao.com.cn/#/stories/breed-66abfae1</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>猫咪夜间吵闹行为矫正：科学方法详解 猫咪夜间吵闹是许多猫主人面临的常见问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-66abfae1">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-66abfae1</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪膳食纤维营养手册：实用技巧分享</title>
       <link>https://www.mao.com.cn/#/stories/breed-e80b4e8d</link>
@@ -221,42 +257,6 @@
       <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-fe9e1831</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>新生幼猫喂养的专业建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>新生幼猫喂养的专业建议 幼猫的健康成长离不开科学的喂养和细心的照料。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1bcb3ba7">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪不使用猫砂盆行为矫正：科学方法详解</title>
-      <link>https://www.mao.com.cn/#/stories/breed-44b9af1d</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪不使用猫砂盆行为矫正：科学方法详解 对于许多猫主人来说，看到猫咪不使用猫砂盆是一个常见且令人困扰的问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-44b9af1d">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-44b9af1d</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>英国短毛猫猫适合你吗？完整分析报告</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5cf14eb2</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>英国短毛猫是否适合你？完整分析报告 英国短毛猫凭借其圆润的外形和温和的性格，成为了全球猫咪爱好者的热门选择之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5cf14eb2">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 01 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5cf14eb2</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
