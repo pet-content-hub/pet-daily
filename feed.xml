@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 05 May 2026 08:12:18 +0800</lastBuildDate>
-    <pubDate>Tue, 05 May 2026 08:12:18 +0800</pubDate>
+    <lastBuildDate>Tue, 05 May 2026 11:13:36 +0800</lastBuildDate>
+    <pubDate>Tue, 05 May 2026 11:13:36 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪维生素营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a596f7ab</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪维生素营养指南：科学喂养方法 猫咪作为家庭的一员，其健康和营养需求尤为重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a596f7ab">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a596f7ab</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫砂选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-1bf06e2e</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫砂选购全攻略：从入门到精通 在现代家庭中，猫砂已经成为猫咪日常生活中不可或缺的产品。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-1bf06e2e">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-1bf06e2e</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫疫苗接种常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b6c87f9d</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>幼猫疫苗接种常见问题解答 幼猫的健康成长需要主人的悉心照料，而疫苗接种是确保幼猫健康的重要环节。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b6c87f9d">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 05 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b6c87f9d</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>脂肪猫咪饮食全攻略：专家建议</title>
       <link>https://www.mao.com.cn/#/stories/breed-759e5c5d</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-6853e01a</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析猫咪不使用猫砂盆：原因与解决方案</title>
-      <link>https://www.mao.com.cn/#/stories/breed-473827b4</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析猫咪不使用猫砂盆：原因与解决方案 猫咪不使用猫砂盆是许多猫主人面临的常见问题，此行为不仅影响家庭卫生，还可能影响猫咪的身心健康。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-473827b4">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-473827b4</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪水分营养解析：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-6ba52a7d</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪水分营养解析：从理论到实践 猫咪是独特的动物，它们的营养需求与其他宠物有着显著不同。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-6ba52a7d">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-6ba52a7d</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫环境适应实用技巧：新手也能轻松上手</title>
-      <link>https://www.mao.com.cn/#/stories/breed-ddf552a2</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>8分钟</p>
-            <p>幼猫环境适应实用技巧：新手也能轻松上手 养育一只幼猫可能是既令人兴奋又有些挑战的经历。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-ddf552a2">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 03 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-ddf552a2</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
