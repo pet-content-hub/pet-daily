@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sat, 09 May 2026 10:51:22 +0800</lastBuildDate>
-    <pubDate>Sat, 09 May 2026 10:51:22 +0800</pubDate>
+    <lastBuildDate>Sat, 09 May 2026 14:55:24 +0800</lastBuildDate>
+    <pubDate>Sat, 09 May 2026 14:55:24 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪皮肤病预防与治疗指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-1898db7e</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪皮肤病预防与治疗指南 猫咪的皮肤健康是其整体健康的重要组成部分。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-1898db7e">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-1898db7e</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>认识土耳其安哥拉猫猫：品种特征与饲养要点</title>
+      <link>https://www.mao.com.cn/#/stories/breed-3d49de87</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>8分钟</p>
+            <p>认识土耳其安哥拉猫猫：品种特征与饲养要点 土耳其安哥拉猫，以其优雅的外观和聪明的性格而闻名，是一种历史悠久的猫咪品种。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-3d49de87">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-3d49de87</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>分离焦虑猫咪训练指南：实用技巧分享</title>
+      <link>https://www.mao.com.cn/#/stories/breed-5cae30dc</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>分离焦虑猫咪训练指南：实用技巧分享 猫咪是独立而神秘的生物，但这并不意味着它们不需要主人的陪伴。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-5cae30dc">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-5cae30dc</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>水分猫咪饮食全攻略：专家建议</title>
       <link>https://www.mao.com.cn/#/stories/breed-b0749d36</link>
@@ -221,42 +257,6 @@
       <pubDate>Fri, 08 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-35c37239</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-4周幼猫喂养全攻略：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-ccfdc1b3</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>24周幼猫喂养全攻略：专家建议 幼猫发育特点 在24周龄的阶段，幼猫正处于快速发育期，身体在不断地成长和变化。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-ccfdc1b3">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 08 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-ccfdc1b3</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪膳食纤维营养解析：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7821374c</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪膳食纤维营养解析：从理论到实践 猫咪是我们生活中的重要陪伴者，为了确保它们的健康和幸福，了解它们的营养需求至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7821374c">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 07 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7821374c</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>暹罗猫猫适合你吗？完整分析报告</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e1bb4ffd</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>暹罗猫猫适合你吗？完整分析报告 暹罗猫以其独特的外观和迷人的性格深受猫咪爱好者的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e1bb4ffd">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 07 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e1bb4ffd</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
