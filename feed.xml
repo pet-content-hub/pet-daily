@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 10 May 2026 19:15:16 +0800</lastBuildDate>
-    <pubDate>Sun, 10 May 2026 19:15:16 +0800</pubDate>
+    <lastBuildDate>Mon, 11 May 2026 09:42:12 +0800</lastBuildDate>
+    <pubDate>Mon, 11 May 2026 09:42:12 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫社会化训练常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-18fc423c</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫社会化训练常见问题解答 幼猫发育特点 幼猫在出生后的几个月内经历快速的生长和发育。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-18fc423c">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解读猫咪心脏病：症状、原因、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e9921eae</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>专业解读猫咪心脏病：症状、原因、治疗 猫咪心脏病是一种常见但常常被忽视的健康问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e9921eae">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e9921eae</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>解决猫咪分离焦虑问题的有效方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e091731b</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>解决猫咪分离焦虑问题的有效方法 猫咪分离焦虑是一种较为常见的行为问题，许多猫主人可能会忽视或误解这一现象。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e091731b">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e091731b</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪呼吸道感染完全指南：预防、识别、治疗</title>
       <link>https://www.mao.com.cn/#/stories/breed-70a6f4b7</link>
@@ -221,42 +257,6 @@
       <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-3d49de87</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>分离焦虑猫咪训练指南：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5cae30dc</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>分离焦虑猫咪训练指南：实用技巧分享 猫咪是独立而神秘的生物，但这并不意味着它们不需要主人的陪伴。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5cae30dc">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5cae30dc</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>水分猫咪饮食全攻略：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-b0749d36</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>水分猫咪饮食全攻略：专家建议 猫咪是许多家庭的重要成员，为了确保它们的健康和长寿，科学合理的饮食是必不可少的。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-b0749d36">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-b0749d36</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>理解与纠正猫咪的攻击性行为</title>
-      <link>https://www.mao.com.cn/#/stories/breed-472eca04</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>理解与纠正猫咪的攻击性行为 猫咪的攻击性行为是许多猫主人面临的挑战之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-472eca04">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 09 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-472eca04</guid>
-      <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
