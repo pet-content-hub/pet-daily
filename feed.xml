@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 12 May 2026 08:42:29 +0800</lastBuildDate>
-    <pubDate>Tue, 12 May 2026 08:42:29 +0800</pubDate>
+    <lastBuildDate>Tue, 12 May 2026 11:48:21 +0800</lastBuildDate>
+    <pubDate>Tue, 12 May 2026 11:48:21 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>苏格兰折耳猫猫全面指南：选择、护理与训练</title>
+      <link>https://www.mao.com.cn/#/stories/breed-852d6b15</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>苏格兰折耳猫猫全面指南：选择、护理与训练 苏格兰折耳猫以其独特的外貌和温柔的性格而受到许多猫主人的喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-852d6b15">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 12 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-852d6b15</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪蛋白质营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-865ceea5</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪蛋白质营养指南：科学喂养方法 猫咪是典型的肉食动物，其饮食中的蛋白质扮演着至关重要的角色。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-865ceea5">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 12 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-865ceea5</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>维生素猫咪饮食全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-ebf47c7c</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>维生素猫咪饮食全攻略：专家建议 猫咪是我们生活中可爱而忠诚的伙伴，确保它们获得足够的营养是每位猫主人的责任。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-ebf47c7c">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 12 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-ebf47c7c</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫包购买攻略：避坑指南与推荐</title>
       <link>https://www.mao.com.cn/#/stories/breed-d1f245a4</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 10 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-0a0117e9</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2025年猫砂深度测评：8款产品对比</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8e8d1141</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>8分钟</p>
-            <p>2025年猫砂深度测评：8款产品对比 猫砂是每位猫主人必备的宠物用品，选择合适的猫砂不仅能让猫咪更舒适，也能减少主人的清洁工作量。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8e8d1141">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 10 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8e8d1141</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫社会化训练必读指南：避免常见错误</title>
-      <link>https://www.mao.com.cn/#/stories/breed-34e75fdf</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫社会化训练必读指南：避免常见错误 幼猫发育特点 幼猫的发育阶段对其一生的健康和行为有着重要的影响。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-34e75fdf">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 10 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-34e75fdf</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>寄生虫在猫咪中的表现与应对</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f36edf41</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>寄生虫在猫咪中的表现与应对 寄生虫感染是猫咪常见的健康问题之一，不仅影响猫咪的健康，还可能对其他宠物和人类造成威胁。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f36edf41">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 10 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f36edf41</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
