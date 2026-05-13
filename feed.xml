@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 12 May 2026 20:03:37 +0800</lastBuildDate>
-    <pubDate>Tue, 12 May 2026 20:03:37 +0800</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 08:46:18 +0800</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 08:46:18 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>理解与纠正猫咪的分离焦虑行为</title>
+      <link>https://www.mao.com.cn/#/stories/breed-660c7d4e</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>理解与纠正猫咪的分离焦虑行为 猫咪作为家庭宠物，通常被认为是独立且自给自足的动物。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-660c7d4e">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-660c7d4e</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>深度解析波斯猫猫：从历史到现代饲养</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a8ee9082</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>深度解析波斯猫猫：从历史到现代饲养 波斯猫以其优雅的外观和温顺的性格而闻名，是许多家庭的宠爱之选。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a8ee9082">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a8ee9082</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪碳水化合物营养攻略：新手必读指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-003e8fd3</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪碳水化合物营养攻略：新手必读指南 猫咪的饮食结构与人类大相径庭，因此在为猫咪选择食物时，我们需要特别注意。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-003e8fd3">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-003e8fd3</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>幼猫健康检查实用技巧：新手也能轻松上手</title>
       <link>https://www.mao.com.cn/#/stories/breed-dea58c58</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-45c3430a">阅读全文 →</a></p>]]></description>
       <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-45c3430a</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪夜间吵闹问题解决手册：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-267f89c1</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪夜间吵闹问题解决手册：从理论到实践 夜间猫咪的吵闹行为对于许多猫主人来说都是一个不小的困扰。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-267f89c1">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-267f89c1</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>分离焦虑猫咪训练指南：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5cae30dc</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>分离焦虑猫咪训练指南：实用技巧分享 猫咪是典型的独立动物，但这并不意味着它们不会感到孤独或不安。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5cae30dc">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5cae30dc</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>咬人猫咪训练指南：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e8df675c</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>咬人猫咪训练指南：实用技巧分享 猫咪是许多人生活中的重要伙伴，但有时它们会表现出让我们困惑的行为，比如咬人。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e8df675c">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e8df675c</guid>
       <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
