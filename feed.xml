@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 13 May 2026 11:58:27 +0800</lastBuildDate>
-    <pubDate>Wed, 13 May 2026 11:58:27 +0800</pubDate>
+    <lastBuildDate>Wed, 13 May 2026 16:22:08 +0800</lastBuildDate>
+    <pubDate>Wed, 13 May 2026 16:22:08 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫环境适应常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫环境适应常见问题解答 幼猫在离开母猫后进入新家是一个重要的成长阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b6a0a9f5">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪水分营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8e90b0aa</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪水分营养指南：科学喂养方法 猫咪作为家庭中的重要成员，其健康状况与饮食密切相关。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8e90b0aa">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8e90b0aa</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解析猫咪不使用猫砂盆：原因与解决方案</title>
+      <link>https://www.mao.com.cn/#/stories/breed-473827b4</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解析猫咪不使用猫砂盆：原因与解决方案 猫咪不使用猫砂盆是许多猫主人面临的常见问题，这不仅影响家庭卫生，还可能是猫咪健康问题的征兆。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-473827b4">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 13 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-473827b4</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业解析猫咪过度舔毛：原因与解决方案</title>
       <link>https://www.mao.com.cn/#/stories/breed-9e528e7d</link>
@@ -221,42 +257,6 @@
       <pubDate>Tue, 12 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-a491864e</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>理解与纠正猫咪的分离焦虑行为</title>
-      <link>https://www.mao.com.cn/#/stories/breed-660c7d4e</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>理解与纠正猫咪的分离焦虑行为 行为产生原因 猫咪通常被认为是独立的动物，但有些猫咪会在主人离开时表现出分离焦虑，这种行为可能由多种因素引起：  社会化不足：幼猫时期缺乏与人类或其他动物的接触。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-660c7d4e">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 12 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-660c7d4e</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪矿物质营养解析：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f40161a0</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪矿物质营养解析：从理论到实践 猫咪的健康和营养是每位猫主人的重要关注点。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f40161a0">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f40161a0</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>水分猫咪饮食全攻略：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-b0749d36</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>水分猫咪饮食全攻略：专家建议 猫咪是许多家庭不可或缺的一员，为了保持它们的健康和活力，合理的饮食是至关重要的。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-b0749d36">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 11 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-b0749d36</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
