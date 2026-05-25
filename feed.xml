@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Mon, 25 May 2026 16:24:51 +0800</lastBuildDate>
-    <pubDate>Mon, 25 May 2026 16:24:51 +0800</pubDate>
+    <lastBuildDate>Mon, 25 May 2026 19:51:15 +0800</lastBuildDate>
+    <pubDate>Mon, 25 May 2026 19:51:15 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业测评：猫砂品牌横向对比</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9e5ae25b</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业测评：猫砂品牌横向对比 猫砂是每个猫主人都需要的基本用品之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9e5ae25b">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9e5ae25b</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫环境适应常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫环境适应常见问题解答 幼猫的到来给家庭带来了无尽的欢乐，但也伴随着许多责任。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b6a0a9f5">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪皮肤病：症状识别与处理方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-017f0f92</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪皮肤病：症状识别与处理方法 猫咪是我们生活中的重要伙伴，而保持它们的健康是每一个猫主人的责任。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-017f0f92">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-017f0f92</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业解读挪威森林猫猫：从选购到护理</title>
       <link>https://www.mao.com.cn/#/stories/breed-74125efd</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-e4d49f05</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>土耳其安哥拉猫猫饲养全攻略：新手必读</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8fd31cc7</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>土耳其安哥拉猫猫饲养全攻略：新手必读 土耳其安哥拉猫以其优雅的外表和迷人的个性深受猫咪爱好者的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8fd31cc7">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8fd31cc7</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪咬人行为矫正：科学方法详解</title>
-      <link>https://www.mao.com.cn/#/stories/breed-876b0f61</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪咬人行为矫正：科学方法详解 猫咪以其独特的性格和行为深受人们喜爱，但有时它们的咬人行为可能会让主人感到困惑和不安。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-876b0f61">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-876b0f61</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪分离焦虑问题解决手册：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-53447ae5</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪分离焦虑问题解决手册：从理论到实践 行为产生原因 猫咪分离焦虑是指当主人不在身边时，猫咪表现出过度焦虑或不安的行为。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-53447ae5">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-53447ae5</guid>
-      <category>行为训练</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
