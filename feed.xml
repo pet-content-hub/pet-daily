@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 26 May 2026 09:58:52 +0800</lastBuildDate>
-    <pubDate>Tue, 26 May 2026 09:58:52 +0800</pubDate>
+    <lastBuildDate>Tue, 26 May 2026 17:29:13 +0800</lastBuildDate>
+    <pubDate>Tue, 26 May 2026 17:29:13 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,18 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>解决猫咪夜间吵闹问题的有效方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a181f2bd</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>解决猫咪夜间吵闹问题的有效方法 猫咪夜间吵闹是许多猫主人面临的常见问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a181f2bd">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 26 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a181f2bd</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>自动喂食器选购全攻略：从入门到精通</title>
       <link>https://www.mao.com.cn/#/stories/breed-a9446271</link>
@@ -245,18 +257,6 @@
       <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-e10a6f46</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>寄生虫猫咪护理手册：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-0e9ffa2b</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>寄生虫猫咪护理手册：专家建议 猫咪是我们生活中亲密的伙伴，它们的健康与否直接影响到我们的家庭氛围。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-0e9ffa2b">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 24 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-0e9ffa2b</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
