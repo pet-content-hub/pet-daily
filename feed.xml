@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 27 May 2026 17:21:07 +0800</lastBuildDate>
-    <pubDate>Wed, 27 May 2026 17:21:07 +0800</pubDate>
+    <lastBuildDate>Wed, 27 May 2026 20:26:33 +0800</lastBuildDate>
+    <pubDate>Wed, 27 May 2026 20:26:33 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>幼猫健康检查常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-26dfad8a</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫健康检查常见问题解答 幼猫在生命的早期阶段需要特别的关爱和照顾。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-26dfad8a">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 27 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-26dfad8a</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>暹罗猫猫饲养全攻略：新手必读</title>
+      <link>https://www.mao.com.cn/#/stories/breed-44ab8d90</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>暹罗猫猫饲养全攻略：新手必读 暹罗猫，以其优雅的外形和活泼的性格成为了许多猫咪爱好者的首选。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-44ab8d90">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 27 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-44ab8d90</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>膳食纤维猫咪喂养指南：避免常见误区</title>
+      <link>https://www.mao.com.cn/#/stories/breed-ff8ada2c</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>膳食纤维猫咪喂养指南：避免常见误区 猫咪是许多家庭中重要的一员，为了确保它们的健康与活力，喂养时需要格外注重营养的均衡。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-ff8ada2c">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 27 May 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-ff8ada2c</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>幼猫健康检查常见问题解答</title>
       <link>https://www.mao.com.cn/#/stories/breed-26dfad8a</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-9e5ae25b</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫环境适应常见问题解答</title>
-      <link>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫环境适应常见问题解答 幼猫的到来给家庭带来了无尽的欢乐，但也伴随着许多责任。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-b6a0a9f5">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-b6a0a9f5</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪皮肤病：症状识别与处理方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-017f0f92</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪皮肤病：症状识别与处理方法 猫咪是我们生活中的重要伙伴，而保持它们的健康是每一个猫主人的责任。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-017f0f92">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-017f0f92</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解读挪威森林猫猫：从选购到护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-74125efd</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解读挪威森林猫猫：从选购到护理 挪威森林猫，以其迷人的外观和独特的性格，成为许多猫主人青睐的宠物选择。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-74125efd">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 25 May 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-74125efd</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
