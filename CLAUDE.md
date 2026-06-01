@@ -168,6 +168,8 @@ When running `npm run supabase:start`, the following services are available:
 - **Development**: Local Supabase + Vite dev server
 - **Production**: Will require Supabase cloud project setup
 - Production builds copy all necessary files to `dist/`
-- GitHub Pages serves from `gh-pages` branch
+- GitHub Pages is deployed by `.github/workflows/deploy-pages.yml` (GitHub Actions source): it builds the Vue app and publishes `dist/` via `upload-pages-artifact` + `deploy-pages`
+- Auto-deploy is chained off article generation via `workflow_run`: `Generate Articles` pushes new articles to `main` using the built-in `GITHUB_TOKEN`, which by design cannot trigger a `push`-based workflow, so the deploy workflow listens for that workflow's completion instead
+- The legacy `gh-pages` branch is no longer the deploy source
 - CNAME file preserves custom domain setup
 - Hash routing ensures SPA works on static hosting
