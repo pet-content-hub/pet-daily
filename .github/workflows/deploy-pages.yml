@@ -5,6 +5,15 @@ on:
     branches:
       - main
   workflow_dispatch: # 允许手动触发
+  # 文章生成（Generate Articles）完成后自动部署。
+  # 必须用 workflow_run 链式触发：daily-article.yml 用内置 GITHUB_TOKEN 推送的提交
+  # 不会触发上面的 push 事件（GitHub 防止递归触发的机制），否则网站不会自动更新。
+  workflow_run:
+    workflows: ["Generate Articles"]
+    types:
+      - completed
+    branches:
+      - main
 
 permissions:
   contents: read
