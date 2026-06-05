@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 05 Jun 2026 16:31:23 +0800</lastBuildDate>
-    <pubDate>Fri, 05 Jun 2026 16:31:23 +0800</pubDate>
+    <lastBuildDate>Fri, 05 Jun 2026 20:06:36 +0800</lastBuildDate>
+    <pubDate>Fri, 05 Jun 2026 20:06:36 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>深度解析挪威森林猫猫：从历史到现代饲养</title>
+      <link>https://www.mao.com.cn/#/stories/breed-953d3bc5</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>深度解析挪威森林猫猫：从历史到现代饲养 挪威森林猫，以其优雅的外观和温和的性格深受猫咪爱好者的喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-953d3bc5">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-953d3bc5</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫包购买攻略：避坑指南与推荐</title>
+      <link>https://www.mao.com.cn/#/stories/breed-d1f245a4</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫包购买攻略：避坑指南与推荐 在为您的猫咪选择合适的猫包时，您需要考虑许多因素以确保它们的舒适和安全。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-d1f245a4">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-d1f245a4</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>1-2个月幼猫疫苗接种全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e307cabf</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>12个月幼猫疫苗接种全攻略：专家建议 幼猫的健康成长是每个猫主人最关心的问题之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e307cabf">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e307cabf</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>3-6个月幼猫护理完全指南</title>
       <link>https://www.mao.com.cn/#/stories/breed-f87382e6</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-7769b0f8</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫粮选购指南：性价比分析与推荐</title>
-      <link>https://www.mao.com.cn/#/stories/breed-c9be19c0</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫粮选购指南：性价比分析与推荐 猫粮的选择是每位猫主人不可忽视的重要环节。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-c9be19c0">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-c9be19c0</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪呼吸道感染：症状识别与处理方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-685734de</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪呼吸道感染：症状识别与处理方法 猫咪是许多家庭的重要成员，它们的健康与幸福直接影响到主人的生活质量。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-685734de">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-685734de</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>6-12个月幼猫健康检查：科学方法与注意事项</title>
-      <link>https://www.mao.com.cn/#/stories/breed-dc602370</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>612个月幼猫健康检查：科学方法与注意事项 幼猫在6至12个月期间处于快速生长期，这一阶段的健康检查对于确保其健康成长至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-dc602370">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 04 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-dc602370</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
