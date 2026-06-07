@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sat, 06 Jun 2026 19:41:21 +0800</lastBuildDate>
-    <pubDate>Sat, 06 Jun 2026 19:41:21 +0800</pubDate>
+    <lastBuildDate>Sun, 07 Jun 2026 08:57:11 +0800</lastBuildDate>
+    <pubDate>Sun, 07 Jun 2026 08:57:11 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业训练师教你处理猫咪不使用猫砂盆</title>
+      <link>https://www.mao.com.cn/#/stories/breed-61cd98ac</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业训练师教你处理猫咪不使用猫砂盆 猫咪不使用猫砂盆是许多猫主人面临的一个常见问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-61cd98ac">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-61cd98ac</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>自动喂食器选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a9446271</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>自动喂食器选购全攻略：从入门到精通 随着现代生活节奏的加快，越来越多的宠物主人选择使用自动喂食器来解决宠物喂食的问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a9446271">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a9446271</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪皮肤病应对策略：从预防到康复</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b37ebf5b</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪皮肤病应对策略：从预防到康复 猫咪是我们生活中的重要伴侣，而健康的皮肤对于它们的整体健康和幸福感至关重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b37ebf5b">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b37ebf5b</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>2-4周幼猫护理完全指南</title>
       <link>https://www.mao.com.cn/#/stories/breed-2d50d6dd</link>
@@ -221,42 +257,6 @@
       <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-4bbab681</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫社会化训练常见问题解答</title>
-      <link>https://www.mao.com.cn/#/stories/breed-18fc423c</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫社会化训练常见问题解答 幼猫的成长过程是猫咪一生中极其重要的阶段。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-18fc423c">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-18fc423c</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪心脏病应对策略：从预防到康复</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8185e84b</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>```markdown 猫咪心脏病应对策略：从预防到康复 猫咪心脏病是猫科动物中常见的健康问题之一，严重时可能危及生命。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8185e84b">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8185e84b</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪呼吸道感染预防与治疗指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1905c9d9</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪呼吸道感染预防与治疗指南 呼吸道感染是猫咪常见的健康问题之一，尤其是在多猫家庭或流浪猫中更为普遍。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1905c9d9">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 05 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1905c9d9</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
