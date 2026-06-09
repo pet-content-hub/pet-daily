@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 09 Jun 2026 12:32:09 +0800</lastBuildDate>
-    <pubDate>Tue, 09 Jun 2026 12:32:09 +0800</pubDate>
+    <lastBuildDate>Tue, 09 Jun 2026 16:33:00 +0800</lastBuildDate>
+    <pubDate>Tue, 09 Jun 2026 16:33:00 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>6-12个月幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-6aa57e6c</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>612个月幼猫护理完全指南 养育一只幼猫是令人愉快且充满挑战的经历。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-6aa57e6c">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 09 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-6aa57e6c</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪心脏病应对策略：从预防到康复</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8185e84b</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪心脏病应对策略：从预防到康复 心脏病是猫咪常见的健康问题之一，可能会严重影响其生活质量，甚至危及生命。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8185e84b">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 09 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8185e84b</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪肥胖症：症状识别与处理方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-5a5583a6</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪肥胖症：症状识别与处理方法 肥胖症是现代家庭养宠中常见的问题之一，不仅在人类中如此，猫咪也面临同样的健康挑战。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-5a5583a6">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 09 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-5a5583a6</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>膳食纤维猫咪饮食全攻略：专家建议</title>
       <link>https://www.mao.com.cn/#/stories/breed-e461c419</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 08 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-a181f2bd</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业测评：猫抓板品牌横向对比</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7163e828</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>专业测评：猫抓板品牌横向对比 随着养猫家庭的增多，猫抓板已经成为许多猫主人的必备用品。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7163e828">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 08 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7163e828</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪口炎预防与治疗指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f8a917f8</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪口炎预防与治疗指南 猫咪口炎是一种常见的猫科疾病，会对猫咪的口腔健康乃至整体健康产生严重影响。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f8a917f8">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f8a917f8</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>蛋白质猫咪喂养指南：避免常见误区</title>
-      <link>https://www.mao.com.cn/#/stories/breed-6b098cbb</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>蛋白质猫咪喂养指南：避免常见误区 猫咪作为食肉动物，对蛋白质有着较高的需求。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-6b098cbb">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 07 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-6b098cbb</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
