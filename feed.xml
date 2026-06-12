@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 12 Jun 2026 16:46:35 +0800</lastBuildDate>
-    <pubDate>Fri, 12 Jun 2026 16:46:35 +0800</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 20:20:31 +0800</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 20:20:31 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>理解与纠正猫咪的过度舔毛行为</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b48b3e56</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>理解与纠正猫咪的过度舔毛行为 猫咪是一种非常爱干净的动物，舔毛是它们保持自身清洁的一种常见行为。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b48b3e56">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b48b3e56</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>寄生虫在猫咪中的表现与应对</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f36edf41</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>寄生虫在猫咪中的表现与应对 猫咪是许多人生活中的重要伙伴。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f36edf41">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f36edf41</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫窝使用体验：真实用户反馈汇总</title>
+      <link>https://www.mao.com.cn/#/stories/breed-83ba3087</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫窝使用体验：真实用户反馈汇总 养猫的主人们都知道，为猫咪提供一个舒适的栖息地是多么重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-83ba3087">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-83ba3087</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫爬架使用体验：真实用户反馈汇总</title>
       <link>https://www.mao.com.cn/#/stories/breed-7b787379</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-3dc1d0f9">阅读全文 →</a></p>]]></description>
       <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-3dc1d0f9</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪夜间吵闹问题解决手册：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-267f89c1</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪夜间吵闹问题解决手册：从理论到实践 引言 猫咪夜间吵闹是许多猫主人面临的常见问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-267f89c1">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-267f89c1</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业训练师教你处理猫咪不使用猫砂盆</title>
-      <link>https://www.mao.com.cn/#/stories/breed-61cd98ac</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>专业训练师教你处理猫咪不使用猫砂盆 猫咪不使用猫砂盆是许多猫主人都会面临的问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-61cd98ac">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-61cd98ac</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>俄罗斯蓝猫猫品种详解：性格特点与饲养指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-d259c783</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>俄罗斯蓝猫猫品种详解：性格特点与饲养指南 俄罗斯蓝猫是一种备受喜爱的猫品种，以其优雅的外观和温柔的性格而闻名。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-d259c783">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-d259c783</guid>
       <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
