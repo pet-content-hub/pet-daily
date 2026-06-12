@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Thu, 11 Jun 2026 20:30:02 +0800</lastBuildDate>
-    <pubDate>Thu, 11 Jun 2026 20:30:02 +0800</pubDate>
+    <lastBuildDate>Fri, 12 Jun 2026 10:15:34 +0800</lastBuildDate>
+    <pubDate>Fri, 12 Jun 2026 10:15:34 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>3-6个月幼猫喂养详解：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9d186fbf</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>36个月幼猫喂养详解：从理论到实践 幼猫的健康成长需要科学合理的喂养和细致周到的护理。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9d186fbf">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9d186fbf</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>寄生虫在猫咪中的表现与应对</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f36edf41</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>寄生虫在猫咪中的表现与应对 寄生虫感染是猫咪健康面临的重要威胁之一，它不仅影响猫咪的健康，也可能对人类造成一定的风险。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f36edf41">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f36edf41</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪肥胖症应对策略：从预防到康复</title>
+      <link>https://www.mao.com.cn/#/stories/breed-7fd82007</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪肥胖症应对策略：从预防到康复 猫咪肥胖症是现代家庭猫咪中常见的健康问题之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-7fd82007">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-7fd82007</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>自动喂食器选购指南：性价比分析与推荐</title>
       <link>https://www.mao.com.cn/#/stories/breed-b92476ef</link>
@@ -221,42 +257,6 @@
       <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-cd786a99</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫环境适应实用技巧：新手也能轻松上手</title>
-      <link>https://www.mao.com.cn/#/stories/breed-ddf552a2</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫环境适应实用技巧：新手也能轻松上手 养一只幼猫是一个充满乐趣和挑战的过程。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-ddf552a2">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-ddf552a2</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>自动喂食器选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-a9446271</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>自动喂食器选购全攻略：从入门到精通 自动喂食器的出现，为许多养宠物的人提供了极大的方便，尤其是那些生活繁忙或经常出差的猫主人。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-a9446271">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-a9446271</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫窝选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-3d02a8b6</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫窝选购全攻略：从入门到精通 随着越来越多的人选择猫作为宠物，猫窝作为猫咪居住的重要用品受到了广泛关注。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-3d02a8b6">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 10 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-3d02a8b6</guid>
-      <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
