@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 12 Jun 2026 20:20:31 +0800</lastBuildDate>
-    <pubDate>Fri, 12 Jun 2026 20:20:31 +0800</pubDate>
+    <lastBuildDate>Sat, 13 Jun 2026 09:18:13 +0800</lastBuildDate>
+    <pubDate>Sat, 13 Jun 2026 09:18:13 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫粮选购指南：性价比分析与推荐</title>
+      <link>https://www.mao.com.cn/#/stories/breed-c9be19c0</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫粮选购指南：性价比分析与推荐 在选择猫粮时，许多猫主人面临着多种选择和复杂的产品信息。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-c9be19c0">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-c9be19c0</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>新生幼猫喂养的专业建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>新生幼猫喂养的专业建议 新生幼猫的喂养和护理是每位猫主人都必须认真对待的任务。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-1bcb3ba7">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-1bcb3ba7</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪分离焦虑训练：从基础到进阶</title>
+      <link>https://www.mao.com.cn/#/stories/breed-35c37239</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪分离焦虑训练：从基础到进阶 猫咪是独立性较强的动物，但有些猫咪在主人离开时会表现出明显的焦虑反应，这种情况被称为分离焦虑。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-35c37239">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 13 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-35c37239</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>理解与纠正猫咪的过度舔毛行为</title>
       <link>https://www.mao.com.cn/#/stories/breed-b48b3e56</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-e2c256dc">阅读全文 →</a></p>]]></description>
       <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-e2c256dc</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫抓板选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e036fc47</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫抓板选购全攻略：从入门到精通 猫抓板是每个猫主人必备的用品之一，它不仅可以满足猫咪的天性需求，还能保护家里的家具不被抓坏。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e036fc47">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e036fc47</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>理解与纠正猫咪的挑食行为</title>
-      <link>https://www.mao.com.cn/#/stories/breed-3d4cf00e</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>理解与纠正猫咪的挑食行为 猫咪挑食是许多猫主人都会面临的一个问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-3d4cf00e">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-3d4cf00e</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>深度解析苏格兰折耳猫猫：从历史到现代饲养</title>
-      <link>https://www.mao.com.cn/#/stories/breed-3dc1d0f9</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>深度解析苏格兰折耳猫猫：从历史到现代饲养 苏格兰折耳猫以其独特的耳朵形态和温柔的性格深受猫主人们的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-3dc1d0f9">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 11 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-3dc1d0f9</guid>
       <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
