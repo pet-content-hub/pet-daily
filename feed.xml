@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 14 Jun 2026 09:36:38 +0800</lastBuildDate>
-    <pubDate>Sun, 14 Jun 2026 09:36:38 +0800</pubDate>
+    <lastBuildDate>Sun, 14 Jun 2026 11:50:28 +0800</lastBuildDate>
+    <pubDate>Sun, 14 Jun 2026 11:50:28 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>维生素猫咪喂养指南：避免常见误区</title>
+      <link>https://www.mao.com.cn/#/stories/breed-67df9b1b</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>维生素猫咪喂养指南：避免常见误区 猫咪作为家庭的重要成员，其健康和营养需求常常被关心和重视。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-67df9b1b">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-67df9b1b</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪过度舔毛问题解决手册：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-87bf8504</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪过度舔毛问题解决手册：从理论到实践 猫咪是天生的清洁大师，它们每天花费大量时间来梳理自己的毛发。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-87bf8504">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-87bf8504</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫包选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-4975c04d</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫包选购全攻略：从入门到精通 猫包是猫主人外出携带宠物的必备工具之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-4975c04d">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-4975c04d</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪肥胖症：症状识别与处理方法</title>
       <link>https://www.mao.com.cn/#/stories/breed-5a5583a6</link>
@@ -221,42 +257,6 @@
       <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-f36edf41</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫窝使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-83ba3087</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫窝使用体验：真实用户反馈汇总 养猫的主人们都知道，为猫咪提供一个舒适的栖息地是多么重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-83ba3087">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-83ba3087</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫爬架使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7b787379</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫爬架使用体验：真实用户反馈汇总 猫爬架是许多宠物店和电商平台热销的宠物用品之一，其多样的款式和功能吸引了无数猫主人的关注。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7b787379">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7b787379</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-3个月幼猫健康检查全攻略：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-54e3593d</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>23个月幼猫健康检查全攻略：专家建议 在幼猫护理中，23个月大的幼猫正处于快速成长和发展的关键阶段。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-54e3593d">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 12 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-54e3593d</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
