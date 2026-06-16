@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 16 Jun 2026 11:12:34 +0800</lastBuildDate>
-    <pubDate>Tue, 16 Jun 2026 11:12:34 +0800</pubDate>
+    <lastBuildDate>Tue, 16 Jun 2026 14:56:04 +0800</lastBuildDate>
+    <pubDate>Tue, 16 Jun 2026 14:56:04 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>揭秘俄罗斯蓝猫猫：你不知道的品种秘密</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f1806c76</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>揭秘俄罗斯蓝猫猫：你不知道的品种秘密 俄罗斯蓝猫，以其优雅的外观和温文尔雅的性格而闻名。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f1806c76">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f1806c76</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪维生素营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a596f7ab</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪维生素营养指南：科学喂养方法 猫咪是许多人心爱的家庭成员，为了保证它们的健康和活力，科学的营养摄入是至关重要的。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a596f7ab">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a596f7ab</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫玩具选购全攻略：从入门到精通</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e18097a1</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫玩具选购全攻略：从入门到精通 猫咪作为家庭中的重要成员，它们的身心健康是每位猫主人的关注点。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e18097a1">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 16 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e18097a1</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业解读英国短毛猫猫：从选购到护理</title>
       <link>https://www.mao.com.cn/#/stories/breed-2c8a70c6</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-520880ba</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>揭秘土耳其安哥拉猫猫：你不知道的品种秘密</title>
-      <link>https://www.mao.com.cn/#/stories/breed-9ca9cf54</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>揭秘土耳其安哥拉猫猫：你不知道的品种秘密 土耳其安哥拉猫以其优雅的外观和独特的性格深受全球猫咪爱好者的喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-9ca9cf54">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-9ca9cf54</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫爬架使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7b787379</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫爬架使用体验：真实用户反馈汇总 猫爬架是现代养猫家庭中常见的宠物用品，它不仅为猫咪提供了一个攀爬、磨爪和休憩的场所，同时也能保护家具不被抓坏。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7b787379">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7b787379</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>心脏病猫咪护理手册：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-bbdb3842</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>心脏病猫咪护理手册：专家建议 猫咪是许多家庭中不可或缺的成员，当它们患上心脏病时，主人往往会感到无助和困惑。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-bbdb3842">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 14 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-bbdb3842</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
