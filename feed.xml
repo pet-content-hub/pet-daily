@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 23 Jun 2026 16:28:31 +0800</lastBuildDate>
-    <pubDate>Tue, 23 Jun 2026 16:28:31 +0800</pubDate>
+    <lastBuildDate>Tue, 23 Jun 2026 20:15:24 +0800</lastBuildDate>
+    <pubDate>Tue, 23 Jun 2026 20:15:24 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>认识美国短毛猫猫：品种特征与饲养要点</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f1991f80</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>认识美国短毛猫猫：品种特征与饲养要点 美国短毛猫（American Shorthair）是一种非常受欢迎的猫咪品种，因其友好的性格和耐受力强的身体而深受宠物爱好者的喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f1991f80">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f1991f80</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪攻击性训练：从基础到进阶</title>
+      <link>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪攻击性训练：从基础到进阶 猫咪作为常见的家庭宠物，因其独立和优雅的特性深受喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-0fdbc1b3">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2-4周幼猫社会化训练全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-6a5cf4e2</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>24周幼猫社会化训练全攻略：专家建议 幼猫在24周龄的时期是一个关键的发展阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-6a5cf4e2">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 23 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-6a5cf4e2</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪咬人行为矫正：科学方法详解</title>
       <link>https://www.mao.com.cn/#/stories/breed-876b0f61</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-f7626382</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业营养师解读猫咪益生菌：完整方案</title>
-      <link>https://www.mao.com.cn/#/stories/breed-73330cf8</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>专业营养师解读猫咪益生菌：完整方案 随着宠物健康意识的提高，越来越多的猫主人开始关注猫咪的肠道健康，而益生菌作为一种帮助维持肠道菌群平衡的补充剂，受到了广泛关注。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-73330cf8">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-73330cf8</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪维生素营养解析：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-d5a4a09e</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪维生素营养解析：从理论到实践 猫咪的健康和幸福与其饮食息息相关，尤其是身体所需的维生素摄取对猫咪的整体健康至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-d5a4a09e">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-d5a4a09e</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪关节炎应对策略：从预防到康复</title>
-      <link>https://www.mao.com.cn/#/stories/breed-249f6205</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪关节炎应对策略：从预防到康复 猫咪是我们生活中温暖的伙伴，但随着年龄的增长，它们也可能像人类一样遭受关节炎的困扰。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-249f6205">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 22 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-249f6205</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
