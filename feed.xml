@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Thu, 25 Jun 2026 20:12:05 +0800</lastBuildDate>
-    <pubDate>Thu, 25 Jun 2026 20:12:05 +0800</pubDate>
+    <lastBuildDate>Fri, 26 Jun 2026 09:29:02 +0800</lastBuildDate>
+    <pubDate>Fri, 26 Jun 2026 09:29:02 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业测评：猫包品牌横向对比</title>
+      <link>https://www.mao.com.cn/#/stories/breed-7769b0f8</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>9分钟</p>
+            <p>专业测评：猫包品牌横向对比 产品类型介绍 猫包是一种专为猫咪设计的便携式运输工具，常用于短途旅行、看兽医或日常户外活动。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-7769b0f8">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 26 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-7769b0f8</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪呼吸道感染：症状识别与处理方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-685734de</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪呼吸道感染：症状识别与处理方法 猫咪是许多家庭的宠物成员之一，它们的健康状况直接影响到主人的生活质量。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-685734de">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 26 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-685734de</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>脂肪猫咪喂养指南：避免常见误区</title>
+      <link>https://www.mao.com.cn/#/stories/breed-28a0f613</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>脂肪猫咪喂养指南：避免常见误区 肥胖是现代家猫常见的问题之一。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-28a0f613">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 26 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-28a0f613</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>幼猫社会化训练实用技巧：新手也能轻松上手</title>
       <link>https://www.mao.com.cn/#/stories/breed-ed162d69</link>
@@ -221,42 +257,6 @@
       <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-c598b117</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫窝使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-83ba3087</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫窝使用体验：真实用户反馈汇总 随着越来越多的人选择猫作为宠物，猫窝成为猫主人选购的热门用品之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-83ba3087">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-83ba3087</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫玩具选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e18097a1</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫玩具选购全攻略：从入门到精通 猫咪是天生的猎手，它们在家中也需要通过玩耍来锻炼身体和心理健康。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e18097a1">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e18097a1</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>揭秘英国短毛猫猫：你不知道的品种秘密</title>
-      <link>https://www.mao.com.cn/#/stories/breed-03afbf1d</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>揭秘英国短毛猫猫：你不知道的品种秘密 英国短毛猫，作为一种优雅且受欢迎的猫品种，以其独特的外貌和温和的性格赢得了无数猫咪爱好者的青睐。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-03afbf1d">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 24 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-03afbf1d</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
