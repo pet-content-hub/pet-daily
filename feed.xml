@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 30 Jun 2026 09:38:02 +0800</lastBuildDate>
-    <pubDate>Tue, 30 Jun 2026 09:38:02 +0800</pubDate>
+    <lastBuildDate>Tue, 30 Jun 2026 12:06:05 +0800</lastBuildDate>
+    <pubDate>Tue, 30 Jun 2026 12:06:05 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪皮肤病预防与治疗指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-1898db7e</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>猫咪皮肤病预防与治疗指南 猫咪的皮肤是其健康的重要指标之一，皮肤病不仅影响猫咪的外貌，还可能导致其他健康问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-1898db7e">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-1898db7e</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2025年猫窝深度测评：10款产品对比</title>
+      <link>https://www.mao.com.cn/#/stories/breed-cd94f6a1</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>8分钟</p>
+            <p>2025年猫窝深度测评：10款产品对比 猫窝作为猫咪生活中不可或缺的用品，不仅仅是休息的地方，更是它们的安全港湾。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-cd94f6a1">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-cd94f6a1</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>咬人猫咪训练指南：实用技巧分享</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e8df675c</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>咬人猫咪训练指南：实用技巧分享 猫咪是许多人心中的宠物首选，但有时它们的行为可能令人困惑甚至烦恼。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e8df675c">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e8df675c</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业训练师教你处理猫咪挑食</title>
       <link>https://www.mao.com.cn/#/stories/breed-e04b2133</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-8e96b529</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪口炎的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-968bca15</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析：猫咪口炎的全面护理 猫咪口炎是一种常见的口腔疾病，影响着许多猫咪的生活质量。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-968bca15">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-968bca15</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>新生幼猫环境适应的专业建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-0e6a2069</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>新生幼猫环境适应的专业建议 幼猫是脆弱而敏感的小生命，在其成长初期，帮助它们顺利适应新环境对于其健康发展至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-0e6a2069">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-0e6a2069</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>英国短毛猫猫全面指南：选择、护理与训练</title>
-      <link>https://www.mao.com.cn/#/stories/breed-506fd200</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>英国短毛猫猫全面指南：选择、护理与训练 英国短毛猫以其迷人的外貌和温顺的性格，成为了许多猫主人心目中的理想宠物。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-506fd200">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 28 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-506fd200</guid>
-      <category>品种介绍</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
