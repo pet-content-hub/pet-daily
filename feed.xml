@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 01 Jul 2026 12:29:13 +0800</lastBuildDate>
-    <pubDate>Wed, 01 Jul 2026 12:29:13 +0800</pubDate>
+    <lastBuildDate>Wed, 01 Jul 2026 16:28:53 +0800</lastBuildDate>
+    <pubDate>Wed, 01 Jul 2026 16:28:53 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业测评：猫玩具品牌横向对比</title>
+      <link>https://www.mao.com.cn/#/stories/breed-367f70f7</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业测评：猫玩具品牌横向对比 在现代家庭中，猫咪不仅是宠物，更是家庭的一员。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-367f70f7">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-367f70f7</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫喂养常见问题解答</title>
+      <link>https://www.mao.com.cn/#/stories/breed-c9d478bf</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>幼猫喂养常见问题解答 幼猫的喂养是猫咪饲养中的一个重要环节。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-c9d478bf">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-c9d478bf</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪攻击性训练：从基础到进阶</title>
+      <link>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪攻击性训练：从基础到进阶 猫咪在我们的生活中扮演着重要的角色，然而，攻击性行为可能会影响与它们的相处。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-0fdbc1b3">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 01 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-0fdbc1b3</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业测评：猫粮品牌横向对比</title>
       <link>https://www.mao.com.cn/#/stories/breed-651cde7f</link>
@@ -221,42 +257,6 @@
       <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-8e96b529</guid>
       <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪碳水化合物营养手册：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1495a7df</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪碳水化合物营养手册：实用技巧分享 猫咪作为一种肉食动物，其饮食习惯和营养需求与人类和杂食动物大不相同。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1495a7df">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 30 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1495a7df</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫窝使用体验：真实用户反馈汇总</title>
-      <link>https://www.mao.com.cn/#/stories/breed-83ba3087</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫窝使用体验：真实用户反馈汇总 产品类型介绍 猫窝作为养猫家庭的重要用品之一，其主要功能是为猫咪提供一个舒适、安全的休息场所。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-83ba3087">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-83ba3087</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪肥胖症应对策略：从预防到康复</title>
-      <link>https://www.mao.com.cn/#/stories/breed-7fd82007</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪肥胖症应对策略：从预防到康复 猫咪肥胖症是一个日益普遍的健康问题，影响着全球范围内众多家庭的宠物。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-7fd82007">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 29 Jun 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-7fd82007</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
