@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 05 Jul 2026 11:25:11 +0800</lastBuildDate>
-    <pubDate>Sun, 05 Jul 2026 11:25:11 +0800</pubDate>
+    <lastBuildDate>Sun, 05 Jul 2026 15:15:23 +0800</lastBuildDate>
+    <pubDate>Sun, 05 Jul 2026 15:15:23 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪益生菌营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-0eee7dbc</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪益生菌营养指南：科学喂养方法 猫咪作为家庭的重要成员，它们的健康和营养需求备受关注。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-0eee7dbc">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-0eee7dbc</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪夜间吵闹问题解决手册：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-267f89c1</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪夜间吵闹问题解决手册：从理论到实践 猫咪的夜间吵闹行为常常让猫主人感到无奈和疲惫。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-267f89c1">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-267f89c1</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2-3个月幼猫环境适应全攻略：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-fd51a72e</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>23个月幼猫环境适应全攻略：专家建议 幼猫发育特点 23个月的幼猫正处于快速成长和发展的阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-fd51a72e">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 05 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-fd51a72e</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>波斯猫猫全面指南：选择、护理与训练</title>
       <link>https://www.mao.com.cn/#/stories/breed-8bd64915</link>
@@ -221,42 +257,6 @@
       <pubDate>Sat, 04 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-367f70f7</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪维生素营养指南：科学喂养方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-a596f7ab</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪维生素营养指南：科学喂养方法 猫咪作为人们喜爱的宠物之一，其健康和营养需求日益受到关注。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-a596f7ab">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 04 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-a596f7ab</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪呼吸道感染：症状识别与处理方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-685734de</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪呼吸道感染：症状识别与处理方法 呼吸道感染是猫咪常见的健康问题之一，这类感染可以影响猫咪的上呼吸道（如鼻腔、咽喉）或下呼吸道（如气管、支气管、肺）。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-685734de">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 03 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-685734de</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>维生素猫咪喂养指南：避免常见误区</title>
-      <link>https://www.mao.com.cn/#/stories/breed-67df9b1b</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>维生素猫咪喂养指南：避免常见误区 猫咪的健康离不开科学的饮食，而饮食的核心便是营养的均衡。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-67df9b1b">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 03 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-67df9b1b</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
