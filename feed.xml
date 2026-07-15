@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Wed, 15 Jul 2026 11:24:05 +0800</lastBuildDate>
-    <pubDate>Wed, 15 Jul 2026 11:24:05 +0800</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2026 15:27:52 +0800</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2026 15:27:52 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>新生幼猫疫苗接种的专业建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e1358bfa</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>新生幼猫疫苗接种的专业建议 新生幼猫的护理是一个复杂而又令人愉悦的过程。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e1358bfa">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e1358bfa</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>皮肤病猫咪护理手册：专家建议</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e3e0ee37</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>皮肤病猫咪护理手册：专家建议 猫咪是许多家庭的宠爱成员，但它们也可能遭受各种皮肤病的困扰。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e3e0ee37">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e3e0ee37</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解读猫咪泌尿系统疾病：症状、原因、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-868ce21a</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>专业解读猫咪泌尿系统疾病：症状、原因、治疗 猫咪是许多家庭的重要成员，然而，它们也会遭遇泌尿系统疾病的困扰。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-868ce21a">阅读全文 →</a></p>]]></description>
+      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-868ce21a</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>宠物饮水机选购指南：性价比分析与推荐</title>
       <link>https://www.mao.com.cn/#/stories/breed-03864e2b</link>
@@ -221,42 +257,6 @@
       <pubDate>Tue, 14 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-bac5985d</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪挑食训练：从基础到进阶</title>
-      <link>https://www.mao.com.cn/#/stories/breed-504d657c</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪挑食训练：从基础到进阶 猫咪的挑食行为是许多猫主人面临的常见问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-504d657c">阅读全文 →</a></p>]]></description>
-      <pubDate>Tue, 14 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-504d657c</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2025年猫抓板深度测评：12款产品对比</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f07af56e</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>2025年猫抓板深度测评：12款产品对比 猫抓板不仅是猫咪磨爪的工具，也是保护家具的好帮手。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f07af56e">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 13 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f07af56e</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>膳食纤维猫咪饮食详解：科学方法与注意事项</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e897dca5</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>膳食纤维猫咪饮食详解：科学方法与注意事项 营养需求分析 猫咪作为肉食动物，其饮食需求与人类和其他杂食性动物存在显著差异。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e897dca5">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 13 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e897dca5</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
