@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Thu, 16 Jul 2026 19:22:30 +0800</lastBuildDate>
-    <pubDate>Thu, 16 Jul 2026 19:22:30 +0800</pubDate>
+    <lastBuildDate>Fri, 17 Jul 2026 08:11:27 +0800</lastBuildDate>
+    <pubDate>Fri, 17 Jul 2026 08:11:27 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>6-12个月幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-6aa57e6c</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>612个月幼猫护理完全指南 在一只猫的一生中，6到12个月是一个重要的发育阶段。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-6aa57e6c">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-6aa57e6c</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪脂肪营养指南：科学喂养方法</title>
+      <link>https://www.mao.com.cn/#/stories/breed-2dbe6792</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫咪脂肪营养指南：科学喂养方法 猫咪是人类的好伙伴，它们的健康与快乐直接影响着我们的生活质量。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-2dbe6792">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-2dbe6792</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫玩具选购指南：性价比分析与推荐</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9d72da96</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫玩具选购指南：性价比分析与推荐 猫咪作为家庭中的重要成员，如何为它们挑选合适的玩具成为了许多猫主人的头等大事。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9d72da96">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 17 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9d72da96</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>苏格兰折耳猫猫适合你吗？完整分析报告</title>
       <link>https://www.mao.com.cn/#/stories/breed-99e07da4</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-e3e0ee37">阅读全文 →</a></p>]]></description>
       <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-e3e0ee37</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解读猫咪泌尿系统疾病：症状、原因、治疗</title>
-      <link>https://www.mao.com.cn/#/stories/breed-868ce21a</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>专业解读猫咪泌尿系统疾病：症状、原因、治疗 猫咪是许多家庭的重要成员，然而，它们也会遭遇泌尿系统疾病的困扰。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-868ce21a">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-868ce21a</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>宠物饮水机选购指南：性价比分析与推荐</title>
-      <link>https://www.mao.com.cn/#/stories/breed-03864e2b</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>宠物饮水机选购指南：性价比分析与推荐 随着人们对宠物健康的关注度增加，宠物饮水机作为一种创新的宠物饮水解决方案，逐渐进入了更多养宠家庭的视野。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-03864e2b">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-03864e2b</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪口炎的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-968bca15</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析：猫咪口炎的全面护理 猫咪口炎是一种常见且令人困扰的宠物疾病，它不仅影响猫咪的生活质量，也让许多猫主人感到无奈。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-968bca15">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 15 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-968bca15</guid>
       <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
