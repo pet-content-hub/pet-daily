@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Thu, 23 Jul 2026 19:35:52 +0800</lastBuildDate>
-    <pubDate>Thu, 23 Jul 2026 19:35:52 +0800</pubDate>
+    <lastBuildDate>Fri, 24 Jul 2026 08:28:38 +0800</lastBuildDate>
+    <pubDate>Fri, 24 Jul 2026 08:28:38 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业解析猫咪咬人：原因与解决方案</title>
+      <link>https://www.mao.com.cn/#/stories/breed-a9d5eb29</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解析猫咪咬人：原因与解决方案 猫咪是许多家庭中不可或缺的成员，但有时候它们可能会出现咬人的行为。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-a9d5eb29">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-a9d5eb29</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>水分猫咪饮食详解：科学方法与注意事项</title>
+      <link>https://www.mao.com.cn/#/stories/breed-caa32fa0</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>水分猫咪饮食详解：科学方法与注意事项 猫咪作为家庭的一员，它们的健康与饮食密不可分。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-caa32fa0">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-caa32fa0</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫抓板使用体验：真实用户反馈汇总</title>
+      <link>https://www.mao.com.cn/#/stories/breed-8fb52766</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫抓板使用体验：真实用户反馈汇总 猫抓板是猫咪生活中不可或缺的用品之一，它不仅能满足猫咪的抓挠需求，还能保护家具不被破坏。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-8fb52766">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-8fb52766</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>解决猫咪挑食问题的有效方法</title>
       <link>https://www.mao.com.cn/#/stories/breed-fccc8198</link>
@@ -221,42 +257,6 @@
       <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-d9350e16</guid>
       <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫砂选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1bf06e2e</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫砂选购全攻略：从入门到精通 猫砂是每位猫主人在日常生活中必不可少的用品。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1bf06e2e">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1bf06e2e</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫抓板选购全攻略：从入门到精通</title>
-      <link>https://www.mao.com.cn/#/stories/breed-e036fc47</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫抓板选购全攻略：从入门到精通 在养猫的过程中，猫抓板是不可或缺的一项用品。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-e036fc47">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-e036fc47</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪矿物质营养指南：科学喂养方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-3aafbdcd</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪矿物质营养指南：科学喂养方法 猫咪的健康与其饮食密切相关，特别是矿物质的摄入对其生长、发育和日常活动都起着至关重要的作用。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-3aafbdcd">阅读全文 →</a></p>]]></description>
-      <pubDate>Wed, 22 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-3aafbdcd</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
