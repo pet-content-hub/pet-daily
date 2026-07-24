@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Fri, 24 Jul 2026 15:26:56 +0800</lastBuildDate>
-    <pubDate>Fri, 24 Jul 2026 15:26:56 +0800</pubDate>
+    <lastBuildDate>Fri, 24 Jul 2026 19:40:02 +0800</lastBuildDate>
+    <pubDate>Fri, 24 Jul 2026 19:40:02 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫咪脂肪营养手册：实用技巧分享</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9a214685</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪脂肪营养手册：实用技巧分享 猫咪作为家庭成员的重要一员，其健康和营养摄入对主人来说至关重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9a214685">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9a214685</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>幼猫环境适应必读指南：避免常见错误</title>
+      <link>https://www.mao.com.cn/#/stories/breed-addd301b</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>幼猫环境适应必读指南：避免常见错误 幼猫是家庭中的新成员，需要特别的关爱和照顾。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-addd301b">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-addd301b</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解析：猫咪心脏病的全面护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-7736977e</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解析：猫咪心脏病的全面护理 猫咪作为我们生活中重要的伙伴，其健康状况一直是猫主人们关注的焦点。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-7736977e">阅读全文 →</a></p>]]></description>
+      <pubDate>Fri, 24 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-7736977e</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>猫咪关节炎应对策略：从预防到康复</title>
       <link>https://www.mao.com.cn/#/stories/breed-249f6205</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-c72d4007</guid>
       <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫包深度解析：8款产品真实体验</title>
-      <link>https://www.mao.com.cn/#/stories/breed-03de9c9a</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫包深度解析：8款产品真实体验 随着现代城市生活的快节奏，许多猫主人都希望能够更加方便地携带他们的宠物出行。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-03de9c9a">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-03de9c9a</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>心脏病猫咪护理手册：专家建议</title>
-      <link>https://www.mao.com.cn/#/stories/breed-bbdb3842</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>心脏病猫咪护理手册：专家建议 心脏病是猫咪常见的健康问题之一，它可能对猫咪的生活质量和寿命产生严重影响。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-bbdb3842">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-bbdb3842</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪关节炎完全指南：预防、识别、治疗</title>
-      <link>https://www.mao.com.cn/#/stories/breed-8a48e83c</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪关节炎完全指南：预防、识别、治疗 猫咪关节炎是影响猫咪生活质量的常见疾病之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-8a48e83c">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 23 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-8a48e83c</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
