@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Mon, 27 Jul 2026 09:53:40 +0800</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 09:53:40 +0800</pubDate>
+    <lastBuildDate>Mon, 27 Jul 2026 12:52:26 +0800</lastBuildDate>
+    <pubDate>Mon, 27 Jul 2026 12:52:26 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>猫砂选购指南：性价比分析与推荐</title>
+      <link>https://www.mao.com.cn/#/stories/breed-bff65aec</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫砂选购指南：性价比分析与推荐 猫砂是每个养猫家庭的必备品，其选择不仅影响猫咪的健康和舒适，还直接关系到主人的生活质量。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-bff65aec">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 27 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-bff65aec</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪脂肪营养攻略：新手必读指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-9e785634</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪脂肪营养攻略：新手必读指南 猫咪作为家庭的一员，它们的健康和营养需求自然也成为每位猫主人的关注重点。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-9e785634">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 27 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-9e785634</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪矿物质营养解析：从理论到实践</title>
+      <link>https://www.mao.com.cn/#/stories/breed-f40161a0</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪矿物质营养解析：从理论到实践 猫咪的健康与它们的饮食息息相关，而矿物质作为猫咪饮食中不可或缺的部分，扮演着重要的角色。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-f40161a0">阅读全文 →</a></p>]]></description>
+      <pubDate>Mon, 27 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-f40161a0</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>3-6个月幼猫疫苗接种：科学方法与注意事项</title>
       <link>https://www.mao.com.cn/#/stories/breed-48eb25e8</link>
@@ -221,42 +257,6 @@
       <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-c68e3290</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-4周幼猫护理完全指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-2d50d6dd</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>24周幼猫护理完全指南 照顾24周大的幼猫是一个充满挑战但又极其有意义的任务。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-2d50d6dd">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-2d50d6dd</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析：猫咪呼吸道感染的全面护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-b59fc2ed</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>专业解析：猫咪呼吸道感染的全面护理 猫咪是很多家庭中不可或缺的成员，它们柔软的毛发和温柔的性格深受人们喜爱。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-b59fc2ed">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-b59fc2ed</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2025年猫抓板排行榜：8款热门产品测评</title>
-      <link>https://www.mao.com.cn/#/stories/breed-657ae2af</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>2025年猫抓板排行榜：8款热门产品测评 猫抓板是猫咪日常生活中必不可少的用品，不仅能帮助猫咪磨爪，还能提供娱乐和舒适的环境。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-657ae2af">阅读全文 →</a></p>]]></description>
-      <pubDate>Sat, 25 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-657ae2af</guid>
-      <category>用品测评</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
