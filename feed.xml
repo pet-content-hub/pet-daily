@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Mon, 27 Jul 2026 19:44:48 +0800</lastBuildDate>
-    <pubDate>Mon, 27 Jul 2026 19:44:48 +0800</pubDate>
+    <lastBuildDate>Tue, 28 Jul 2026 08:35:19 +0800</lastBuildDate>
+    <pubDate>Tue, 28 Jul 2026 08:35:19 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>矿物质猫咪喂养指南：避免常见误区</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b8ad7867</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>矿物质猫咪喂养指南：避免常见误区 猫咪作为我们的宠物，健康的饮食是保障其长寿和快乐生活的基石。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b8ad7867">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 28 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b8ad7867</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业营养师解读猫咪维生素：完整方案</title>
+      <link>https://www.mao.com.cn/#/stories/breed-23630535</link>
+      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业营养师解读猫咪维生素：完整方案 猫咪是我们亲密的家庭成员，它们的健康和快乐取决于我们的照顾。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-23630535">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 28 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-23630535</guid>
+      <category>营养饮食</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>2-3个月幼猫护理完全指南</title>
+      <link>https://www.mao.com.cn/#/stories/breed-dfde839d</link>
+      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>23个月幼猫护理完全指南 欢迎来到这篇关于23个月幼猫护理的专业指南。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-dfde839d">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 28 Jul 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-dfde839d</guid>
+      <category>幼猫护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>皮肤病猫咪护理手册：专家建议</title>
       <link>https://www.mao.com.cn/#/stories/breed-e3e0ee37</link>
@@ -221,42 +257,6 @@
       <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-fccc8198</guid>
       <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫窝购买攻略：避坑指南与推荐</title>
-      <link>https://www.mao.com.cn/#/stories/breed-9c08ab75</link>
-      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫窝购买攻略：避坑指南与推荐 在众多宠物用品中，猫窝是每位猫主人都会考虑的重要物品之一。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-9c08ab75">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-9c08ab75</guid>
-      <category>用品测评</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪挑食问题解决手册：从理论到实践</title>
-      <link>https://www.mao.com.cn/#/stories/breed-9073185a</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪挑食问题解决手册：从理论到实践 猫咪是许多家庭中受欢迎的宠物伴侣，但挑食问题却常常让主人们感到无奈。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-9073185a">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-9073185a</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪蛋白质营养攻略：新手必读指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-ba659955</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪蛋白质营养攻略：新手必读指南 猫咪是肉食动物，其生理结构和营养需求与人类截然不同。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-ba659955">阅读全文 →</a></p>]]></description>
-      <pubDate>Sun, 26 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-ba659955</guid>
-      <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
