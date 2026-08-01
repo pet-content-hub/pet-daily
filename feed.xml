@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sat, 01 Aug 2026 08:21:46 +0800</lastBuildDate>
-    <pubDate>Sat, 01 Aug 2026 08:21:46 +0800</pubDate>
+    <lastBuildDate>Sat, 01 Aug 2026 11:12:25 +0800</lastBuildDate>
+    <pubDate>Sat, 01 Aug 2026 11:12:25 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业解读猫咪口炎：症状、原因、治疗</title>
+      <link>https://www.mao.com.cn/#/stories/breed-3c5dd50e</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解读猫咪口炎：症状、原因、治疗 猫咪口炎是一种常见但常被忽视的口腔健康问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-3c5dd50e">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 01 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-3c5dd50e</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫砂深度解析：12款产品真实体验</title>
+      <link>https://www.mao.com.cn/#/stories/breed-e0b04602</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫砂深度解析：12款产品真实体验 猫砂是每个猫主人都需要面对的一个重要问题。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-e0b04602">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 01 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-e0b04602</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>认识挪威森林猫猫：品种特征与饲养要点</title>
+      <link>https://www.mao.com.cn/#/stories/breed-c8f1e017</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>认识挪威森林猫猫：品种特征与饲养要点 挪威森林猫，作为一种古老而迷人的猫品种，以其独特的外观和温和的性格赢得了许多猫爱好者的喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-c8f1e017">阅读全文 →</a></p>]]></description>
+      <pubDate>Sat, 01 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-c8f1e017</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业测评：猫砂品牌横向对比</title>
       <link>https://www.mao.com.cn/#/stories/breed-9e5ae25b</link>
@@ -221,42 +257,6 @@
       <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-0eee7dbc</guid>
       <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪口炎：症状识别与处理方法</title>
-      <link>https://www.mao.com.cn/#/stories/breed-fe9acb6e</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪口炎：症状识别与处理方法 猫咪口炎是一种常见且令人困扰的口腔疾病，它不仅影响猫咪的饮食和生活质量，还可能导致更严重的健康问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-fe9acb6e">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-fe9acb6e</guid>
-      <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>3-6个月幼猫护理完全指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-f87382e6</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>36个月幼猫护理完全指南 幼猫是非常可爱的小生物，它们需要精心的照顾和关注才能健康成长。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-f87382e6">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-f87382e6</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪呼吸道感染应对策略：从预防到康复</title>
-      <link>https://www.mao.com.cn/#/stories/breed-310e9bb5</link>
-      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
-            <p><strong>阅读时间：</strong>7分钟</p>
-            <p>猫咪呼吸道感染应对策略：从预防到康复 猫咪是许多家庭的宠物成员之一，它们的健康状况直接影响到整个家庭的和谐与幸福。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-310e9bb5">阅读全文 →</a></p>]]></description>
-      <pubDate>Thu, 30 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-310e9bb5</guid>
-      <category>健康护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
