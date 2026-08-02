@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Sun, 02 Aug 2026 08:24:58 +0800</lastBuildDate>
-    <pubDate>Sun, 02 Aug 2026 08:24:58 +0800</pubDate>
+    <lastBuildDate>Sun, 02 Aug 2026 11:12:18 +0800</lastBuildDate>
+    <pubDate>Sun, 02 Aug 2026 11:12:18 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>专业解读美国短毛猫猫：从选购到护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-85c0c42c</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>专业解读美国短毛猫猫：从选购到护理 美国短毛猫是一种备受喜爱的猫咪品种，以其友好的性格、健康的体魄及容易打理的毛发而著称。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-85c0c42c">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-85c0c42c</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫咪挑食行为矫正：科学方法详解</title>
+      <link>https://www.mao.com.cn/#/stories/breed-66cbc0d8</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>猫咪挑食行为矫正：科学方法详解 猫咪挑食是一种常见的行为问题，不仅让猫主人感到困扰，也可能影响猫咪的健康。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-66cbc0d8">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-66cbc0d8</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>猫粮使用体验：真实用户反馈汇总</title>
+      <link>https://www.mao.com.cn/#/stories/breed-12ba8a81</link>
+      <description><![CDATA[<p><strong>分类：</strong>用品测评</p>
+            <p><strong>阅读时间：</strong>7分钟</p>
+            <p>猫粮使用体验：真实用户反馈汇总 猫粮作为猫咪日常饮食的核心部分，选择合适的产品对于猫咪的健康和生活质量至关重要。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-12ba8a81">阅读全文 →</a></p>]]></description>
+      <pubDate>Sun, 02 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-12ba8a81</guid>
+      <category>用品测评</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>攻击性猫咪训练指南：实用技巧分享</title>
       <link>https://www.mao.com.cn/#/stories/breed-bf2c2eec</link>
@@ -220,42 +256,6 @@
             <p><a href="https://www.mao.com.cn/#/stories/breed-f40161a0">阅读全文 →</a></p>]]></description>
       <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-f40161a0</guid>
-      <category>营养饮食</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解析猫咪咬人：原因与解决方案</title>
-      <link>https://www.mao.com.cn/#/stories/breed-a9d5eb29</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解析猫咪咬人：原因与解决方案 猫咪咬人是许多猫主人可能会遇到的问题。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-a9d5eb29">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-a9d5eb29</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>2-3个月幼猫护理完全指南</title>
-      <link>https://www.mao.com.cn/#/stories/breed-dfde839d</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>23个月幼猫护理完全指南 幼猫在23个月大时正处于快速成长的阶段，这一阶段的护理对它们的长期健康至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-dfde839d">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-dfde839d</guid>
-      <category>幼猫护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪碳水化合物营养手册：实用技巧分享</title>
-      <link>https://www.mao.com.cn/#/stories/breed-1495a7df</link>
-      <description><![CDATA[<p><strong>分类：</strong>营养饮食</p>
-            <p><strong>阅读时间：</strong>5分钟</p>
-            <p>猫咪碳水化合物营养手册：实用技巧分享 在猫咪的饮食中，碳水化合物不是主要的营养来源，但适当摄入对于猫咪的健康仍然有一定的益处。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-1495a7df">阅读全文 →</a></p>]]></description>
-      <pubDate>Fri, 31 Jul 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-1495a7df</guid>
       <category>营养饮食</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
