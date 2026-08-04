@@ -7,8 +7,8 @@
     <language>zh-CN</language>
     <managingEditor>noreply@example.com (猫咪世界编辑团队)</managingEditor>
     <webMaster>noreply@example.com (猫咪世界编辑团队)</webMaster>
-    <lastBuildDate>Tue, 04 Aug 2026 16:13:49 +0800</lastBuildDate>
-    <pubDate>Tue, 04 Aug 2026 16:13:49 +0800</pubDate>
+    <lastBuildDate>Tue, 04 Aug 2026 19:45:49 +0800</lastBuildDate>
+    <pubDate>Tue, 04 Aug 2026 19:45:49 +0800</pubDate>
     <ttl>1440</ttl>
     <atom:link href="https://www.mao.com.cn/feed.xml" rel="self" type="application/rss+xml" />
     <image>
@@ -19,6 +19,42 @@
       <height>144</height>
       <description>专业的养猫知识分享平台，每日更新猫咪护理、品种介绍、用品测评等内容</description>
     </image>
+    <item>
+      <title>泌尿系统疾病在猫咪中的表现与应对</title>
+      <link>https://www.mao.com.cn/#/stories/breed-99a70487</link>
+      <description><![CDATA[<p><strong>分类：</strong>健康护理</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>泌尿系统疾病在猫咪中的表现与应对 猫咪作为家庭成员的一部分，其健康问题常常牵动着每位铲屎官的心。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-99a70487">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-99a70487</guid>
+      <category>健康护理</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>专业解读缅因猫猫：从选购到护理</title>
+      <link>https://www.mao.com.cn/#/stories/breed-b41f4755</link>
+      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
+            <p><strong>阅读时间：</strong>6分钟</p>
+            <p>专业解读缅因猫猫：从选购到护理 缅因猫作为一种迷人的大型猫种，以其友好的性格和迷人的外观而受到许多猫爱好者的喜爱。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-b41f4755">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-b41f4755</guid>
+      <category>品种介绍</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
+    <item>
+      <title>理解与纠正猫咪的夜间吵闹行为</title>
+      <link>https://www.mao.com.cn/#/stories/breed-892262cb</link>
+      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
+            <p><strong>阅读时间：</strong>5分钟</p>
+            <p>理解与纠正猫咪的夜间吵闹行为 猫咪的夜间吵闹行为常常让猫主人感到困扰和无奈。</p>
+            <p><a href="https://www.mao.com.cn/#/stories/breed-892262cb">阅读全文 →</a></p>]]></description>
+      <pubDate>Tue, 04 Aug 2026 10:00:00 +0800</pubDate>
+      <guid>https://www.mao.com.cn/#/stories/breed-892262cb</guid>
+      <category>行为训练</category>
+      <author>noreply@example.com (猫咪世界编辑团队)</author>
+    </item>
     <item>
       <title>专业解读猫咪肥胖症：症状、原因、治疗</title>
       <link>https://www.mao.com.cn/#/stories/breed-11b83bb6</link>
@@ -221,42 +257,6 @@
       <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
       <guid>https://www.mao.com.cn/#/stories/breed-4ee7dd0f</guid>
       <category>健康护理</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>专业解读美国短毛猫猫：从选购到护理</title>
-      <link>https://www.mao.com.cn/#/stories/breed-85c0c42c</link>
-      <description><![CDATA[<p><strong>分类：</strong>品种介绍</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>专业解读美国短毛猫：从选购到护理 美国短毛猫作为一种在全球范围内广受欢迎的猫品种，以其温和的性格、健康的体魄和容易打理的被毛著称。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-85c0c42c">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-85c0c42c</guid>
-      <category>品种介绍</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>猫咪夜间吵闹训练：从基础到进阶</title>
-      <link>https://www.mao.com.cn/#/stories/breed-5c420534</link>
-      <description><![CDATA[<p><strong>分类：</strong>行为训练</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>猫咪夜间吵闹训练：从基础到进阶 猫咪是夜行性动物，常常在夜间显得特别活跃。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-5c420534">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-5c420534</guid>
-      <category>行为训练</category>
-      <author>noreply@example.com (猫咪世界编辑团队)</author>
-    </item>
-    <item>
-      <title>幼猫社会化训练必读指南：避免常见错误</title>
-      <link>https://www.mao.com.cn/#/stories/breed-34e75fdf</link>
-      <description><![CDATA[<p><strong>分类：</strong>幼猫护理</p>
-            <p><strong>阅读时间：</strong>6分钟</p>
-            <p>幼猫社会化训练必读指南：避免常见错误 幼猫的社会化训练对于它们的健康成长和行为发展至关重要。</p>
-            <p><a href="https://www.mao.com.cn/#/stories/breed-34e75fdf">阅读全文 →</a></p>]]></description>
-      <pubDate>Mon, 03 Aug 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.mao.com.cn/#/stories/breed-34e75fdf</guid>
-      <category>幼猫护理</category>
       <author>noreply@example.com (猫咪世界编辑团队)</author>
     </item>
   </channel>
