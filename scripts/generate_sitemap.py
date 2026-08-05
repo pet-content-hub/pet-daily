@@ -18,6 +18,7 @@ class SitemapGenerator:
             base_url = self.detect_base_url()
         self.base_url = base_url.rstrip('/')
         self.sitemap_urls = []
+        self._seen_urls = set()
         print(f"🌐 使用域名: {self.base_url}")
         
     def detect_base_url(self) -> str:
@@ -49,10 +50,15 @@ class SitemapGenerator:
         return default_url
         
     def add_url(self, url: str, lastmod: str = None, changefreq: str = "weekly", priority: str = "0.8"):
-        """添加URL到sitemap"""
+        """添加URL到sitemap（同一个URL只会出现一次）"""
         if not url.startswith('http'):
-            url = self.base_url + ('/' + url.lstrip('/') if url != '/' else '')
-        
+            # 首页保留结尾斜杠，与 index.html 里的 canonical 一致
+            url = self.base_url + '/' + url.lstrip('/')
+
+        if url in self._seen_urls:
+            return
+        self._seen_urls.add(url)
+
         self.sitemap_urls.append({
             'url': url,
             'lastmod': lastmod or datetime.datetime.now().strftime('%Y-%m-%d'),
@@ -61,32 +67,60 @@ class SitemapGenerator:
         })
     
     def scan_articles(self) -> None:
-        """扫描所有文章"""
+        """扫描所有文章
+
+        只收录真正可被抓取的静态文章页 /articles/<slug>.html。
+        注意：不能用 /#/stories/<slug>，因为 # 之后是 fragment，
+        搜索引擎不会把它当成独立 URL，全部会折叠成首页。
+        """
         try:
             with open('articles.json', 'r', encoding='utf-8') as f:
                 articles = json.load(f)
-            
-            for article in articles:
-                self.add_url(
-                    f"/#/stories/{article['slug']}",
-                    lastmod=article['date'],
-                    changefreq="monthly",
-                    priority="0.7"
-                )
         except FileNotFoundError:
             print("articles.json 文件不存在，跳过文章扫描")
-    
+            return
+
+        output_dir = 'articles'
+        seen = set()
+        missing = 0
+
+        # articles.json 按新→旧排列，同一 slug 取第一条（最新的那次生成）
+        for article in articles:
+            slug = article.get('slug')
+            if not slug or slug in seen:
+                continue
+
+            # 磁盘上没有对应 HTML 就不写进 sitemap，避免收录 404
+            if not os.path.exists(os.path.join(output_dir, f"{slug}.html")):
+                missing += 1
+                continue
+
+            seen.add(slug)
+            self.add_url(
+                f"/articles/{slug}.html",
+                lastmod=article['date'],
+                changefreq="monthly",
+                priority="0.7"
+            )
+
+        print(f"📄 收录文章 {len(seen)} 篇（索引共 {len(articles)} 条，去重跳过 {len(articles) - len(seen) - missing} 条）")
+        if missing:
+            print(f"⚠️  有 {missing} 个 slug 在 articles/ 下找不到 HTML 文件，已跳过")
+
     def add_static_pages(self) -> None:
-        """添加静态页面"""
-        # 主页
+        """添加静态页面
+
+        只列真实存在的路径。/about 之类的页面走的是哈希路由（/#/about），
+        裸路径 /about 在静态托管上是 404，不能写进 sitemap。
+        """
+        # 主页（带结尾斜杠，与 index.html 里的 canonical 保持一致）
         self.add_url("/", changefreq="daily", priority="1.0")
-        
+
         # 其他重要页面
         static_pages = [
-            {"url": "/about", "changefreq": "daily", "priority": "1.0"},
             {"url": "/feed.xml", "changefreq": "daily", "priority": "0.5"},
         ]
-        
+
         for page in static_pages:
             self.add_url(page["url"], changefreq=page["changefreq"], priority=page["priority"])
     

@@ -18,11 +18,18 @@ from pathlib import Path
 import os
 from dotenv import load_dotenv
 
+from article_style import ARTICLE_STYLE
+
 load_dotenv()  # 加载 .env 文件
 openai_key = os.getenv("OPENAI_API_KEY")
 claude_key = os.getenv("CLAUDE_API_KEY")
 zhipu_key = os.getenv("ZHIPU_API_KEY")
 qwen_key = os.getenv("QWEN_API_KEY")
+
+class TopicExhaustedError(Exception):
+    """标题模板组合已经用尽，再生成只会和已发布文章重名"""
+    pass
+
 
 class ArticleGenerator:
     def __init__(self, config_file: str = "config.json"):
@@ -32,6 +39,9 @@ class ArticleGenerator:
         self.config = self.load_config(config_file)
         self.article_templates = self.load_article_templates()
         self.used_topics = self.load_used_topics()
+        # articles.json 才是"已发布"的权威记录：used_topics.json 可能因为
+        # 没被 CI 提交而丢状态，只靠它去重会导致标题撞车、文章互相覆盖
+        self.published_titles = self.load_published_titles()
     
     def setup_working_directory(self):
         """设置正确的工作目录"""
@@ -230,10 +240,40 @@ class ArticleGenerator:
         """保存已使用的话题"""
         with open('used_topics.json', 'w', encoding='utf-8') as f:
             json.dump(self.used_topics, f, indent=2, ensure_ascii=False)
+
+    def load_published_titles(self) -> set:
+        """从 articles.json 读取所有已发布的标题"""
+        try:
+            with open('articles.json', 'r', encoding='utf-8') as f:
+                articles = json.load(f)
+            titles = {a['title'] for a in articles if a.get('title')}
+            print(f"📚 已发布 {len(titles)} 个不同标题，将避免重复")
+            return titles
+        except FileNotFoundError:
+            return set()
+
+    def count_available_titles(self) -> int:
+        """粗略统计还剩多少个没用过的标题组合"""
+        import itertools
+        all_titles = set()
+        for t in self.article_templates:
+            option_lists = {k: v for k, v in t.items()
+                            if k not in ('category', 'title_patterns', 'content_structure')}
+            for pattern in t['title_patterns']:
+                names = sorted(set(re.findall(r'\{(\w+)\}', pattern)))
+                pools = []
+                for name in names:
+                    pool = option_lists.get(name) or option_lists.get(name + 's') \
+                        or next((v for k, v in option_lists.items() if k.rstrip('s') == name), None)
+                    pools.append(pool or [])
+                for combo in itertools.product(*pools):
+                    all_titles.add(pattern.format(**dict(zip(names, combo))))
+        return len(all_titles - self.published_titles)
     
     def generate_article_idea(self) -> Dict:
         """生成文章创意"""
-        max_attempts = 50  # 最大尝试次数，避免无限递归
+        # 随机抽取，剩余可用标题越少越需要多试几次，避免误判"已用尽"
+        max_attempts = 500
         attempts = 0
         
         while attempts < max_attempts:
@@ -284,7 +324,10 @@ class ArticleGenerator:
                 topic_key = "unknown"
 
             # 检查是否已经使用过这个话题或标题
-            if (topic_key not in self.used_topics.get("topics", []) and 
+            # published_titles 来自 articles.json，是跨运行持久的去重依据；
+            # 少了它，标题撞车会让 articles/<slug>.html 被静默覆盖
+            if (title not in self.published_titles and
+                topic_key not in self.used_topics.get("topics", []) and
                 title not in self.used_topics.get("titles", []) and
                 self._check_category_balance(template["category"])):
                 return {
@@ -296,9 +339,16 @@ class ArticleGenerator:
             
             attempts += 1
         
-        # 如果尝试次数过多，返回一个通用话题
-        return self._generate_fallback_idea()
-    
+        # 抽不到没用过的标题 = 模板组合已经用尽。
+        # 这里绝不能退回 _generate_fallback_idea()：那 3 个写死的标题同样会重名，
+        # 只会用另一种方式重新制造"文章互相覆盖"的问题。宁可失败，也不要静默覆盖。
+        remaining = self.count_available_titles()
+        raise TopicExhaustedError(
+            f"试了 {max_attempts} 次都抽不到没用过的标题（剩余可用组合约 {remaining} 个）。"
+            f"请在 load_article_templates() 里扩充 breeds / ages / topics / products / "
+            f"conditions / behaviors / nutrition 词表或 title_patterns 后再运行。"
+        )
+
     def _check_category_balance(self, category: str) -> bool:
         """检查分类平衡，避免某个分类过多"""
         category_counts = self.used_topics.get("categories", {})
@@ -494,8 +544,8 @@ class ArticleGenerator:
     <!-- WeChat specific -->
     <meta name="apple-mobile-web-app-title" content="猫咪世界">
     <meta name="application-name" content="猫咪世界">
-    <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="canonical" href="{self.config['base_url']}/articles/{slug}.html">
+    {ARTICLE_STYLE}
     <!-- Google AdSense -->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_ADSENSE_ID"
      crossorigin="anonymous"></script>
@@ -564,7 +614,7 @@ class ArticleGenerator:
                     <h4>分享这篇文章</h4>
                     <div class="share-buttons">
                         <button class="share-btn" onclick="shareArticle()">分享</button>
-                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/#/stories/{slug}&title={title}" target="_blank" class="social-share weibo">微博</a>
+                        <a href="https://service.weibo.com/share/share.php?url={self.config['base_url']}/articles/{slug}.html&title={title}" target="_blank" class="social-share weibo">微博</a>
                         <a href="javascript:void(0)" onclick="copyLink()" class="social-share copy">复制链接</a>
                     </div>
                 </div>
@@ -698,22 +748,23 @@ class ArticleGenerator:
         # 如果没有合适的句子，截取前部分内容
         return text[:max_length-3] + '...' if len(text) > max_length else text
     
-    def generate_slug(self, title: str) -> str:
+    def generate_slug(self, title: str, category: str) -> str:
         """生成URL友好的slug"""
         import hashlib
         # 使用标题的哈希值确保唯一性
         hash_value = hashlib.md5(title.encode('utf-8')).hexdigest()[:8]
-        
+
         # 简化的slug生成
         slug_map = {
             '品种介绍': 'breed',
             '幼猫护理': 'kitten-care',
             '用品测评': 'product-review',
             '健康护理': 'health-care',
-            '行为训练': 'behavior-training'
+            '行为训练': 'behavior-training',
+            '营养饮食': 'nutrition'
         }
-        
-        return f"{slug_map.get('品种介绍', 'article')}-{hash_value}"
+
+        return f"{slug_map.get(category, 'article')}-{hash_value}"
     
     def update_articles_index(self, article_info: Dict) -> None:
         """更新文章索引"""
@@ -725,9 +776,14 @@ class ArticleGenerator:
         except FileNotFoundError:
             articles = []
         
+        # 同一个 slug 只保留一条：磁盘上 articles/<slug>.html 会被覆盖，
+        # 索引里再追加一条就会出现"一个 URL 对应多条记录"，
+        # sitemap 和 RSS 都会跟着重复。
+        articles = [a for a in articles if a.get('slug') != article_info['slug']]
+
         # 添加新文章到列表开头
         articles.insert(0, article_info)
-        
+
         # 保存更新后的索引
         with open(articles_file, 'w', encoding='utf-8') as f:
             json.dump(articles, f, indent=2, ensure_ascii=False)
@@ -743,7 +799,7 @@ class ArticleGenerator:
         
         # 生成文章信息
         date = datetime.datetime.now().strftime("%Y-%m-%d")
-        slug = self.generate_slug(article_idea['title'])
+        slug = self.generate_slug(article_idea['title'], article_idea['category'])
         
         # 创建HTML文件
         html_content = self.create_article_html(
@@ -814,19 +870,34 @@ def main():
     
     generator = ArticleGenerator()
     
+    print(f"🧮 剩余可用标题组合：约 {generator.count_available_titles()} 个")
+
+    generated = 0
     try:
         # 生成文章
         article_count = generator.config.get('articles_per_day', 1)
         for i in range(article_count):
-            article_info = generator.generate_article()
-            print(f"✅ 第{i+1}篇文章生成成功：{article_info['title']}")
-            
+            try:
+                article_info = generator.generate_article()
+            except TopicExhaustedError as e:
+                # 标题用尽：保留已经生成的部分，不要为了凑数去覆盖旧文章
+                print(f"🛑 标题已用尽，停止生成：{e}")
+                break
+            generated += 1
+            print(f"✅ 第{generated}篇文章生成成功：{article_info['title']}")
+
             # 避免API调用过频繁
             if i < article_count - 1:
                 time.sleep(3)  # 减少等待时间，因为文章数量较多
-        
-        print(f"🎉 今日文章生成完成，共生成 {article_count} 篇文章")
-        
+
+        print(f"🎉 今日文章生成完成，共生成 {generated} 篇文章")
+
+        if generated == 0:
+            raise TopicExhaustedError(
+                "本次一篇文章都没生成出来：标题模板组合已经用尽，"
+                "请扩充 load_article_templates() 里的词表后再运行。"
+            )
+
     except Exception as e:
         print(f"❌ 文章生成失败：{str(e)}")
         raise
