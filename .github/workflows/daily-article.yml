@@ -56,7 +56,9 @@ jobs:
       run: |
         git config --local user.email "rayhu007@gmail.com"
         git config --local user.name "Ray Hu"
-        git add articles.json articles/ sitemap.xml feed.xml
+        # used_topics.json 必须一起提交：它记录已用过的话题/标题，
+        # 不提交的话每次运行都从旧状态开始，去重形同虚设、标题反复撞车
+        git add articles.json articles/ sitemap.xml feed.xml used_topics.json
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else

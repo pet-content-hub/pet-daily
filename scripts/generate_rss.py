@@ -58,8 +58,16 @@ class RSSGenerator:
                 articles = json.load(f)
                 # 按日期排序，最新的在前面
                 articles.sort(key=lambda x: x['date'], reverse=True)
+                # 同一个 slug 只保留最新的一条，避免 RSS 里出现重复条目
+                unique = []
+                seen = set()
+                for article in articles:
+                    if article.get('slug') in seen:
+                        continue
+                    seen.add(article.get('slug'))
+                    unique.append(article)
                 # 只返回最近20篇文章
-                return articles[:20]
+                return unique[:20]
         except FileNotFoundError:
             print("articles.json 文件不存在")
             return []
@@ -106,7 +114,9 @@ class RSSGenerator:
         
         for article in articles:
             pub_date = self.format_rfc822_date(article['date'])
-            article_url = f"{self.base_url}/#/stories/{article['slug']}"
+            # 指向真实可抓取的静态页；/#/stories/ 是 fragment，
+            # 阅读器和搜索引擎都会把它折叠成首页
+            article_url = f"{self.base_url}/articles/{article['slug']}.html"
             
             # 构建内容描述
             content_description = f"""
